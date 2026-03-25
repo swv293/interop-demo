@@ -20,7 +20,7 @@
 
 -- COMMAND ----------
 
-USE CATALOG healthcare_demo;
+USE CATALOG serverless_stable_swv01_catalog;
 
 -- COMMAND ----------
 
@@ -177,8 +177,8 @@ CREATE OR REPLACE FUNCTION curated.mask_ssn4(ssn4_value STRING)
 RETURNS STRING
 RETURN
   CASE
-    WHEN IS_MEMBER('healthcare_demo_clinical') THEN ssn4_value
-    WHEN IS_MEMBER('healthcare_demo_admin') THEN ssn4_value
+    WHEN IS_MEMBER('serverless_stable_swv01_catalog_clinical') THEN ssn4_value
+    WHEN IS_MEMBER('serverless_stable_swv01_catalog_admin') THEN ssn4_value
     ELSE '****'
   END;
 
@@ -189,8 +189,8 @@ CREATE OR REPLACE FUNCTION curated.mask_dob(dob_value DATE)
 RETURNS STRING
 RETURN
   CASE
-    WHEN IS_MEMBER('healthcare_demo_clinical') THEN CAST(dob_value AS STRING)
-    WHEN IS_MEMBER('healthcare_demo_admin') THEN CAST(dob_value AS STRING)
+    WHEN IS_MEMBER('serverless_stable_swv01_catalog_clinical') THEN CAST(dob_value AS STRING)
+    WHEN IS_MEMBER('serverless_stable_swv01_catalog_admin') THEN CAST(dob_value AS STRING)
     ELSE CONCAT(YEAR(dob_value), '-XX-XX')
   END;
 
@@ -201,8 +201,8 @@ CREATE OR REPLACE FUNCTION curated.mask_phone(phone_value STRING)
 RETURNS STRING
 RETURN
   CASE
-    WHEN IS_MEMBER('healthcare_demo_clinical') THEN phone_value
-    WHEN IS_MEMBER('healthcare_demo_admin') THEN phone_value
+    WHEN IS_MEMBER('serverless_stable_swv01_catalog_clinical') THEN phone_value
+    WHEN IS_MEMBER('serverless_stable_swv01_catalog_admin') THEN phone_value
     WHEN phone_value IS NULL THEN NULL
     ELSE CONCAT('******', RIGHT(phone_value, 4))
   END;

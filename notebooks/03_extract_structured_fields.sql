@@ -14,14 +14,14 @@
 -- MAGIC - Delta table MERGE for incremental updates
 -- MAGIC
 -- MAGIC **Inputs:**
--- MAGIC - `healthcare_demo.curated.clinical_doc_parsed` (raw_text column)
+-- MAGIC - `serverless_stable_swv01_catalog.curated.clinical_doc_parsed` (raw_text column)
 -- MAGIC
 -- MAGIC **Outputs:**
 -- MAGIC - Updated `clinical_doc_parsed` with extracted_* columns populated
 
 -- COMMAND ----------
 
-USE CATALOG healthcare_demo;
+USE CATALOG serverless_stable_swv01_catalog;
 USE SCHEMA curated;
 
 -- COMMAND ----------
@@ -130,7 +130,7 @@ FROM extracted_fields_raw;
 -- COMMAND ----------
 
 -- MERGE extracted fields back into the main parsed table
-MERGE INTO healthcare_demo.curated.clinical_doc_parsed AS target
+MERGE INTO serverless_stable_swv01_catalog.curated.clinical_doc_parsed AS target
 USING extracted_fields_parsed AS source
 ON target.doc_id = source.doc_id
 WHEN MATCHED THEN UPDATE SET
@@ -166,7 +166,7 @@ SELECT
   SUM(CASE WHEN extracted_provider_npi IS NOT NULL THEN 1 ELSE 0 END) AS has_provider_npi,
   SUM(CASE WHEN extracted_procedure_code IS NOT NULL THEN 1 ELSE 0 END) AS has_procedure_code,
   SUM(CASE WHEN extracted_diagnosis_code IS NOT NULL THEN 1 ELSE 0 END) AS has_diagnosis_code
-FROM healthcare_demo.curated.clinical_doc_parsed
+FROM serverless_stable_swv01_catalog.curated.clinical_doc_parsed
 WHERE unreadable_flag = false;
 
 -- COMMAND ----------
@@ -210,7 +210,7 @@ SELECT
   extracted_ssn4,
   parse_confidence,
   'missing_critical_fields' AS review_reason
-FROM healthcare_demo.curated.clinical_doc_parsed
+FROM serverless_stable_swv01_catalog.curated.clinical_doc_parsed
 WHERE unreadable_flag = false
   AND extracted_dob IS NULL
   AND extracted_ssn4 IS NULL

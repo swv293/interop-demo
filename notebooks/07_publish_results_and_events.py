@@ -13,11 +13,11 @@
 # MAGIC - Structured JSON event payloads
 # MAGIC
 # MAGIC **Inputs:**
-# MAGIC - `healthcare_demo.analytics.doc_member_match_candidates`
-# MAGIC - `healthcare_demo.analytics.doc_auth_match_candidates`
+# MAGIC - `serverless_stable_swv01_catalog.analytics.doc_member_match_candidates`
+# MAGIC - `serverless_stable_swv01_catalog.analytics.doc_auth_match_candidates`
 # MAGIC
 # MAGIC **Outputs:**
-# MAGIC - `healthcare_demo.analytics.match_events` — Delta event store
+# MAGIC - `serverless_stable_swv01_catalog.analytics.match_events` — Delta event store
 # MAGIC - Kafka topic `clinical-matching-results` (optional)
 
 # COMMAND ----------
@@ -27,7 +27,7 @@
 
 # COMMAND ----------
 
-CATALOG = "healthcare_demo"
+CATALOG = "serverless_stable_swv01_catalog"
 
 # Kafka configuration (set to None to skip Kafka publishing)
 KAFKA_CONFIG = None
@@ -220,7 +220,7 @@ else:
 # MAGIC   COUNT(*) AS event_count,
 # MAGIC   ROUND(AVG(match_score), 2) AS avg_score,
 # MAGIC   SUM(CASE WHEN published_to_kafka THEN 1 ELSE 0 END) AS kafka_published
-# MAGIC FROM healthcare_demo.analytics.match_events
+# MAGIC FROM serverless_stable_swv01_catalog.analytics.match_events
 # MAGIC GROUP BY event_type, match_classification
 # MAGIC ORDER BY event_type, event_count DESC;
 
@@ -232,7 +232,7 @@ else:
 # MAGIC   match_method,
 # MAGIC   COUNT(*) AS cnt,
 # MAGIC   ROUND(AVG(match_score), 2) AS avg_score
-# MAGIC FROM healthcare_demo.analytics.match_events
+# MAGIC FROM serverless_stable_swv01_catalog.analytics.match_events
 # MAGIC GROUP BY match_method
 # MAGIC ORDER BY cnt DESC;
 

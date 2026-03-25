@@ -15,15 +15,15 @@
 -- MAGIC - **SSN4 and DOB get 3-5× the weight of name fields** per clinical matching requirements
 -- MAGIC
 -- MAGIC **Inputs:**
--- MAGIC - `healthcare_demo.analytics.doc_member_pairs_features` — feature vectors
--- MAGIC - `healthcare_demo.analytics.fellegi_sunter_parameters` — m/u probabilities
+-- MAGIC - `serverless_stable_swv01_catalog.analytics.doc_member_pairs_features` — feature vectors
+-- MAGIC - `serverless_stable_swv01_catalog.analytics.fellegi_sunter_parameters` — m/u probabilities
 -- MAGIC
 -- MAGIC **Outputs:**
--- MAGIC - `healthcare_demo.analytics.doc_member_match_candidates` — scored and classified matches
+-- MAGIC - `serverless_stable_swv01_catalog.analytics.doc_member_match_candidates` — scored and classified matches
 
 -- COMMAND ----------
 
-USE CATALOG healthcare_demo;
+USE CATALOG serverless_stable_swv01_catalog;
 
 -- COMMAND ----------
 

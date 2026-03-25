@@ -4,7 +4,7 @@
 # MAGIC
 # MAGIC This notebook reads binary PDF/TIFF files from a Unity Catalog volume,
 # MAGIC uses `ai_parse_document()` to extract text and structure, and writes
-# MAGIC parsed results to `healthcare_demo.curated.clinical_doc_parsed`.
+# MAGIC parsed results to `serverless_stable_swv01_catalog.curated.clinical_doc_parsed`.
 # MAGIC
 # MAGIC **Pipeline Position:** Step 2 of 7 (after seed data ingestion)
 # MAGIC
@@ -14,11 +14,11 @@
 # MAGIC - Unity Catalog managed Delta tables
 # MAGIC
 # MAGIC **Inputs:**
-# MAGIC - `/Volumes/healthcare_demo/raw/raw_docs/*.{pdf,tiff,tif}` — raw clinical documents
-# MAGIC - `healthcare_demo.raw.clinical_document` — document metadata from intake log
+# MAGIC - `/Volumes/serverless_stable_swv01_catalog/raw/raw_docs/*.{pdf,tiff,tif}` — raw clinical documents
+# MAGIC - `serverless_stable_swv01_catalog.raw.clinical_document` — document metadata from intake log
 # MAGIC
 # MAGIC **Outputs:**
-# MAGIC - `healthcare_demo.curated.clinical_doc_parsed` — parsed document text and metadata
+# MAGIC - `serverless_stable_swv01_catalog.curated.clinical_doc_parsed` — parsed document text and metadata
 
 # COMMAND ----------
 
@@ -27,7 +27,7 @@
 
 # COMMAND ----------
 
-CATALOG = "healthcare_demo"
+CATALOG = "serverless_stable_swv01_catalog"
 VOLUME_PATH = f"/Volumes/{CATALOG}/raw/raw_docs"
 OUTPUT_TABLE = f"{CATALOG}.curated.clinical_doc_parsed"
 
@@ -96,7 +96,7 @@ display(raw_files_df.select("path", "modificationTime", "length").limit(10))
 # MAGIC     'outputFormat', 'MARKDOWN'
 # MAGIC   )) AS parsed
 # MAGIC FROM read_files(
-# MAGIC   '/Volumes/healthcare_demo/raw/raw_docs/',
+# MAGIC   '/Volumes/serverless_stable_swv01_catalog/raw/raw_docs/',
 # MAGIC   format => 'binaryFile',
 # MAGIC   pathGlobFilter => '*.{pdf,tiff,tif}'
 # MAGIC );
@@ -246,7 +246,7 @@ print(f"✓ Written to {OUTPUT_TABLE}")
 # MAGIC     SUM(CASE WHEN unreadable_flag = true THEN 1 ELSE 0 END) * 100.0 / COUNT(*), 1
 # MAGIC   ) AS pct_unreadable,
 # MAGIC   SUM(CASE WHEN parse_error_status IS NOT NULL THEN 1 ELSE 0 END) AS parse_errors
-# MAGIC FROM healthcare_demo.curated.clinical_doc_parsed;
+# MAGIC FROM serverless_stable_swv01_catalog.curated.clinical_doc_parsed;
 
 # COMMAND ----------
 

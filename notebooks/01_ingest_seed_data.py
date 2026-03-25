@@ -3,7 +3,7 @@
 # MAGIC # 01 — Ingest Seed Data into Unity Catalog
 # MAGIC
 # MAGIC This notebook loads the synthetic CSV seed files (members, authorizations, intake forms)
-# MAGIC into Delta tables in the `healthcare_demo` catalog. It is the first step in the
+# MAGIC into Delta tables in the `serverless_stable_swv01_catalog` catalog. It is the first step in the
 # MAGIC Prior Authorization & Clinical Document Processing pipeline.
 # MAGIC
 # MAGIC **Prerequisites:**
@@ -11,9 +11,9 @@
 # MAGIC - Upload CSV files from `data/synthetic/` to a UC volume or DBFS
 # MAGIC
 # MAGIC **Outputs:**
-# MAGIC - `healthcare_demo.ref.member` — 1,000 member golden master records
-# MAGIC - `healthcare_demo.raw.authorization` — 3,000 authorization records
-# MAGIC - `healthcare_demo.raw.clinical_document` — 6,000 intake form metadata records
+# MAGIC - `serverless_stable_swv01_catalog.ref.member` — 1,000 member golden master records
+# MAGIC - `serverless_stable_swv01_catalog.raw.authorization` — 3,000 authorization records
+# MAGIC - `serverless_stable_swv01_catalog.raw.clinical_document` — 6,000 intake form metadata records
 
 # COMMAND ----------
 
@@ -22,7 +22,7 @@
 
 # COMMAND ----------
 
-CATALOG = "healthcare_demo"
+CATALOG = "serverless_stable_swv01_catalog"
 SCHEMA_REF = "ref"
 SCHEMA_RAW = "raw"
 

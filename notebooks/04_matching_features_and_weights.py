@@ -15,11 +15,11 @@
 # MAGIC - PySpark UDFs for similarity computation
 # MAGIC
 # MAGIC **Inputs:**
-# MAGIC - `healthcare_demo.curated.clinical_doc_parsed` — documents with extracted fields
-# MAGIC - `healthcare_demo.ref.member` — member golden master
+# MAGIC - `serverless_stable_swv01_catalog.curated.clinical_doc_parsed` — documents with extracted fields
+# MAGIC - `serverless_stable_swv01_catalog.ref.member` — member golden master
 # MAGIC
 # MAGIC **Outputs:**
-# MAGIC - `healthcare_demo.analytics.doc_member_pairs_features` — feature vectors for all candidate pairs
+# MAGIC - `serverless_stable_swv01_catalog.analytics.doc_member_pairs_features` — feature vectors for all candidate pairs
 
 # COMMAND ----------
 
@@ -28,7 +28,7 @@
 
 # COMMAND ----------
 
-CATALOG = "healthcare_demo"
+CATALOG = "serverless_stable_swv01_catalog"
 
 DOC_TABLE = f"{CATALOG}.curated.clinical_doc_parsed"
 MEMBER_TABLE = f"{CATALOG}.ref.member"
@@ -293,7 +293,7 @@ print(f"✓ Written {features_df.count()} feature rows to {FEATURES_TABLE}")
 # MAGIC   END AS first_name_similarity_band,
 # MAGIC   COUNT(*) AS pair_count,
 # MAGIC   ROUND(COUNT(*) * 100.0 / SUM(COUNT(*)) OVER(), 1) AS pct
-# MAGIC FROM healthcare_demo.analytics.doc_member_pairs_features
+# MAGIC FROM serverless_stable_swv01_catalog.analytics.doc_member_pairs_features
 # MAGIC GROUP BY 1
 # MAGIC ORDER BY 1 DESC;
 
@@ -304,7 +304,7 @@ print(f"✓ Written {features_df.count()} feature rows to {FEATURES_TABLE}")
 # MAGIC SELECT
 # MAGIC   blocking_key,
 # MAGIC   COUNT(*) AS pair_count
-# MAGIC FROM healthcare_demo.analytics.doc_member_pairs_features
+# MAGIC FROM serverless_stable_swv01_catalog.analytics.doc_member_pairs_features
 # MAGIC GROUP BY blocking_key
 # MAGIC ORDER BY pair_count DESC
 # MAGIC LIMIT 20;
