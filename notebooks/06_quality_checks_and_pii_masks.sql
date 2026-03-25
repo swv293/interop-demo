@@ -210,14 +210,16 @@ RETURN
 -- COMMAND ----------
 
 -- MAGIC %md
--- MAGIC ## 4. Create Masking Views
+-- MAGIC ## 4. Create Materialized Masking Views
 -- MAGIC
--- MAGIC These views provide safe access to data for non-privileged roles.
+-- MAGIC Materialized views physically store the masked results and auto-refresh
+-- MAGIC when source tables change, providing better query performance for analysts.
+-- MAGIC They also ensure PII masking is applied at the storage layer.
 
 -- COMMAND ----------
 
--- Masked member view (for analysts — no raw PII)
-CREATE OR REPLACE VIEW curated.member_masked AS
+-- Masked member materialized view (for analysts — no raw PII)
+CREATE OR REPLACE MATERIALIZED VIEW curated.member_masked AS
 SELECT
   member_id,
   LEFT(first_name, 1) || '***' AS first_name,
@@ -240,8 +242,8 @@ FROM ref.member;
 
 -- COMMAND ----------
 
--- Masked clinical doc parsed view
-CREATE OR REPLACE VIEW curated.clinical_doc_parsed_masked AS
+-- Masked clinical doc parsed materialized view
+CREATE OR REPLACE MATERIALIZED VIEW curated.clinical_doc_parsed_masked AS
 SELECT
   doc_id,
   file_path,
@@ -267,8 +269,8 @@ FROM curated.clinical_doc_parsed;
 
 -- COMMAND ----------
 
--- Safe match candidates view (scores only — no PII)
-CREATE OR REPLACE VIEW analytics.match_candidates_safe AS
+-- Safe match candidates materialized view (scores only — no PII)
+CREATE OR REPLACE MATERIALIZED VIEW analytics.match_candidates_safe AS
 SELECT
   mc.match_id,
   mc.doc_id,

@@ -1,7 +1,7 @@
 """
 PHI / PII masking utilities for the clinical document matching pipeline.
 
-Creates Unity Catalog masking views and column-level masking functions
+Creates Unity Catalog materialized masking views and column-level masking functions
 so that downstream consumers (analysts, dashboards) never see raw
 protected health information.
 """
@@ -43,7 +43,7 @@ def create_masking_views(spark, catalog: str = "healthcare_demo") -> dict:
     # ----------------------------------------------------------------
     view_name = f"{catalog}.curated.member_masked"
     sql = f"""
-    CREATE OR REPLACE VIEW {view_name} AS
+    CREATE OR REPLACE MATERIALIZED VIEW {view_name} AS
     SELECT
         member_id,
         first_name,
@@ -75,7 +75,7 @@ def create_masking_views(spark, catalog: str = "healthcare_demo") -> dict:
     # ----------------------------------------------------------------
     view_name = f"{catalog}.curated.clinical_doc_parsed_masked"
     sql = f"""
-    CREATE OR REPLACE VIEW {view_name} AS
+    CREATE OR REPLACE MATERIALIZED VIEW {view_name} AS
     SELECT
         doc_id,
         document_type,
@@ -112,7 +112,7 @@ def create_masking_views(spark, catalog: str = "healthcare_demo") -> dict:
     # ----------------------------------------------------------------
     view_name = f"{catalog}.analytics.match_candidates_safe"
     sql = f"""
-    CREATE OR REPLACE VIEW {view_name} AS
+    CREATE OR REPLACE MATERIALIZED VIEW {view_name} AS
     SELECT
         doc_id,
         member_id,

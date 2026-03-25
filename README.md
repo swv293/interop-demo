@@ -50,6 +50,7 @@ MRM System                    Databricks Lakehouse
 | **ai_parse_document** | OCR and layout analysis on PDF/TIFF clinical documents |
 | **ai_query** | LLM-based structured field extraction (claude-sonnet-4) |
 | **Column Masking** | Dynamic PII/PHI masking based on user group membership |
+| **Materialized Views** | PII-masked views with physical storage and auto-refresh |
 | **Delta Lake** | All tables, MERGE for incremental updates, time travel |
 | **Workflows** | Orchestration of the 7-step pipeline |
 
@@ -228,6 +229,8 @@ All tables containing PHI/PII are tagged with `contains_pii = true` / `contains_
 | `healthcare_demo_admin` | Full | Full | Full | Full |
 | `healthcare_demo_analyst` | `****` | `YYYY-XX-XX` | `******1234` | Hidden |
 | `healthcare_demo_intake` | `****` | `YYYY-XX-XX` | `******1234` | Hidden |
+
+Masked views are **materialized** — data is physically stored in masked form and auto-refreshes when source tables change, providing fast query access without runtime PII exposure.
 
 ## Local Testing
 
