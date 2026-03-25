@@ -1,0 +1,473 @@
+{
+  "pages": [
+    {
+      "name": "pipeline_overview",
+      "displayName": "Pipeline Overview",
+      "layout": [
+        {
+          "widget": {
+            "name": "kpi_total_members",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d_pipeline_kpis",
+                  "disaggregated": false,
+                  "fields": [
+                    { "name": "total_members", "expression": "`total_members`" }
+                  ]
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "counter",
+              "encodings": {
+                "value": { "fieldName": "total_members", "displayName": "Total Members" }
+              }
+            }
+          },
+          "position": { "x": 0, "y": 0, "width": 2, "height": 2 }
+        },
+        {
+          "widget": {
+            "name": "kpi_total_authorizations",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d_pipeline_kpis",
+                  "disaggregated": false,
+                  "fields": [
+                    { "name": "total_authorizations", "expression": "`total_authorizations`" }
+                  ]
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "counter",
+              "encodings": {
+                "value": { "fieldName": "total_authorizations", "displayName": "Total Authorizations" }
+              }
+            }
+          },
+          "position": { "x": 2, "y": 0, "width": 2, "height": 2 }
+        },
+        {
+          "widget": {
+            "name": "kpi_total_documents",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d_pipeline_kpis",
+                  "disaggregated": false,
+                  "fields": [
+                    { "name": "total_documents", "expression": "`total_documents`" }
+                  ]
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "counter",
+              "encodings": {
+                "value": { "fieldName": "total_documents", "displayName": "Total Documents" }
+              }
+            }
+          },
+          "position": { "x": 4, "y": 0, "width": 2, "height": 2 }
+        },
+        {
+          "widget": {
+            "name": "kpi_high_conf_matches",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d_pipeline_kpis",
+                  "disaggregated": false,
+                  "fields": [
+                    { "name": "high_confidence_matches", "expression": "`high_confidence_matches`" }
+                  ]
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "counter",
+              "encodings": {
+                "value": { "fieldName": "high_confidence_matches", "displayName": "High-Confidence Matches" }
+              }
+            }
+          },
+          "position": { "x": 0, "y": 2, "width": 2, "height": 2 }
+        },
+        {
+          "widget": {
+            "name": "kpi_possible_matches",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d_pipeline_kpis",
+                  "disaggregated": false,
+                  "fields": [
+                    { "name": "possible_matches", "expression": "`possible_matches`" }
+                  ]
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "counter",
+              "encodings": {
+                "value": { "fieldName": "possible_matches", "displayName": "Possible Matches (Review)" }
+              }
+            }
+          },
+          "position": { "x": 2, "y": 2, "width": 2, "height": 2 }
+        },
+        {
+          "widget": {
+            "name": "kpi_avg_confidence",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d_pipeline_kpis",
+                  "disaggregated": false,
+                  "fields": [
+                    { "name": "avg_confidence", "expression": "`avg_confidence`" }
+                  ]
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "counter",
+              "encodings": {
+                "value": { "fieldName": "avg_confidence", "displayName": "Avg Parse Confidence" }
+              }
+            }
+          },
+          "position": { "x": 4, "y": 2, "width": 2, "height": 2 }
+        },
+        {
+          "widget": {
+            "name": "intake_by_doc_type",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d_intake_summary",
+                  "disaggregated": true,
+                  "fields": [
+                    { "name": "intake_date", "expression": "`intake_date`" },
+                    { "name": "prior_auth_forms", "expression": "`prior_auth_forms`" },
+                    { "name": "clinical_notes", "expression": "`clinical_notes`" },
+                    { "name": "lab_results", "expression": "`lab_results`" },
+                    { "name": "imaging_reports", "expression": "`imaging_reports`" },
+                    { "name": "discharge_summaries", "expression": "`discharge_summaries`" }
+                  ]
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "bar",
+              "encodings": {
+                "x": { "fieldName": "intake_date", "displayName": "Intake Date" },
+                "y": { "fieldName": "prior_auth_forms", "displayName": "Prior Auth Forms" }
+              }
+            },
+            "displayName": "Documents by Type"
+          },
+          "position": { "x": 0, "y": 4, "width": 3, "height": 4 }
+        },
+        {
+          "widget": {
+            "name": "intake_by_channel",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d_intake_summary",
+                  "disaggregated": true,
+                  "fields": [
+                    { "name": "intake_date", "expression": "`intake_date`" },
+                    { "name": "via_fax", "expression": "`via_fax`" },
+                    { "name": "via_electronic", "expression": "`via_electronic`" },
+                    { "name": "via_upload", "expression": "`via_upload`" },
+                    { "name": "via_mail", "expression": "`via_mail`" }
+                  ]
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "bar",
+              "encodings": {
+                "x": { "fieldName": "intake_date", "displayName": "Intake Date" },
+                "y": { "fieldName": "via_fax", "displayName": "Fax" }
+              }
+            },
+            "displayName": "Documents by Source Channel"
+          },
+          "position": { "x": 3, "y": 4, "width": 3, "height": 4 }
+        }
+      ]
+    },
+    {
+      "name": "data_quality",
+      "displayName": "Data Quality",
+      "layout": [
+        {
+          "widget": {
+            "name": "dq_overview",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d_dq_metrics",
+                  "disaggregated": true,
+                  "fields": [
+                    { "name": "parse_date", "expression": "`parse_date`" },
+                    { "name": "pct_unreadable", "expression": "`pct_unreadable`" },
+                    { "name": "pct_missing_dob", "expression": "`pct_missing_dob`" },
+                    { "name": "pct_missing_ssn4", "expression": "`pct_missing_ssn4`" }
+                  ]
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "bar",
+              "encodings": {
+                "x": { "fieldName": "parse_date", "displayName": "Parse Date" },
+                "y": { "fieldName": "pct_unreadable", "displayName": "% Unreadable" }
+              }
+            },
+            "displayName": "DQ Issues: % Unreadable / Missing DOB / Missing SSN4"
+          },
+          "position": { "x": 0, "y": 0, "width": 6, "height": 4 }
+        },
+        {
+          "widget": {
+            "name": "dq_detail_table",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d_dq_metrics",
+                  "disaggregated": true,
+                  "fields": [
+                    { "name": "parse_date", "expression": "`parse_date`" },
+                    { "name": "total_docs", "expression": "`total_docs`" },
+                    { "name": "unreadable_count", "expression": "`unreadable_count`" },
+                    { "name": "pct_unreadable", "expression": "`pct_unreadable`" },
+                    { "name": "missing_dob_count", "expression": "`missing_dob_count`" },
+                    { "name": "pct_missing_dob", "expression": "`pct_missing_dob`" },
+                    { "name": "missing_ssn4_count", "expression": "`missing_ssn4_count`" },
+                    { "name": "pct_missing_ssn4", "expression": "`pct_missing_ssn4`" },
+                    { "name": "avg_parse_confidence", "expression": "`avg_parse_confidence`" }
+                  ]
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "table"
+            },
+            "displayName": "Data Quality Metrics Detail"
+          },
+          "position": { "x": 0, "y": 4, "width": 6, "height": 4 }
+        }
+      ]
+    },
+    {
+      "name": "match_results",
+      "displayName": "Match Results",
+      "layout": [
+        {
+          "widget": {
+            "name": "match_class_summary",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d_match_summary",
+                  "disaggregated": true,
+                  "fields": [
+                    { "name": "match_class", "expression": "`match_class`" },
+                    { "name": "candidate_count", "expression": "`candidate_count`" },
+                    { "name": "avg_weight", "expression": "`avg_weight`" },
+                    { "name": "min_weight", "expression": "`min_weight`" },
+                    { "name": "max_weight", "expression": "`max_weight`" }
+                  ]
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "table"
+            },
+            "displayName": "Match Classification Summary"
+          },
+          "position": { "x": 0, "y": 0, "width": 6, "height": 3 }
+        },
+        {
+          "widget": {
+            "name": "match_count_pie",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d_match_summary",
+                  "disaggregated": true,
+                  "fields": [
+                    { "name": "match_class", "expression": "`match_class`" },
+                    { "name": "candidate_count", "expression": "`candidate_count`" }
+                  ]
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "pie",
+              "encodings": {
+                "angle": { "fieldName": "candidate_count", "displayName": "Count" },
+                "color": { "fieldName": "match_class", "displayName": "Match Class" }
+              }
+            },
+            "displayName": "Match Classification Distribution"
+          },
+          "position": { "x": 0, "y": 3, "width": 3, "height": 4 }
+        },
+        {
+          "widget": {
+            "name": "score_histogram",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d_score_distribution",
+                  "disaggregated": true,
+                  "fields": [
+                    { "name": "weight_bucket", "expression": "`weight_bucket`" },
+                    { "name": "pair_count", "expression": "`pair_count`" },
+                    { "name": "match_class", "expression": "`match_class`" }
+                  ]
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "bar",
+              "encodings": {
+                "x": { "fieldName": "weight_bucket", "displayName": "F-S Weight" },
+                "y": { "fieldName": "pair_count", "displayName": "Pair Count" },
+                "color": { "fieldName": "match_class", "displayName": "Match Class" }
+              }
+            },
+            "displayName": "Fellegi-Sunter Score Distribution"
+          },
+          "position": { "x": 3, "y": 3, "width": 3, "height": 4 }
+        },
+        {
+          "widget": {
+            "name": "risk_tier_table",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d_doc_match_status",
+                  "disaggregated": false,
+                  "fields": [
+                    { "name": "doc_risk_tier", "expression": "`doc_risk_tier`" },
+                    { "name": "count", "expression": "COUNT(*)" }
+                  ]
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "bar",
+              "encodings": {
+                "x": { "fieldName": "doc_risk_tier", "displayName": "Risk Tier" },
+                "y": { "fieldName": "count", "displayName": "Document Count" }
+              }
+            },
+            "displayName": "Document Risk Tier Distribution"
+          },
+          "position": { "x": 0, "y": 7, "width": 3, "height": 4 }
+        },
+        {
+          "widget": {
+            "name": "auth_match_summary",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d_auth_match_summary",
+                  "disaggregated": true,
+                  "fields": [
+                    { "name": "match_class", "expression": "`match_class`" },
+                    { "name": "auth_candidate_count", "expression": "`auth_candidate_count`" },
+                    { "name": "avg_weight", "expression": "`avg_weight`" },
+                    { "name": "direct_auth_matches", "expression": "`direct_auth_matches`" },
+                    { "name": "provider_npi_matches", "expression": "`provider_npi_matches`" }
+                  ]
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "table"
+            },
+            "displayName": "Authorization Match Summary"
+          },
+          "position": { "x": 3, "y": 7, "width": 3, "height": 4 }
+        }
+      ]
+    }
+  ],
+  "datasets": [
+    {
+      "name": "d_pipeline_kpis",
+      "displayName": "Pipeline KPIs",
+      "query": "SELECT * FROM serverless_stable_swv01_catalog.dashboard.v_pipeline_kpis"
+    },
+    {
+      "name": "d_intake_summary",
+      "displayName": "Intake Summary",
+      "query": "SELECT * FROM serverless_stable_swv01_catalog.dashboard.v_intake_summary ORDER BY intake_date"
+    },
+    {
+      "name": "d_dq_metrics",
+      "displayName": "DQ Metrics",
+      "query": "SELECT * FROM serverless_stable_swv01_catalog.dashboard.v_dq_metrics ORDER BY parse_date"
+    },
+    {
+      "name": "d_match_summary",
+      "displayName": "Match Summary",
+      "query": "SELECT * FROM serverless_stable_swv01_catalog.dashboard.v_match_summary"
+    },
+    {
+      "name": "d_doc_match_status",
+      "displayName": "Doc Match Status",
+      "query": "SELECT * FROM serverless_stable_swv01_catalog.dashboard.v_doc_match_status"
+    },
+    {
+      "name": "d_score_distribution",
+      "displayName": "Score Distribution",
+      "query": "SELECT * FROM serverless_stable_swv01_catalog.dashboard.v_score_distribution ORDER BY weight_bucket"
+    },
+    {
+      "name": "d_auth_match_summary",
+      "displayName": "Auth Match Summary",
+      "query": "SELECT * FROM serverless_stable_swv01_catalog.dashboard.v_auth_match_summary"
+    }
+  ]
+}

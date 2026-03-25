@@ -1,0 +1,27 @@
+name: "Clinical Matching - DQ & Match Assistant"
+warehouse_id: "084543d48aafaeb2"
+tables:
+  - serverless_stable_swv01_catalog.dashboard.v_intake_summary
+  - serverless_stable_swv01_catalog.dashboard.v_dq_metrics
+  - serverless_stable_swv01_catalog.dashboard.v_match_summary
+  - serverless_stable_swv01_catalog.dashboard.v_doc_match_status
+  - serverless_stable_swv01_catalog.dashboard.v_score_distribution
+  - serverless_stable_swv01_catalog.dashboard.v_auth_match_summary
+  - serverless_stable_swv01_catalog.dashboard.v_pipeline_kpis
+instructions: |
+  - 'match_class' has three values: 'match', 'possible_match', 'non_match'
+  - 'total_weight' is the Fellegi-Sunter score; higher = stronger evidence of a match
+  - 'doc_risk_tier' reflects whether the document had both anchor fields (DOB + SSN4) present
+  - 'pct_unreadable' is the percentage of documents that could not be parsed
+  - Never expose individual doc_id in combination with match weights in the same row
+  - 'avg_confidence' is the average OCR parse confidence score (0-1 scale)
+  - Weight thresholds: match >= 12.0, possible_match >= 6.0, non_match < 6.0
+sample_questions:
+  - "What is the overall match rate across all documents?"
+  - "Which document types have the highest percentage of unreadable documents?"
+  - "How does the average Fellegi-Sunter weight compare across match classes?"
+  - "What percentage of documents are missing SSN4?"
+  - "How many documents are currently in the possible match backlog?"
+  - "Show me the distribution of Fellegi-Sunter scores"
+  - "What is the breakdown of documents by risk tier?"
+  - "How many authorization matches were direct auth number matches?"
