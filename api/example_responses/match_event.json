@@ -1,0 +1,79 @@
+{
+  "events": [
+    {
+      "event_id": "e7b2c4a1-3f8d-4e9a-b5c6-1234567890ab",
+      "event_type": "MEMBER_MATCH",
+      "doc_id": "d1a2b3c4-5e6f-7890-abcd-ef1234567890",
+      "member_id": "550e8400-e29b-41d4-a716-446655440000",
+      "auth_id": null,
+      "match_score": 18.74,
+      "match_classification": "match",
+      "match_method": "ssn4:4567",
+      "event_payload": {
+        "match_id": "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6",
+        "doc_id": "d1a2b3c4-5e6f-7890-abcd-ef1234567890",
+        "member_id": "550e8400-e29b-41d4-a716-446655440000",
+        "blocking_key": "ssn4:4567",
+        "jw_first_name_score": 0.967,
+        "jw_last_name_score": 0.945,
+        "dob_match_score": 1.0,
+        "ssn4_match_score": 1.0,
+        "total_weight": 18.74,
+        "fellegi_sunter_log_odds": 18.74,
+        "match_classification": "match"
+      },
+      "event_timestamp": "2026-03-24T14:32:15.000Z",
+      "published_to_kafka": false
+    },
+    {
+      "event_id": "f8c3d5b2-4a9e-5f0b-c6d7-2345678901bc",
+      "event_type": "AUTH_MATCH",
+      "doc_id": "d1a2b3c4-5e6f-7890-abcd-ef1234567890",
+      "member_id": null,
+      "auth_id": "a9b8c7d6-e5f4-3210-9876-fedcba098765",
+      "match_score": 17.0,
+      "match_classification": "match",
+      "match_method": "auth_number_direct",
+      "event_payload": {
+        "match_id": "b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7",
+        "doc_id": "d1a2b3c4-5e6f-7890-abcd-ef1234567890",
+        "auth_id": "a9b8c7d6-e5f4-3210-9876-fedcba098765",
+        "member_match_id": "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6",
+        "auth_number_match": true,
+        "service_date_overlap": true,
+        "procedure_code_match": true,
+        "provider_npi_match": true,
+        "total_weight": 17.0,
+        "match_classification": "match"
+      },
+      "event_timestamp": "2026-03-24T14:32:16.000Z",
+      "published_to_kafka": false
+    },
+    {
+      "event_id": "a9d4e6c3-5b0f-6a1c-d7e8-3456789012cd",
+      "event_type": "MEMBER_MATCH",
+      "doc_id": "e2f3a4b5-6c7d-8901-bcde-fa2345678901",
+      "member_id": "661f9511-f30c-52e5-b827-557766551111",
+      "auth_id": null,
+      "match_score": 8.42,
+      "match_classification": "possible_match",
+      "match_method": "dob:1975-08-14",
+      "event_payload": {
+        "match_id": "c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8",
+        "doc_id": "e2f3a4b5-6c7d-8901-bcde-fa2345678901",
+        "member_id": "661f9511-f30c-52e5-b827-557766551111",
+        "blocking_key": "dob:1975-08-14",
+        "jw_first_name_score": 0.823,
+        "jw_last_name_score": 0.756,
+        "dob_match_score": 1.0,
+        "ssn4_match_score": 0.0,
+        "total_weight": 8.42,
+        "fellegi_sunter_log_odds": 8.42,
+        "match_classification": "possible_match"
+      },
+      "event_timestamp": "2026-03-24T14:32:17.000Z",
+      "published_to_kafka": false
+    }
+  ],
+  "total_count": 3
+}

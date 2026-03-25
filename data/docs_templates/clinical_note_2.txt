@@ -1,0 +1,21 @@
+PROGRESS NOTE - {FACILITY_NAME}
+
+Patient: {LAST_NAME}, {FIRST_NAME}     DOB: {DOB}
+MRN: {MEMBER_ID}                        Visit Date: {SERVICE_FROM_DATE}
+
+Attending: {PROVIDER_NAME} (NPI {PROVIDER_NPI})
+
+S: {CHIEF_COMPLAINT}
+   {HPI_TEXT}
+
+O: Vitals stable. {OBJECTIVE_FINDINGS}
+
+A: {DIAGNOSIS_CODE} {DIAGNOSIS_DESC}
+
+P: Recommend {PROCEDURE_DESC} ({PROCEDURE_CODE})
+   Units requested: {REQUESTED_UNITS}
+   Auth#: {AUTH_NUMBER}
+   Return visit: {FOLLOWUP_DAYS} days
+
+__{PROVIDER_NAME}__
+{SUBMISSION_DATE}

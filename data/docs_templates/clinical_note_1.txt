@@ -1,0 +1,32 @@
+================================================================================
+                         CLINICAL PROGRESS NOTE
+================================================================================
+Date of Service:    {SERVICE_FROM_DATE}
+Provider:           {PROVIDER_NAME}, {PROVIDER_SPECIALTY}
+NPI:                {PROVIDER_NPI}
+Facility:           {FACILITY_NAME}
+
+PATIENT INFORMATION:
+  Name:             {FIRST_NAME} {MIDDLE_INITIAL} {LAST_NAME}
+  DOB:              {DOB}
+  MRN:              {MEMBER_ID}
+
+CHIEF COMPLAINT:
+{CHIEF_COMPLAINT}
+
+HISTORY OF PRESENT ILLNESS:
+{HPI_TEXT}
+
+ASSESSMENT:
+  Primary Diagnosis: {DIAGNOSIS_CODE} - {DIAGNOSIS_DESC}
+
+PLAN:
+  - {PROCEDURE_CODE}: {PROCEDURE_DESC}
+  - Requested authorization for {REQUESTED_UNITS} units
+  - Follow-up in {FOLLOWUP_DAYS} days
+
+Prior Authorization Reference: {AUTH_NUMBER}
+
+Electronically signed by {PROVIDER_NAME}
+Date: {SUBMISSION_DATE}
+================================================================================

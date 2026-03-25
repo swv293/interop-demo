@@ -1,0 +1,55 @@
+================================================================================
+                     PRIOR AUTHORIZATION REQUEST FORM
+================================================================================
+                         {HEALTH_PLAN_NAME}
+                    Member Services: 1-800-555-{PHONE_SUFFIX}
+================================================================================
+
+SECTION 1: MEMBER INFORMATION
+-----------------------------
+Member Name:        {FIRST_NAME} {MIDDLE_INITIAL} {LAST_NAME}
+Date of Birth:      {DOB}
+Member ID:          {MEMBER_ID}
+SSN (Last 4):       {SSN4}
+Gender:             {GENDER}
+Phone:              {PHONE}
+Address:            {ADDRESS_LINE1}
+                    {CITY}, {STATE} {ZIP}
+
+SECTION 2: AUTHORIZATION DETAILS
+---------------------------------
+Authorization #:    {AUTH_NUMBER}
+Service From Date:  {SERVICE_FROM_DATE}
+Service To Date:    {SERVICE_TO_DATE}
+
+SECTION 3: PROVIDER INFORMATION
+--------------------------------
+Rendering Provider: {PROVIDER_NAME}
+NPI:                {PROVIDER_NPI}
+Facility:           {FACILITY_NAME}
+Phone:              {PROVIDER_PHONE}
+Fax:                {PROVIDER_FAX}
+
+SECTION 4: CLINICAL INFORMATION
+---------------------------------
+Primary Diagnosis:  {DIAGNOSIS_CODE} - {DIAGNOSIS_DESC}
+Procedure Code:     {PROCEDURE_CODE} - {PROCEDURE_DESC}
+Modifier:           {PROCEDURE_MODIFIER}
+Requested Units:    {REQUESTED_UNITS}
+
+SECTION 5: CLINICAL JUSTIFICATION
+-----------------------------------
+{CLINICAL_JUSTIFICATION}
+
+SECTION 6: SUPPORTING DOCUMENTATION
+-------------------------------------
+[ ] Lab Results Attached
+[ ] Imaging Reports Attached
+[ ] Clinical Notes Attached
+[ ] Previous Authorization History
+
+Provider Signature: _________________________  Date: {SUBMISSION_DATE}
+
+================================================================================
+                    FAX THIS FORM TO: 1-800-555-{FAX_SUFFIX}
+================================================================================

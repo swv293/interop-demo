@@ -1,0 +1,320 @@
+openapi: 3.0.3
+info:
+  title: Clinical Document Matching API
+  description: |
+    API for querying clinical document match results from the Prior Authorization
+    & Clinical Document Processing pipeline. Provides access to member match
+    candidates, authorization match candidates, and match events.
+
+    This API is served via Databricks SQL Warehouse or a lightweight gateway
+    service and returns results from the Delta tables in the `healthcare_demo`
+    Unity Catalog.
+  version: 1.0.0
+  contact:
+    name: Clinical Matching Team
+
+servers:
+  - url: https://fevm-serverless-stable-swv01.cloud.databricks.com/api/2.0
+    description: Databricks Workspace API
+
+paths:
+  /match/member-candidates:
+    get:
+      summary: Get member match candidates for a document
+      description: |
+        Returns all member match candidates for a given document ID,
+        sorted by Fellegi-Sunter total weight descending.
+      operationId: getMemberMatchCandidates
+      parameters:
+        - name: doc_id
+          in: query
+          required: true
+          schema:
+            type: string
+            format: uuid
+          description: The document ID to find match candidates for
+        - name: min_classification
+          in: query
+          required: false
+          schema:
+            type: string
+            enum: [match, possible_match, non_match]
+            default: possible_match
+          description: Minimum match classification to return
+        - name: limit
+          in: query
+          required: false
+          schema:
+            type: integer
+            default: 10
+            maximum: 100
+      responses:
+        '200':
+          description: List of member match candidates
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MemberMatchCandidateList'
+        '404':
+          description: Document not found
+
+  /match/auth-candidates:
+    get:
+      summary: Get authorization match candidates for a document
+      description: |
+        Returns authorization match candidates for a document that has
+        already been matched to a member.
+      operationId: getAuthMatchCandidates
+      parameters:
+        - name: doc_id
+          in: query
+          required: true
+          schema:
+            type: string
+            format: uuid
+        - name: member_id
+          in: query
+          required: false
+          schema:
+            type: string
+            format: uuid
+          description: Filter by specific member match
+      responses:
+        '200':
+          description: List of authorization match candidates
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthMatchCandidateList'
+
+  /match/events:
+    get:
+      summary: Get match events
+      description: |
+        Returns match events, optionally filtered by type and time window.
+        Events represent completed match operations ready for downstream consumption.
+      operationId: getMatchEvents
+      parameters:
+        - name: event_type
+          in: query
+          required: false
+          schema:
+            type: string
+            enum: [MEMBER_MATCH, AUTH_MATCH]
+        - name: since
+          in: query
+          required: false
+          schema:
+            type: string
+            format: date-time
+          description: Return events after this timestamp
+        - name: limit
+          in: query
+          required: false
+          schema:
+            type: integer
+            default: 50
+            maximum: 500
+      responses:
+        '200':
+          description: List of match events
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MatchEventList'
+
+  /match/unmatched-docs:
+    get:
+      summary: Get unmatched documents for manual review
+      description: |
+        Returns documents that failed all automated matching strategies
+        and are surfaced in the unmatched document work queue for manual
+        resolution by intake staff.
+      operationId: getUnmatchedDocs
+      parameters:
+        - name: limit
+          in: query
+          required: false
+          schema:
+            type: integer
+            default: 50
+      responses:
+        '200':
+          description: List of unmatched documents
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnmatchedDocList'
+
+components:
+  schemas:
+    MemberMatchCandidate:
+      type: object
+      properties:
+        match_id:
+          type: string
+          format: uuid
+        doc_id:
+          type: string
+          format: uuid
+        member_id:
+          type: string
+          format: uuid
+        blocking_key:
+          type: string
+          description: The blocking strategy that generated this pair
+        jw_first_name_score:
+          type: number
+          format: float
+          description: Jaro-Winkler similarity on first name (0.0-1.0)
+        jw_last_name_score:
+          type: number
+          format: float
+          description: Jaro-Winkler similarity on last name (0.0-1.0)
+        dob_match_score:
+          type: number
+          format: float
+          description: DOB match score (1.0=exact, 0.8=transposed, 0.5=close, 0.0=mismatch)
+        ssn4_match_score:
+          type: number
+          format: float
+          description: SSN4 match score (1.0=exact, 0.5=3of4, 0.0=mismatch)
+        total_weight:
+          type: number
+          format: float
+          description: Fellegi-Sunter total log-likelihood ratio weight
+        fellegi_sunter_log_odds:
+          type: number
+          format: float
+        match_classification:
+          type: string
+          enum: [match, possible_match, non_match]
+
+    MemberMatchCandidateList:
+      type: object
+      properties:
+        doc_id:
+          type: string
+        candidates:
+          type: array
+          items:
+            $ref: '#/components/schemas/MemberMatchCandidate'
+        total_count:
+          type: integer
+
+    AuthMatchCandidate:
+      type: object
+      properties:
+        match_id:
+          type: string
+          format: uuid
+        doc_id:
+          type: string
+          format: uuid
+        auth_id:
+          type: string
+          format: uuid
+        auth_number_match:
+          type: boolean
+        service_date_overlap:
+          type: boolean
+        procedure_code_match:
+          type: boolean
+        provider_npi_match:
+          type: boolean
+        total_weight:
+          type: number
+          format: float
+        match_classification:
+          type: string
+          enum: [match, possible_match, non_match]
+
+    AuthMatchCandidateList:
+      type: object
+      properties:
+        doc_id:
+          type: string
+        candidates:
+          type: array
+          items:
+            $ref: '#/components/schemas/AuthMatchCandidate'
+
+    MatchEvent:
+      type: object
+      properties:
+        event_id:
+          type: string
+          format: uuid
+        event_type:
+          type: string
+          enum: [MEMBER_MATCH, AUTH_MATCH]
+        doc_id:
+          type: string
+          format: uuid
+        member_id:
+          type: string
+          format: uuid
+        auth_id:
+          type: string
+          format: uuid
+        match_score:
+          type: number
+          format: float
+        match_classification:
+          type: string
+        match_method:
+          type: string
+        event_payload:
+          type: object
+          description: Full match detail as JSON
+        event_timestamp:
+          type: string
+          format: date-time
+        published_to_kafka:
+          type: boolean
+
+    MatchEventList:
+      type: object
+      properties:
+        events:
+          type: array
+          items:
+            $ref: '#/components/schemas/MatchEvent'
+        total_count:
+          type: integer
+
+    UnmatchedDoc:
+      type: object
+      properties:
+        doc_id:
+          type: string
+          format: uuid
+        file_path:
+          type: string
+        document_type:
+          type: string
+        extracted_first_name:
+          type: string
+        extracted_last_name:
+          type: string
+        extracted_dob:
+          type: string
+          format: date
+        extracted_ssn4:
+          type: string
+        parse_confidence:
+          type: number
+          format: float
+        ingest_ts:
+          type: string
+          format: date-time
+
+    UnmatchedDocList:
+      type: object
+      properties:
+        documents:
+          type: array
+          items:
+            $ref: '#/components/schemas/UnmatchedDoc'
+        total_count:
+          type: integer

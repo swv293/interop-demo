@@ -1,0 +1,1001 @@
+member_id,first_name,last_name,middle_initial,dob,gender,ssn4,address_line1,city,state,zip,phone,email,preferred_language,race_ethnicity,source_system
+d69b1813-d568-4d93-af61-5f341ffafdda,Linda,Patel,,1971-04-26,Female,8935,9675 Spring St Apt 96,Chicago,IL,60601,7178161434,linda29@mail.com,English,White,ALLSCRIPTS
+4e803519-d56a-4ed9-8871-13df5a69b91c,Kenneth,Hughes,I,1952-01-23,Male,5514,1520 Market St Apt 868,Houston,TX,77001,4702448527,kennethh@mail.com,English,Black/African American,ALLSCRIPTS
+0a27b39a-9d55-4af1-a4f0-2d67f69b702f,Timothy,Price,,1990-02-21,Male,1654,4555 High St,Columbus,OH,43004,5795634432,tprice@yahoo.com,English,Asian,EPIC
+20f215ba-a6da-482f-b541-7d47146b1aac,Jonathan,Brooks,H,1997-04-15,Male,0916,526 Church St,San Diego,CA,92101,,jonathan28@icloud.com,English,Black/African American,CERNER
+91fe9934-ce00-4c37-9882-febcd158d546,Gary,Myers,I,1976-06-11,Male,3593,8349 Union Ave Apt 49,Phoenix,AZ,85001,3568423621,gary.myers@mail.com,English,White,CERNER
+6fda00a3-5f5c-4167-8fca-7868b8013fbe,Nicholas,Peterson,A,1991-04-19,Male,8797,4372 Jefferson Ave,Atlanta,GA,30301,6453618433,,Spanish,Asian,EPIC
+971c6e8b-2399-4664-b7fd-b996610cedef,Amanda,Cook,U,1982-05-28,Female,6126,2647 River Rd,Atlanta,GA,30301,2008136310,amandac@yahoo.com,English,White,EPIC
+34d5d0d8-3ca2-4db8-b926-2331a089414b,Lisa,Hernandez,C,1955-07-13,Female,2103,7788 River Rd Apt 541,Memphis,TN,38101,6334169835,lisah@hotmail.com,English,Black/African American,CERNER
+69d75763-a68d-4cf4-aa49-63d519abaec6,DeShawn,Edwards,,1973-06-09,Male,9641,118 Maple Dr,San Diego,CA,92101,,,English,White,EPIC
+976c487a-3bb5-4780-a369-080cd496c48a,Hiroshi,Ramirez,X,1962-06-21,Male,3981,7750 Spring St Apt 100,Miami,FL,33101,5626337735,hiroshi.ramirez@gmail.com,English,White,CERNER
+2afe3c9e-4f3a-418c-89bc-b6783cb3cf9a,Margaret,Young,,1984-12-31,Female,4092,1236 High St,Cleveland,OH,44101,3002519856,myoung@yahoo.com,English,White,CERNER
+038aeac1-ad29-4505-85b5-8e80c71cd03b,Juan,Davis,,1978-04-04,Male,4345,7455 Hill St,St. Louis,MO,63101,7698778973,,English,White,MANUAL_ENTRY
+cdab267a-456b-44e0-b762-c51a14f07f9c,Aaliyah,Davis,B,1959-07-13,Female,8320,3045 Maple Dr,Chicago,IL,60601,4406132964,aaliyah.davis@hotmail.com,English,White,EPIC
+f4b964ad-abd6-42ec-a1dd-edd11fafde16,Ebony,Green,G,1970-04-30,Female,3910,6485 Pine St,Dallas,TX,75201,5239692188,,English,Hispanic/Latino,MANUAL_ENTRY
+475e5262-9a11-4b58-b740-14347cca039c,Jason,Cook,,1947-12-09,Male,2584,8901 Highland Ave,Indianapolis,IN,46201,8697411128,jason.cook@aol.com,English,White,EPIC
+653c6ab5-60aa-45c6-9684-2ed4166b0f1e,Marcus,Martin,,1988-05-28,Male,5617,4326 Center St,San Antonio,TX,78201,2522947939,marcusm@gmail.com,Korean,White,CERNER
+29f9ccc1-70be-4b5f-9da6-b827e5947bbd,Pedro,Peterson,R,1970-04-19,Male,8938,6050 Forest Dr,Los Angeles,CA,90001,2425156974,ppeterson@gmail.com,Spanish,White,CERNER
+768a9031-8206-4bde-b208-1b7fac0990e9,Tyrone,Del Rosario,T,1976-01-17,Male,3878,2663 Elm St,Cleveland,OH,44101,,tdelrosario@icloud.com,English,White,ALLSCRIPTS
+348d9c8a-b0b6-43af-9df5-49f074440b75,David,McKenzie,G,1969-11-02,Male,3728,388 Valley Rd Apt 337,San Diego,CA,92101,2719915573,davidm@mail.com,English,White,ALLSCRIPTS
+98f156d8-3610-4524-b7a5-f295fedba845,Malik,King,,1991-06-01,Male,5139,9933 Center St Apt 922,Charlotte,NC,28201,4602458144,,English,Black/African American,CERNER
+651c5620-ae32-41d0-a511-5f0f6b5dc8c4,Stephanie,Campbell,V,1957-05-06,Female,4920,5068 Valley Rd,Denver,CO,80201,5027673085,,Spanish,White,CERNER
+80d9a418-9b72-4853-988b-d31457603e0d,Jean-Marie,Hill,A,1986-10-30,Female,7043,9503 Meadow Ln,Miami,FL,33101,6528914501,jeanmarie.hill@outlook.com,English,Hispanic/Latino,CERNER
+63488665-975d-4daa-85ca-1fa29b824665,Nancy,O'Malley,H,1980-12-24,Female,0757,7785 Meadow Ln,San Diego,CA,92101,,nancy92@hotmail.com,English,White,EPIC
+84d49e74-e2e7-450c-91c2-3ce6ff4bc89a,Mary,Long,D,1985-08-29,Female,8486,823 River Rd,Indianapolis,IN,46201,6673368612,mary97@icloud.com,English,Asian,ALLSCRIPTS
+19e18498-fb78-4fdc-8469-3ab75380c460,Marcus,Edwards,X,1965-12-03,Male,4543,8541 Union Ave,Atlanta,GA,30301,2799305681,marcus.edwards@icloud.com,English,White,EPIC
+cedd32b0-7641-4720-bbcb-e00dba71cf99,Sharon,Rodriguez,K,1988-06-29,Female,1020,6884 Market St,San Antonio,TX,78201,9122207232,sharon39@icloud.com,English,Hispanic/Latino,CERNER
+0d6adba0-28e9-4876-aac3-a4ab2939cc81,Laura,Morales,,1979-10-15,Female,6624,2705 High St,Boston,MA,02101,7462277455,laura11@gmail.com,English,Hispanic/Latino,EPIC
+f7cf4066-f321-4617-9b5f-b37538e3ac46,Samuel,Ramirez,K,1974-09-24,Male,6906,1342 Union Ave Apt 553,Dallas,TX,75201,,samuel.ramirez@hotmail.com,French,Black/African American,EPIC
+62f6a60a-196a-4310-bc81-9fdb636bddbe,Gary,Sanchez,T,1971-04-30,Male,3571,4199 Jefferson Ave,Indianapolis,IN,46201,9659352876,gary.sanchez@outlook.com,English,White,MANUAL_ENTRY
+40c432fb-6a1f-466e-9b41-61791ffa4547,Maria,Gomez,G,1970-02-28,Female,3978,4942 Valley Rd,Houston,TX,77001,7792426688,mariag@icloud.com,English,White,ALLSCRIPTS
+a2f3564b-5322-495b-b730-291590a6e16a,Patrick,Brooks,O,1980-07-11,Male,4425,8818 Jefferson Ave,Las Vegas,NV,89101,9488065397,patrickb@hotmail.com,English,White,ALLSCRIPTS
+89ac67ef-97a5-4f46-805b-54349d20da07,Maria,Baker,,1991-10-18,Female,3475,4233 Church St,Jacksonville,FL,32099,4827691166,mbaker@hotmail.com,Spanish,White,CERNER
+6ce65ebb-57c9-400f-8bca-ed7187a396ab,Fatima,Chavez,O,1974-12-14,Female,3986,9529 Broad St,San Jose,CA,95101,6359636419,fatimac@protonmail.com,English,White,EPIC
+3ac87377-5116-429b-b67d-1737e5bae672,Donald,Myers,Y,1982-04-16,Male,3545,7934 Lake Rd,Boston,MA,02101,7378115636,dmyers@hotmail.com,English,White,EPIC
+f539ccfa-e2a0-47c5-8c04-46caa8b6e761,Dorothy,Scott,,1965-02-03,Female,8042,201 Forest Dr,Houston,TX,77001,5483881841,dorothy.scott@protonmail.com,English,Hispanic/Latino,EPIC
+d3766fd8-9bd4-4eb9-bb33-948704736683,Susan,Martin,,1971-06-23,Female,1395,1941 River Rd,San Diego,CA,92101,8334319561,susan39@protonmail.com,English,Hispanic/Latino,CERNER
+af506b19-e641-4c2f-baba-5a1f79b8934d,Betty,Ross,,1971-01-17,Female,9043,2565 Main St,Chicago,IL,60601,6814981534,betty90@aol.com,English,Black/African American,EPIC
+d9e8ef69-bf44-4a07-9a03-0c8762c1041c,Ronald,Diaz,,1954-12-17,Male,4352,2331 Maple Dr Apt 812,Minneapolis,MN,55401,9667825728,ronaldd@protonmail.com,Spanish,White,MANUAL_ENTRY
+88d910fb-3394-4b24-be7c-cedeee82869f,Keisha,Cruz,,1960-10-26,Female,0423,3751 Valley Rd,Chicago,IL,60601,2219835415,keisha61@outlook.com,English,White,MANUAL_ENTRY
+7f5681e1-8514-47de-9de9-f5c5f3781915,Hiroshi,Lopez,N,1972-10-18,Male,1713,2635 Church St,Cleveland,OH,44101,8786101601,hiroshil@icloud.com,English,Two or More Races,EPIC
+77ab24d3-f092-4dfa-8f1a-53328ab5f8ce,Mary,James,O,1984-09-30,Female,8167,7243 Jefferson Ave Apt 274,Detroit,MI,48201,4946488941,,English,Black/African American,ALLSCRIPTS
+c6055d00-719c-4c61-b082-db486317c6c9,Helen,Peterson,,1970-09-11,Female,1858,1925 Sunset Blvd,Indianapolis,IN,46201,9334989337,helen62@mail.com,English,Hispanic/Latino,CERNER
+3b222385-8b42-4844-8fb8-ba3d61e61ad1,Darnell,Myers,C,1980-09-04,Male,8318,43 Hill St,Dallas,TX,75201,7938759022,darnell69@protonmail.com,English,White,CERNER
+52e8104f-3c39-4e4a-ba96-ab46e81b4fd0,Yuki,Adams,W,1949-12-11,Female,3826,6731 Oak Ave,Cleveland,OH,44101,5905953492,yukia@gmail.com,English,White,EPIC
+134574e3-c3b2-4f2b-b0bd-f7f743b50803,Patricia,Castillo,,1949-03-05,Female,4342,6513 Sunset Blvd Apt 337,Austin,TX,73301,7465896188,patricia.castillo@protonmail.com,English,White,EPIC
+9cead86d-e5d0-44c7-97bc-f7072637c0e7,Pamela,Robinson,N,2005-02-07,Female,1646,2726 Highland Ave,Indianapolis,IN,46201,,pamelar@gmail.com,English,White,EPIC
+a57ff34b-93df-4925-84e5-7d302b5b6d69,Jean-Marie,Mendoza,F,1966-09-25,Female,3945,9555 Pine St,Seattle,WA,98101,6704611153,jmendoza@protonmail.com,English,White,MANUAL_ENTRY
+f3a97ee7-1980-4a81-b49c-94849be8641e,Patricia,Brooks,W,1957-12-03,Other,4949,6303 Union Ave Apt 391,San Antonio,TX,78201,7885025837,,English,White,EPIC
+01b3b0dc-e714-4ca2-83f9-0cc7d422f7dc,Susan,Cox,J,1974-10-08,Female,3115,4107 Valley Rd,Las Vegas,NV,89101,8973402591,susan40@gmail.com,English,Hispanic/Latino,EPIC
+ddbc799c-dc64-4b01-a872-aaa993efc9a2,Justin,Adams,F,1986-12-22,Male,8837,5995 Center St,Tampa,FL,33601,3684638894,justina@aol.com,English,Hispanic/Latino,MANUAL_ENTRY
+72242293-3d42-40af-824e-3345951b8eb8,Jeffrey,MacArthur,V,1937-07-04,Male,6464,4333 River Rd Apt 378,New York,NY,10001,8884687242,jmacarthur@icloud.com,English,White,CERNER
+9adedd9e-774f-4460-86a5-6fcc49c7e363,Katherine,Ward,,1981-03-03,Female,7606,4952 Sunset Blvd,St. Louis,MO,63101,2385119071,,English,Hispanic/Latino,EPIC
+259ad659-e6e3-443b-9d63-25c143e1424a,Andre,Turner,X,1968-02-17,Male,6686,537 Highland Ave,Dallas,TX,75201,4415712627,andret@icloud.com,English,White,EPIC
+d738d430-75d3-47de-81df-ba580612048e,Yuki,Lopez,U,1963-05-17,Female,0349,5465 Park Ave,Los Angeles,CA,90001,4102704394,ylopez@hotmail.com,English,White,EPIC
+6288ea11-7b71-430f-9217-8a2c057b5b9b,Eric,Cooper,,1966-03-26,Other,5869,3899 Forest Dr,Miami,FL,33101,2533297897,eric61@yahoo.com,French,White,CERNER
+477ef02b-66e1-4799-b694-b58752f5c11a,Amir,Lewis,B,1956-05-08,Male,7504,511 Oak Ave,Detroit,MI,48201,6369022768,amir.lewis@protonmail.com,English,Black/African American,EPIC
+eef96ae5-e4b0-4bc1-8f7e-42225ecf566a,Malik,Peterson,M,1957-08-21,Male,7048,1875 Sunset Blvd,Houston,TX,77001,9384208046,malikp@hotmail.com,English,White,EPIC
+d9b6e00f-febe-4158-b147-cf706cd7af65,Luis,Green,L,1977-01-17,Male,7770,1495 Maple Dr Apt 99,Chicago,IL,60601,5813331982,luis.green@icloud.com,English,White,ALLSCRIPTS
+a3cf746b-c8ca-4e71-980b-bda0026ba0be,Guadalupe,Van Der Berg,B,1956-10-12,Female,8313,2536 Valley Rd,San Antonio,TX,78201,5587697022,,English,Hispanic/Latino,EPIC
+e4e601c0-9d93-4511-8818-86343b918249,Tyrone,Foster,T,1980-04-24,Male,0430,4382 Main St Apt 720,Las Vegas,NV,89101,5475591100,,English,Hispanic/Latino,CERNER
+29998fa9-d257-4168-9726-c6aa259d0da7,Michael,Lopez,G,1988-01-13,Male,5314,9300 Meadow Ln Apt 54,Atlanta,GA,30301,9728321815,michael57@aol.com,English,Black/African American,EPIC
+05e38ae1-35d8-49ce-9ff2-c5d18369781b,Darnell,Anderson,D,1964-11-14,Male,9717,8634 Valley Rd,Seattle,WA,98101,8132561125,danderson@hotmail.com,Tagalog,White,EPIC
+f4f998fa-7306-4d3b-9f49-e5094f621a19,Raj,Myers,E,1993-07-19,Male,5802,6506 Franklin St Apt 20,Chicago,IL,60601,2795208033,raj.myers@mail.com,English,White,MANUAL_ENTRY
+9432fc4d-645f-44be-908f-e62d06eda202,Alejandro,McDonald,L,1961-02-23,Male,1734,7139 Forest Dr,San Diego,CA,92101,,alejandrom@icloud.com,French,White,EPIC
+39183555-60e7-4ba0-beb0-2d823dff71f5,Monique,Rogers,,1973-05-11,Female,3871,2400 Lake Rd Apt 617,Houston,TX,77001,9778712234,,Korean,Black/African American,CERNER
+ca2d9d1b-33b3-43a1-99f6-d88489817eb3,Anne-Marie,Edwards,S,1989-05-08,Female,5295,5180 Pine St,Cleveland,OH,44101,8465105500,annemarie.edwards@icloud.com,English,Hispanic/Latino,CERNER
+afe645fa-59c4-4e63-8865-2144996c6c5a,Larry,Martinez,C,1989-08-09,Male,0672,9367 Sunset Blvd Apt 620,Indianapolis,IN,46201,3542638381,,English,Asian,EPIC
+c60c3df4-894e-4468-a6d2-3262a6a1d7a3,Elizabeth,Young,O,1987-07-09,Female,2600,6109 Hill St,Jacksonville,FL,32099,8958121857,elizabethy@icloud.com,English,Hispanic/Latino,CERNER
+203ca241-d968-4220-a5a4-c148b55101af,Joshua,Nelson,,1993-10-25,Male,6421,9750 Highland Ave,Phoenix,AZ,85001,5858586381,joshua83@yahoo.com,English,White,EPIC
+bcf72238-4fbc-4a0f-b4c3-c56d5d62eea6,Jason,Baker,P,2004-12-21,Male,2253,1265 Hill St,Phoenix,AZ,85001,9897529626,,English,Two or More Races,CERNER
+d5d6e9eb-7484-4b44-9742-a676d3e17318,Donna,Lee,,1984-01-10,Female,0715,5969 Valley Rd,Charlotte,NC,28201,8254918355,donna40@hotmail.com,English,White,CERNER
+88bcc182-80c8-402b-a572-9db0323333bb,Lucia,Reyes,Y,1995-09-18,Female,6859,3272 Meadow Ln Apt 257,Philadelphia,PA,19101,,lucia.reyes@icloud.com,Spanish,Hispanic/Latino,ALLSCRIPTS
+980829eb-eeb3-4c1c-96a3-a843d318975d,Kenneth,Wright,Q,1966-12-16,Male,5727,437 Spring St Apt 515,St. Louis,MO,63101,5952837142,kennethw@icloud.com,English,White,EPIC
+6f58221c-36e4-4746-ab6c-122472494e48,Fatima,Hughes,Y,1963-04-13,Female,0086,1299 Main St,Tampa,FL,33601,7619449647,fatimah@aol.com,English,White,EPIC
+47a84e7d-2136-4092-a956-6f6945c3d8cf,Yuki,Rodriguez,,1960-04-01,Female,9421,2353 Hill St,San Diego,CA,92101,4467847825,,Spanish,White,CERNER
+3e1b00b7-4b73-4369-a014-6225af07c9c9,Terrence,Cooper,Q,1987-06-24,Male,,7703 Oak Ave,Cleveland,OH,44101,4599651266,tcooper@yahoo.com,Spanish,Black/African American,CERNER
+c4f6993a-d73a-4d3b-9eaa-0a9927b138c4,Christine,Moore,,2002-12-31,Female,7612,7841 Sunset Blvd Apt 139,Baltimore,MD,21201,,christinem@protonmail.com,English,White,ALLSCRIPTS
+aa5147b9-e5e2-4530-9feb-522a8f2c6f63,Samantha,Flores,R,1983-08-05,Female,3131,5849 Jefferson Ave Apt 672,San Jose,CA,95101,3275768159,samanthaf@protonmail.com,English,Hispanic/Latino,CERNER
+b0bf0431-7f99-40e2-a246-7a17181d7b07,DeShawn,Wright,X,1990-12-31,Male,5262,1312 Church St,Houston,TX,77001,8179347981,,English,White,EPIC
+ab84dfa9-5a09-4d5b-8b58-7b445ec781e8,Carolyn,Ward,I,1968-05-15,Female,0939,6656 Broad St,Chicago,IL,60601,3632313339,cward@protonmail.com,English,White,ALLSCRIPTS
+8b976501-f59a-4a85-b170-3547286b1388,Jerry,Reed,,1966-10-01,Male,1259,2256 Center St,Portland,OR,97201,4854552858,,English,Hispanic/Latino,CERNER
+ae8cfc29-d0cd-4670-8349-8970f62effd4,Ashley,King,W,1962-08-24,Female,4678,8048 Washington Blvd Apt 874,Baltimore,MD,21201,,,Spanish,White,MANUAL_ENTRY
+ebe79a0a-ec73-421d-83cb-ea11ae4b8482,Samantha,Bennett,C,1987-11-01,Female,2852,5923 Center St,Miami,FL,33101,3424429094,,English,Hispanic/Latino,EPIC
+96b2e071-431a-4008-81c3-a9ced1804747,Destiny,Taylor,C,1980-03-02,Female,7842,6731 Jefferson Ave,Denver,CO,80201,3285242215,dtaylor@icloud.com,Korean,White,EPIC
+0c45e9c7-e244-43ea-884f-c1d6012e9ddf,Jessica,McDonald,,1970-10-24,Female,3694,8502 Hill St,Jacksonville,FL,32099,8507645496,,English,Black/African American,CERNER
+812b4288-9c27-4aac-91b9-5a4664e244ae,Carol,Ramos,E,1969-01-10,Female,9914,9235 Oak Ave,Austin,TX,73301,,,English,Two or More Races,CERNER
+f6238e7d-c6ae-4ccd-8d16-1c88e916077d,Mary-Kate,Turner,A,1997-11-03,Female,4949,4013 Valley Rd,Seattle,WA,98101,9052613589,mturner@protonmail.com,English,Black/African American,EPIC
+e4fda0e6-88cd-4049-9240-48708f65b582,Samantha,Sanders,L,1975-09-14,Female,6070,9203 Cedar Ln,Denver,CO,80201,4736605061,,English,White,MANUAL_ENTRY
+5a1ed142-2484-4982-b974-1e281f0c6e2e,Rosa,Young,F,1962-10-31,Female,2610,8434 High St,Seattle,WA,98101,2232927442,rosay@hotmail.com,English,White,EPIC
+7afb1622-f8eb-4fb4-951c-8d114a4d19ac,Fatima,Torres,D,2008-08-20,Female,4333,5993 Jefferson Ave,Boston,MA,02101,,,English,White,EPIC
+e1e60b6b-3f07-42c3-a11a-0ecd899688e2,Jerry,Cook,R,1984-04-20,Male,2108,6454 Broad St,Houston,TX,77001,5749733363,,English,White,CERNER
+e20d5b5d-2ef7-4506-bf16-b04424dcdb82,Andrew,Alvarez,P,1931-07-26,Male,9932,8447 Pine St,Tampa,FL,33601,3666025902,andrewa@protonmail.com,English,White,EPIC
+4fdf2155-98bb-4f9d-8079-6dd6f375fccc,Rosa,Howard,X,1961-06-08,Female,9477,3729 Franklin St Apt 492,Portland,OR,97201,8449387229,,Spanish,White,EPIC
+8d66feb5-8aa9-4408-ac94-7c6c8b2775e7,Sandra,Harris,,1991-10-24,Female,6765,3341 Spring St,Baltimore,MD,21201,6829532020,sandrah@hotmail.com,English,Hispanic/Latino,CERNER
+2cd85035-698b-4c07-a3a8-3d9e966a0c0d,Brian,Collins,K,1997-04-17,Male,4331,7933 Washington Blvd,Las Vegas,NV,89101,5054305876,brian89@hotmail.com,English,Hispanic/Latino,EPIC
+f233140f-3953-4968-9ea9-afdab01346ef,Brenda,Torres,,1982-04-23,Female,6464,5655 Jefferson Ave,Minneapolis,MN,55401,4949312294,brendat@protonmail.com,Chinese,Hispanic/Latino,EPIC
+67acddb1-4b1a-4e10-b9c9-ae4b8722538a,Anna,Bailey,E,1956-12-09,Female,8700,3815 Oak Ave Apt 339,San Diego,CA,92101,3028973252,,English,White,EPIC
+6f86709e-1b19-4f0d-b42a-e300268afa31,Fatima,Morris,Y,1960-11-13,Female,0969,1466 Sunset Blvd,St. Louis,MO,63101,9402383868,fatima5@outlook.com,English,White,MANUAL_ENTRY
+1e95cb51-8736-4f6e-88e8-438f098ae53e,Emma,De La Cruz,,1982-10-15,Female,8901,8093 Pine St,Denver,CO,80201,3973156417,,English,Black/African American,EPIC
+dba28323-a70b-4c70-8940-808a8022043e,Gregory,O'Brien,,1956-04-30,Male,2875,6644 Spring St,Las Vegas,NV,89101,,gregory18@outlook.com,English,White,EPIC
+f225cfd4-e46f-40b8-bf63-2fec0576a06e,Rafael,Long,,1985-06-14,Male,,5891 Highland Ave,Detroit,MI,48201,6765143616,rafael.long@aol.com,English,White,EPIC
+3f7192ac-61e3-42ed-9dee-8d602469d32c,Andrew,Morris,,1958-06-04,Male,8998,7715 Jefferson Ave,St. Louis,MO,63101,4239805054,andrew68@yahoo.com,English,Asian,EPIC
+61fc5e94-b8b6-4f76-9b56-18e72936c50b,Sandra,Davis,Q,1971-01-13,Female,8525,1905 Valley Rd,Indianapolis,IN,46201,2937228298,sandra17@protonmail.com,English,Hispanic/Latino,EPIC
+6b0989ea-786c-4a24-9bf4-5b21fd10e0d5,Brandon,Castillo,,1958-12-01,Male,3570,1197 Oak Ave,Portland,OR,97201,7542612130,brandonc@protonmail.com,English,White,ALLSCRIPTS
+679457a0-4a29-47b8-a5d9-e02fa3d2bfe0,Rosa,Mitchell,M,2007-09-17,Female,8835,5698 Cedar Ln Apt 551,Phoenix,AZ,85001,3309454648,rosa39@gmail.com,Spanish,Asian,CERNER
+97615913-dcca-4107-8ca3-3bd0e2edcc71,Cynthia,Young,E,1965-11-18,Female,1848,6869 Meadow Ln,Los Angeles,CA,90001,2164464376,,English,White,EPIC
+d41927fe-c627-428b-9213-9780cb8487b6,Susan,Young,M,1994-03-04,Female,4739,9439 Church St,San Diego,CA,92101,5284425944,susany@hotmail.com,English,White,CERNER
+a71b81ad-ce4c-40c2-8ca3-0e001541d6e6,Amanda,Watson,R,1969-07-28,Female,,6245 Center St,Jacksonville,FL,32099,3525077167,,English,Hispanic/Latino,EPIC
+9e307ad8-7915-4f7b-815d-7fd1379fd1ac,Paul,O'Neill,B,2012-06-15,Male,6363,4178 Washington Blvd,San Diego,CA,92101,,poneill@icloud.com,English,White,EPIC
+4b9699de-4a6f-4fd9-9c64-5bece5a3c7d4,Elizabeth,Van Der Berg,,1991-06-06,Female,9156,7855 Washington Blvd,San Antonio,TX,78201,2154164113,elizabeth96@yahoo.com,English,Black/African American,CERNER
+addd46ac-8f74-42c5-89c2-5451cae9205f,Jacob,Peterson,J,1989-10-01,Male,5892,8148 High St Apt 740,Denver,CO,80201,5274087073,jpeterson@gmail.com,Spanish,White,EPIC
+55d93382-c128-41c3-b4f7-fe832fdf708f,Anne-Marie,Howard,J,1964-01-21,Female,3768,9336 Park Ave,Columbus,OH,43004,9015455216,annemarie93@protonmail.com,English,White,CERNER
+fa7235f9-a1b8-4809-8cc9-2980891cb374,Andrew,Castillo,F,1959-05-17,Male,8584,1218 Valley Rd Apt 7,Los Angeles,CA,90001,8454362113,andrew28@gmail.com,English,White,CERNER
+5fdbcd60-db2c-4087-9ee0-42c8e0234a6f,Aisha,James,A,1985-07-05,Female,0194,8674 Franklin St,New York,NY,10001,2177148054,aisha.james@outlook.com,English,White,EPIC
+896495cc-7d25-41f9-90cb-60790ea32198,Angela,O'Malley,Z,1987-09-08,Female,3984,3701 Hill St,Baltimore,MD,21201,8698651519,,English,White,CERNER
+e8a9eb54-ea49-4e31-bc66-a34255713e7a,John,Hughes,,1967-07-27,Male,5427,1563 Center St,Portland,OR,97201,9087808790,johnh@yahoo.com,English,Hispanic/Latino,CERNER
+c38bb767-0469-4f72-942f-06cbb398f7c1,Benjamin,Williams,S,1958-09-19,Male,4903,9240 Park Ave,Philadelphia,PA,19101,8937536435,benjamin.williams@outlook.com,English,Asian,MANUAL_ENTRY
+da570c3c-a322-4bb3-8605-053640909d0e,Jorge,Robinson,K,1954-06-06,Male,9758,5348 Main St,Columbus,OH,43004,6617024737,jrobinson@mail.com,Spanish,Hispanic/Latino,CERNER
+a759b2fb-4254-444e-9034-515e37e524dc,Justin,O'Connor,,1965-09-26,Male,2527,6384 Church St,Boston,MA,02101,,justino@protonmail.com,English,White,EPIC
+9eeecd21-a277-4288-b589-7890a73dde1a,Tyrone,Bailey,D,1971-03-25,Male,9080,9781 Meadow Ln,Chicago,IL,60601,2124987779,tbailey@yahoo.com,English,Hispanic/Latino,EPIC
+bafb943d-2201-41e0-8c37-dd733be98c04,Andrew,Wright,P,1970-11-17,Male,7933,1261 Broad St,Miami,FL,33101,8407074203,andrew.wright@outlook.com,English,White,ALLSCRIPTS
+b42e63fc-a7b9-477a-b8dd-e434231a73c9,Raymond,Cruz,U,1968-06-07,Male,5253,3291 Union Ave,Las Vegas,NV,89101,5264989044,raymond42@hotmail.com,English,White,EPIC
+ce4dccef-7568-4b79-a762-f13d0d45a10b,Stephanie,Ramos,F,1983-08-11,Female,3434,4774 Highland Ave Apt 869,Indianapolis,IN,46201,6188899180,,English,White,EPIC
+2d5b81eb-24ba-4222-93a3-fb68a75bb96f,Luis,O'Brien,O,1993-05-30,Male,6566,8301 Highland Ave,Nashville,TN,37201,,lobrien@yahoo.com,English,Black/African American,EPIC
+baf0c620-ce37-48cd-a2dc-6f5f64f2c6e8,Elizabeth,Reed,V,1999-10-13,Female,7052,173 Cedar Ln,Houston,TX,77001,7317714621,ereed@mail.com,English,White,CERNER
+dc73a44e-3876-4120-9b1b-c0e74e702c7b,Charles,Anderson,X,2008-01-16,Male,5620,3390 Center St,Indianapolis,IN,46201,6489398412,charles.anderson@aol.com,English,White,CERNER
+64e3defe-7b7e-48eb-8e42-df582862abba,Carol,Patel,,1971-06-25,Female,7570,6637 Sunset Blvd Apt 656,San Diego,CA,92101,6052294232,carol.patel@mail.com,Spanish,White,EPIC
+51772a2e-05fc-4bd0-b452-16ef4eeab248,Sarah,Kelly,,1968-07-07,Female,5340,7497 Cedar Ln,San Antonio,TX,78201,7408546134,sarah.kelly@mail.com,English,White,ALLSCRIPTS
+81a66e77-2edc-4054-9ab5-cb4d691076df,Nicole,Ward,V,1970-11-02,Female,6116,2317 Center St,Baltimore,MD,21201,7885927931,,English,Hispanic/Latino,CERNER
+10ec5b88-2fa5-4691-8fb2-44d639265c6d,Amanda,Bailey,,1970-11-11,Female,5154,7390 Meadow Ln Apt 368,Minneapolis,MN,55401,6963394196,amanda53@protonmail.com,English,Asian,ALLSCRIPTS
+0308e1f1-c493-47ad-adef-8f9559d5c8b9,Lisa,Reed,,1975-11-17,Female,4729,7493 Forest Dr,Philadelphia,PA,19101,7627232854,lisar@aol.com,English,Two or More Races,EPIC
+2be0803f-625f-48c3-b6ae-d665216c5167,Aaliyah,Ramirez,D,1988-05-03,Female,4877,529 High St,Cleveland,OH,44101,2896492923,aaliyahr@hotmail.com,Spanish,Black/African American,CERNER
+eba1541f-6ce6-4fee-8530-21698d2b7e99,Andrew,Powell,,1974-10-09,Male,9778,2759 Church St,Nashville,TN,37201,7864739428,andrew18@yahoo.com,English,White,ALLSCRIPTS
+a31a103b-1a01-454d-8526-fdbf8414f6ba,Steven,Young,,1970-10-25,Male,6434,2330 Forest Dr,Seattle,WA,98101,5846622237,steveny@yahoo.com,Spanish,White,CERNER
+6191f943-faae-4ac4-8282-8d65ea7d81cd,Anne-Marie,Smith,X,1942-05-24,Female,5869,1038 River Rd,Cleveland,OH,44101,4167065399,asmith@aol.com,English,Hispanic/Latino,ALLSCRIPTS
+e18cad1f-ea5c-4e03-88bf-c9e4ad7736c8,Susan,Garcia,,1953-08-19,Female,,2589 High St,St. Louis,MO,63101,6384073161,susang@aol.com,English,Black/African American,EPIC
+0eabb801-e36d-492e-acc9-b2a2b9cb395e,Kevin,Miller,J,1979-08-29,Male,1559,3497 Union Ave Apt 608,New York,NY,10001,8966551152,,English,White,MANUAL_ENTRY
+05408f50-d6dd-4e21-b78a-d80ba00dd737,Steven,Morris,,2000-09-15,Male,1678,5134 Broad St,Houston,TX,77001,9929713181,steven.morris@outlook.com,English,Black/African American,EPIC
+e2b49b8e-dc7f-4d1e-9697-fc79b6fce249,Jason,Watson,N,1988-12-12,Male,1646,2018 Forest Dr,Phoenix,AZ,85001,6395223290,jasonw@yahoo.com,French,Black/African American,EPIC
+44beb43f-e4aa-4761-8308-9ce39fbbc8d5,Nicole,Clark,Q,1986-12-28,Female,4842,895 Park Ave,Detroit,MI,48201,7118532163,nicolec@gmail.com,English,White,ALLSCRIPTS
+de380cc2-e381-434d-9922-4b91c9d9c29a,Janet,Cooper,Y,2020-02-17,Female,,226 Lake Rd,Chicago,IL,60601,6077185693,janet55@mail.com,English,Black/African American,CERNER
+0cc7109f-6e77-4b03-85f9-ac1331b196fc,Brenda,Hernandez,Q,1967-12-25,Female,2545,5354 Market St,Nashville,TN,37201,8658972083,bhernandez@mail.com,English,White,EPIC
+c920a590-2ecc-4ca5-9e8a-b90c838950d8,Alejandro,Ward,J,1988-01-04,Male,2248,186 Elm St,Baltimore,MD,21201,7299385247,,English,Asian,ALLSCRIPTS
+724b616d-3124-4fdd-8ce7-64ea8be755d5,Donald,Foster,K,1994-08-25,Male,1046,9448 Sunset Blvd Apt 467,Dallas,TX,75201,2567113734,donald.foster@aol.com,English,Black/African American,CERNER
+a937fb4c-9c2d-4006-aa5b-fd138612ed5b,Darnell,Smith,,1968-08-09,Male,2458,580 River Rd,Philadelphia,PA,19101,8716294678,darnells@mail.com,English,White,CERNER
+a952bc20-463a-4bd0-b2ff-0b2ca8a9110e,Richard,Thompson,,1984-07-13,Male,6568,7621 Hill St,Chicago,IL,60601,2887668483,,English,White,CERNER
+61030afe-6277-4170-b04b-2fe667931c40,Gary,Reyes,P,1950-07-07,Male,4016,105 Spring St Apt 555,Phoenix,AZ,85001,9102096488,,English,White,ALLSCRIPTS
+d148cdcd-445c-42ca-86f2-fa1880d7cc6d,Margaret,Clark,H,1976-09-03,Female,0981,4585 Maple Dr Apt 238,Phoenix,AZ,85001,7326227102,margaret.clark@yahoo.com,English,White,CERNER
+a676a77c-d335-40f0-a005-ca0c1dc828f2,Kwame,Davis,E,1975-10-27,Male,6438,5346 Church St,Baltimore,MD,21201,4073392785,,English,White,CERNER
+2535a09e-61a6-400b-83c8-08556bfef6a8,Jamal,Rivera,G,1964-08-20,Male,4341,1965 Maple Dr Apt 703,Cleveland,OH,44101,9219131660,jamal.rivera@icloud.com,Spanish,White,MANUAL_ENTRY
+7fec871f-29d8-49bb-bf7f-9c29593c9860,Richard,Gray,,1972-09-11,Male,9108,9014 Park Ave Apt 105,Boston,MA,02101,3433241195,,French,White,EPIC
+0a8683a6-f436-4e64-bd17-01811b2c71a6,Catherine,Mendoza,U,1985-02-19,Female,4240,1229 Main St,St. Louis,MO,63101,8616543110,,English,White,EPIC
+8f2657e9-8a5b-416a-8ba8-0a4bc771ccaa,Kevin,Kelly,X,1978-04-21,Male,5799,3067 Lake Rd,San Antonio,TX,78201,2358285026,kevin53@protonmail.com,English,White,EPIC
+c300cc92-5da3-4556-9498-211c7be81c74,Ronald,Chavez,Q,1973-11-30,Male,8907,320 Market St,Miami,FL,33101,7576966636,ronaldc@icloud.com,English,White,EPIC
+69fb2027-95ab-4259-9ec9-7c31b1f6cdaf,Stephen,Davis,P,2001-12-01,Male,1640,3952 Lake Rd,San Diego,CA,92101,9542574594,sdavis@mail.com,English,White,CERNER
+42d7fc2a-c19b-40bc-8574-31eab4e7fd70,Carolyn,Ramos,,1980-04-11,Female,9300,2329 Forest Dr,Portland,OR,97201,7047556063,,English,White,EPIC
+784691c2-54fe-4414-9029-53ace26050fd,Jennifer,Ortiz,K,1968-02-01,Female,2907,5302 Oak Ave Apt 601,St. Louis,MO,63101,3459922817,jennifero@icloud.com,Spanish,Black/African American,EPIC
+dca32754-f2c8-44e3-8751-84e84f8590a1,Scott,Adams,,1981-01-14,Male,7157,7983 Sunset Blvd,Miami,FL,33101,7759106846,scotta@outlook.com,Spanish,Black/African American,EPIC
+87158035-1923-4e22-8ccd-d4a72823fa0f,James,Hughes,M,1960-06-23,Male,,5214 Meadow Ln,Las Vegas,NV,89101,7083446425,jamesh@hotmail.com,English,Black/African American,ALLSCRIPTS
+0ee565f1-be99-4cd6-9a11-164e285d9296,Raymond,Edwards,,1996-12-14,Male,1110,4206 Cedar Ln,Jacksonville,FL,32099,,raymond22@mail.com,English,White,EPIC
+47e10d7e-4562-433c-8919-c1a7f7dc3e2f,Jin,Powell,U,1975-08-18,Male,0547,329 Church St,San Jose,CA,95101,5503747151,,English,Hispanic/Latino,MANUAL_ENTRY
+0b531482-e110-48b0-8458-2054dce85256,Nancy,Kim,P,1986-04-08,Other,,2704 Meadow Ln,Detroit,MI,48201,3035394367,nancyk@mail.com,English,White,EPIC
+4b2a2449-aec1-4410-bf35-69d93d0a066b,Carlos,Kelly,P,1967-09-02,Male,9833,3272 Cedar Ln Apt 175,Seattle,WA,98101,2836842892,carlos61@mail.com,English,White,EPIC
+96064c8f-bee1-4f1c-93ec-d36d3758bd54,Melissa,Mitchell,L,1965-01-03,Female,4313,7620 Lake Rd,Indianapolis,IN,46201,2633542584,,English,Hispanic/Latino,EPIC
+c438a013-4cc2-47e5-ba71-62588182147a,Cynthia,Peterson,,1989-07-02,Female,7779,3861 Union Ave,Portland,OR,97201,9312359226,cynthia16@outlook.com,English,White,MANUAL_ENTRY
+bf117aeb-2362-454a-90e5-b60d2f2085bd,Dorothy,Garcia,V,1964-08-29,Female,2422,9750 Lake Rd,Minneapolis,MN,55401,2682897358,dorothy36@icloud.com,English,Black/African American,CERNER
+5b2de25e-90ef-43b9-9552-299ee56bb33d,Rosa,Anderson,E,1995-02-09,Female,9219,1655 Hill St,Atlanta,GA,30301,6204707275,randerson@protonmail.com,English,White,EPIC
+542007ed-93c4-448b-bc8e-cfd05b89c3bf,Mary-Jo,Jones,K,1984-04-15,Female,7785,4401 Broad St Apt 838,St. Louis,MO,63101,5184879054,mjones@yahoo.com,English,Asian,EPIC
+f768b6d6-9505-4fcc-9d9d-ec22ed9feb31,Anna,Sanders,U,1962-09-13,Female,8462,6127 Oak Ave,Cleveland,OH,44101,5189269303,asanders@gmail.com,English,White,EPIC
+04efb499-127a-478d-9841-85b6da769db7,Patrick,Price,,1967-10-02,Male,8275,2030 Valley Rd Apt 382,Columbus,OH,43004,6563818775,pprice@icloud.com,English,Asian,ALLSCRIPTS
+c7b86841-d4ea-4532-91d5-a9d887caa583,Michael,Roberts,,1960-12-21,Male,3688,3388 Lake Rd,Memphis,TN,38101,9999851145,mroberts@outlook.com,English,White,EPIC
+4dcd5971-df2d-4e0c-8c28-2f515fc626dc,Helen,Alvarez,U,1996-11-11,Female,6168,5714 High St,Cleveland,OH,44101,8937337506,helena@gmail.com,English,Black/African American,CERNER
+b8ad7543-4e54-4b9d-a644-63337aa7f844,Anthony,Morris,,1954-11-21,Male,4895,2457 Center St,San Antonio,TX,78201,8146136236,anthony84@gmail.com,English,White,MANUAL_ENTRY
+2ed7d384-6a1d-41cc-8aa1-6fe4db8398ae,David,Howard,S,1977-12-29,Male,3643,8760 Sunset Blvd,Memphis,TN,38101,8875679311,dhoward@outlook.com,English,White,CERNER
+a7b2d24a-5a62-4ace-b86f-9c4b1309ac5d,Imani,Ross,V,1958-12-18,Female,5031,5429 Broad St,Charlotte,NC,28201,3206811879,iross@yahoo.com,English,White,ALLSCRIPTS
+d2ac0463-cf74-4964-855f-2a19485ec226,Scott,Evans,,1989-01-15,Male,3281,6705 Forest Dr,Austin,TX,73301,3465233954,sevans@protonmail.com,English,Black/African American,EPIC
+83f231b8-ecd7-4637-88ea-747790e31caa,Edward,Ross,S,1975-02-20,Male,7105,7036 Market St,Detroit,MI,48201,2042389745,,English,White,ALLSCRIPTS
+f42e4e09-c2e9-4a97-81e2-c1f211dc0808,Monique,Harris,,1994-03-30,Female,4076,5642 Hill St Apt 393,San Diego,CA,92101,5133712069,monique38@aol.com,Spanish,Hispanic/Latino,CERNER
+f8eedefa-dcdf-4ed7-944e-d61f5f7a3700,Andrew,Baker,P,1982-09-10,Male,,2150 Washington Blvd,San Diego,CA,92101,3733267006,andrewb@gmail.com,Korean,Hispanic/Latino,CERNER
+3302e3a8-fec4-49cc-9a9e-771944d4c8ea,Susan,James,,1969-03-28,Female,,6829 High St,Houston,TX,77001,6859183508,susan39@gmail.com,English,White,CERNER
+4fd2e623-d429-43a8-b40e-0018aeb8ef8b,Andrew,Turner,D,1996-11-07,Male,1741,3255 Meadow Ln Apt 270,Seattle,WA,98101,4065667713,andrew71@gmail.com,English,Black/African American,MANUAL_ENTRY
+d499078b-4c22-42ba-aa25-9b94afc30281,James,Johnson,D,1977-06-16,Male,2443,8384 Maple Dr,Chicago,IL,60601,4628594787,james34@aol.com,English,White,ALLSCRIPTS
+9c1ddd13-04f4-4cab-a8d1-ae5078df247d,Emma,Campbell,K,1983-03-12,Female,,2794 Church St,Phoenix,AZ,85001,8364742522,emma.campbell@icloud.com,English,White,MANUAL_ENTRY
+92e56703-8f15-45b2-b9f4-ab5417b77ace,Jerry,Ruiz,Z,1972-09-03,Male,2732,2172 Highland Ave,Houston,TX,77001,3633067816,jerry73@protonmail.com,English,Black/African American,EPIC
+44c47eec-abcf-4a69-b39c-ce20e7f28e62,Michael,MacArthur,X,1968-08-01,Male,6738,754 Maple Dr,Indianapolis,IN,46201,9218949598,michaelm@hotmail.com,English,Hispanic/Latino,CERNER
+4afec043-93fa-43a6-b3ab-59d54f1c0dc2,Carmen,James,P,1977-10-10,Female,6305,9148 Meadow Ln Apt 659,Phoenix,AZ,85001,7176809123,carmen97@yahoo.com,English,White,EPIC
+23e71384-2398-4ffe-9d12-780e18ddcff6,Amir,Lewis,M,1985-08-11,Male,9388,1443 Union Ave,Indianapolis,IN,46201,7099631291,,English,White,CERNER
+13797dbc-34c1-46d2-ba47-b3821506af87,Daniel,O'Brien,T,1969-05-16,Male,8328,3390 Sunset Blvd,Nashville,TN,37201,5722554652,daniel72@icloud.com,Spanish,Black/African American,EPIC
+5878a200-79bd-4e77-8b85-79995714b4b9,Matthew,Ross,A,1991-11-04,Male,6125,1742 Oak Ave,Baltimore,MD,21201,9349607704,,English,White,EPIC
+98887fdf-e3a0-4d4a-b084-fda75d4d1b5f,Maria-Elena,Ramirez,Z,1953-01-04,Female,1765,6791 Oak Ave,Atlanta,GA,30301,8023268381,mariaelena.ramirez@outlook.com,English,Asian,EPIC
+1521a187-095f-41d4-a208-34c6b9857135,Anne-Marie,Morris,Y,1967-06-16,Female,2103,6348 Valley Rd,Houston,TX,77001,7165937859,annemarie36@hotmail.com,English,White,CERNER
+d4b2608e-d3e7-45fd-a845-dac3793afe51,Jose,Cox,X,1980-07-16,Male,8975,5144 Highland Ave,Cleveland,OH,44101,4224054435,josec@aol.com,Spanish,White,MANUAL_ENTRY
+f6879c73-3ed7-4396-86ae-f952848a5bc0,Amanda,Cook,U,1979-10-07,Female,9548,6840 Valley Rd,Portland,OR,97201,4926321209,acook@gmail.com,English,Black/African American,EPIC
+25871b82-7826-4c27-b708-dd768f87c1eb,Kenneth,Torres,E,1970-03-07,Male,4835,8867 Oak Ave,San Antonio,TX,78201,8308914675,kennetht@mail.com,Spanish,Black/African American,EPIC
+c00a273f-51e1-4b4b-968b-5743584ffaf8,Miguel,Powell,K,1971-11-30,Male,7259,3696 Sunset Blvd,Minneapolis,MN,55401,9738029955,mpowell@hotmail.com,English,White,EPIC
+a4233357-c160-4f19-9e2a-b806ddef2a0b,Melissa,Thompson,D,1977-09-24,Female,,9120 Lake Rd Apt 599,Dallas,TX,75201,2055388640,mthompson@outlook.com,English,Hispanic/Latino,EPIC
+39eab9a4-a9db-472e-8126-92ec5013251d,Nicole,Morales,R,1992-10-21,Female,3012,1118 Center St Apt 557,Denver,CO,80201,2945574624,nicolem@icloud.com,English,White,MANUAL_ENTRY
+35c5a128-2faf-4298-879f-8c1999c012a5,Fatima,Bailey,U,1956-04-06,Female,5668,3938 Sunset Blvd,Indianapolis,IN,46201,2408986258,fatimab@yahoo.com,English,Asian,EPIC
+06af90b4-b869-4fce-977d-cb1d81471d47,Catherine,Rogers,O,1988-05-04,Female,8419,1573 Elm St,Chicago,IL,60601,7462072072,catherine88@hotmail.com,English,White,CERNER
+491f3a22-d59f-444f-89c7-626af187089e,Carmen,Chavez,C,1974-04-20,Female,7523,5435 Oak Ave Apt 56,Baltimore,MD,21201,4577712154,carmen34@hotmail.com,English,White,CERNER
+4e789cc8-bc3f-4309-a878-9a890873d583,Robert,Roberts,R,1953-03-10,Male,9594,1190 Broad St,Los Angeles,CA,90001,9025082417,robert49@protonmail.com,English,White,CERNER
+5a21cd94-5145-4a6b-ae38-2e50d41fe13a,Kimberly,Myers,Z,1975-07-01,Female,2360,6114 Main St,San Jose,CA,95101,3262421082,kimberly.myers@mail.com,English,White,CERNER
+90f14470-f6ef-4f0e-b558-effeeba4899e,Rachel,Ramirez,U,1972-01-03,Female,4140,1878 Elm St,San Antonio,TX,78201,2559699992,rachel.ramirez@yahoo.com,English,White,EPIC
+cf48d1c9-cee3-48dc-859b-d788cb5b6fe9,Christine,Rivera,,1982-05-04,Female,4671,1144 Washington Blvd,Las Vegas,NV,89101,8318756008,christiner@outlook.com,English,White,EPIC
+4b7773bd-f1df-4d98-b65a-d9530177ab44,Jeffrey,Alvarez,N,1978-04-23,Male,7863,7297 Broad St,Indianapolis,IN,46201,3113792343,jalvarez@outlook.com,English,Asian,ALLSCRIPTS
+4ab389cf-78b0-4c2d-a4b5-07e03d9ef404,Christopher,Williams,U,1963-03-25,Male,9484,9668 Washington Blvd,Columbus,OH,43004,7567528734,christopher47@outlook.com,English,Two or More Races,CERNER
+b6038ddd-8b50-4f9c-8061-40d89a8e3fbd,Kimberly,Reyes,C,1990-04-28,Female,2717,8424 Pine St,Atlanta,GA,30301,7798753395,kimberly.reyes@protonmail.com,English,Two or More Races,CERNER
+776095f0-cf5b-4735-924c-a7ee60fc9f0d,Jack,Robinson,,1965-12-24,Male,5918,7696 High St,Columbus,OH,43004,,jackr@yahoo.com,Spanish,White,CERNER
+311523fa-6354-463e-b280-f754b17097b7,Maria,Wood,S,1992-07-11,Female,3651,6650 Broad St,Denver,CO,80201,6938181108,mwood@outlook.com,English,White,CERNER
+2da34015-561b-4a4c-9f35-47353ac79ca3,Joshua,White,,1999-05-27,Male,1938,3774 Spring St,Memphis,TN,38101,6938918844,joshua83@outlook.com,English,White,EPIC
+d16dcdfa-09ef-445c-8b53-c98f6febd865,Michelle,Moore,B,1970-01-12,Female,2949,6643 Meadow Ln,Denver,CO,80201,9369455644,michelle58@hotmail.com,English,White,EPIC
+f835c8e3-b618-48ff-bcb2-54ef90c3b48a,Paul,O'Brien,Y,1982-01-01,Male,8369,2748 Franklin St,Dallas,TX,75201,8108042127,paul.obrien@mail.com,English,White,CERNER
+614f8a29-a13c-475a-9685-37334c8810ac,Rosa,O'Sullivan,,1961-05-30,Female,8706,1926 Maple Dr,Denver,CO,80201,8177521019,rosa67@mail.com,English,White,CERNER
+73969566-ba1e-4328-85fd-51b2ce64f94d,Jin,O'Brien,L,1966-06-11,Male,9439,6972 Pine St,Houston,TX,77001,2854909908,jin.obrien@hotmail.com,English,Hispanic/Latino,EPIC
+3ebe183d-bca5-44e9-820a-cde3217f5360,Edward,Ruiz,N,1981-05-06,Male,4281,8784 Spring St,Cleveland,OH,44101,8966064337,edwardr@protonmail.com,English,Hispanic/Latino,CERNER
+e6ce8f9a-46e2-4347-b880-a5ac0b36c15f,Jean-Marie,Hall,M,1970-01-27,Other,1951,3765 High St,Boston,MA,02101,3024199328,jeanmarie.hall@icloud.com,English,White,MANUAL_ENTRY
+8b0c2dff-6936-4b69-b607-cd27ac16b11a,Daniel,O'Sullivan,,1962-03-08,Male,6075,9979 Oak Ave,Chicago,IL,60601,6108289536,daniel23@gmail.com,English,White,EPIC
+4900e5b0-3a39-48e8-b788-2bf313a986c6,Ebony,Torres,,1983-06-02,Female,3795,2777 Valley Rd Apt 245,Las Vegas,NV,89101,3612885520,ebony86@icloud.com,English,Hispanic/Latino,EPIC
+e96ca0d4-ab41-479a-aba2-e5395d3d3c11,Thomas,Lopez,X,1959-10-14,Male,4530,9935 Washington Blvd,San Diego,CA,92101,2044673867,thomas.lopez@yahoo.com,English,White,EPIC
+ed509e4e-b8c7-48ff-abed-0d16c0f094d7,Darnell,Allen,Z,2005-06-08,Male,7254,9227 Union Ave,Columbus,OH,43004,9946698548,darnell.allen@gmail.com,English,White,EPIC
+79d546c6-c859-4706-b775-ffb7bacf326d,Laura,Gray,Z,1991-07-12,Female,4314,4707 Maple Dr,San Diego,CA,92101,5502773924,laurag@icloud.com,English,Asian,CERNER
+55c01424-909e-42cc-8c1a-27bcaea18066,Keisha,Patel,,1941-12-12,Female,3387,3323 Park Ave,San Diego,CA,92101,9973092964,keisha.patel@protonmail.com,Tagalog,Hispanic/Latino,MANUAL_ENTRY
+d5b93279-3644-4316-83db-5956ef7ce872,Catherine,Richardson,S,1964-07-21,Female,3638,9449 Pine St Apt 819,Atlanta,GA,30301,7532339232,catherine.richardson@outlook.com,Spanish,Hispanic/Latino,CERNER
+1c909bd3-e727-4c2d-9b7e-7e70b54de160,Patricia,Gray,,1988-06-09,Female,5924,4255 Elm St,Las Vegas,NV,89101,6828276621,pgray@protonmail.com,English,Black/African American,ALLSCRIPTS
+2b2fa553-f7de-4909-8269-6c93287d4c6e,Juan,Scott,S,1962-12-13,Male,4422,3864 River Rd,Miami,FL,33101,3499563450,juan23@gmail.com,English,White,MANUAL_ENTRY
+dfa84d4a-add6-4fd7-89a3-a9611267ba07,Ebony,Morgan,Z,1961-08-03,Female,9210,9304 Oak Ave,Cleveland,OH,44101,2614205166,ebonym@yahoo.com,English,White,EPIC
+b2d8e78f-c4e4-4ef0-8e8d-2cd103c5e548,Angela,Hall,,1954-06-05,Female,9435,8822 Elm St,Detroit,MI,48201,5328899363,angela11@protonmail.com,English,White,CERNER
+21e232af-c1b5-4cc3-a81d-c4325d8eb31e,Carol,Brooks,K,1955-09-08,Female,9365,1169 Maple Dr Apt 234,Columbus,OH,43004,8684985382,carol35@mail.com,French,White,CERNER
+d7e4500a-1e74-463d-9898-668a30c0128b,Mei,Evans,,1971-12-08,Female,1311,2735 Market St Apt 66,San Antonio,TX,78201,6847611881,,English,Hispanic/Latino,ALLSCRIPTS
+9db1a952-be39-47e9-bf6f-91556ef0d0b2,Eric,Richardson,,1982-05-04,Male,6387,3758 Park Ave,San Jose,CA,95101,3293349630,ericr@gmail.com,English,Hispanic/Latino,CERNER
+fca66a01-b95c-4a1c-ae56-462dba0387b9,Anna,Peterson,W,1995-08-11,Female,9240,8577 Sunset Blvd,Charlotte,NC,28201,5556939841,annap@yahoo.com,English,White,EPIC
+33b1b489-9d2c-49c5-bc0a-1b21d9c3f477,James,Gutierrez,E,1980-10-10,Male,8767,8060 Jefferson Ave,New York,NY,10001,,jgutierrez@aol.com,English,Hispanic/Latino,EPIC
+15aa292a-decc-48f6-90a6-dbb0d5ff8ef1,Tyrone,Parker,F,1980-09-23,Male,1297,3925 Center St,Charlotte,NC,28201,9109015454,tparker@aol.com,English,White,EPIC
+b399a2dd-b5d9-4034-8e52-24daa95d73c5,Alejandro,Richardson,W,1997-05-17,Male,5253,2493 Oak Ave,New York,NY,10001,,arichardson@aol.com,Spanish,White,CERNER
+d8116cd6-6891-48e4-b582-917c4444c268,Joshua,Johnson,K,1999-07-19,Male,7597,520 Church St Apt 769,Baltimore,MD,21201,2574727429,,English,White,EPIC
+40d3901a-ba00-434c-a901-bbb8395bd0bf,Maria,McDonald,,1963-12-03,Female,7257,550 Washington Blvd,San Diego,CA,92101,7338814415,mmcdonald@aol.com,English,Asian,EPIC
+e83f4941-3354-487d-8edd-931da0602db0,Ebony,Thomas,,1983-03-09,Female,3568,3867 Sunset Blvd,Houston,TX,77001,,ethomas@yahoo.com,English,White,CERNER
+b931de2a-2dde-419d-8be9-bee3f1a5fc6b,Betty-Lou,Martin,C,1983-11-28,Female,1497,5545 Jefferson Ave,Memphis,TN,38101,,bettylou17@yahoo.com,English,White,MANUAL_ENTRY
+fa2f3665-8976-408f-90e4-3b9443c0edcd,Rachel,O'Neill,X,1967-10-07,Female,4107,647 Union Ave,Tampa,FL,33601,7559139029,,English,Hispanic/Latino,EPIC
+e5462f10-df89-4eb8-9445-b00410fc248c,Brenda,Van Der Berg,R,1955-01-19,Female,2539,4845 Lake Rd,Indianapolis,IN,46201,9948539289,brendav@outlook.com,French,Black/African American,EPIC
+5acee2f1-c86c-4297-8e9a-048297dc3599,Jasmine,O'Malley,Q,1987-01-15,Female,5285,5277 Cedar Ln Apt 675,Charlotte,NC,28201,,jasmine.omalley@outlook.com,English,White,CERNER
+f8c193d2-e863-47ad-9146-7adf246f6647,Dante,Chavez,V,1999-07-24,Male,9671,805 Broad St,Dallas,TX,75201,2134139051,dante.chavez@yahoo.com,English,Hispanic/Latino,CERNER
+ded66b31-74e9-4517-aab9-1b3c56ae636f,Catherine,O'Brien,T,1977-02-28,Female,1276,8512 Cedar Ln Apt 237,San Antonio,TX,78201,3943979621,catherine72@outlook.com,Chinese,White,ALLSCRIPTS
+3a5ae219-efdb-43b4-9a5b-6103261562c3,Yuki,Hughes,D,1972-01-12,Female,9010,8269 Church St,Columbus,OH,43004,8146536772,yuki48@icloud.com,Tagalog,Black/African American,EPIC
+f3f6e3eb-fb2a-4cf9-beb4-98a0baf33f01,Kathleen,Reed,M,1972-11-27,Female,7412,6506 Main St,Indianapolis,IN,46201,8102169480,,English,White,EPIC
+abfd6b46-1bce-472b-bfa9-c7969e762181,Benjamin,Williams,W,2010-11-07,Male,8376,9350 Forest Dr Apt 39,Nashville,TN,37201,3593415341,benjaminw@hotmail.com,English,White,CERNER
+0bc89c41-7076-40c9-83ef-8ba2766c6ff5,Sharon,Sanders,,1983-07-29,Female,9440,1563 Meadow Ln,Minneapolis,MN,55401,,sharon.sanders@mail.com,Korean,White,EPIC
+c2258d5e-644c-4673-abd9-a1c8d4fd24e7,Rosa,Van Der Berg,,1960-12-14,Female,9868,188 Sunset Blvd,St. Louis,MO,63101,5127361674,rvanderberg@outlook.com,English,White,CERNER
+ae1ce65f-6e3c-4c80-bf6b-8fb9a512c3ec,Helen,Long,Q,1962-09-20,Unknown,5507,7797 Forest Dr,Chicago,IL,60601,4682877529,hlong@outlook.com,English,Hispanic/Latino,EPIC
+14fe71bb-a7a4-4868-a315-edb0230d7b40,Dante,Sanchez,X,1967-07-14,Male,1173,7047 Church St,Dallas,TX,75201,3158877776,dantes@icloud.com,English,Hispanic/Latino,CERNER
+36d8d1ee-3438-4390-ba86-db33a97a7192,Carol,Hall,Z,1984-03-12,Female,3825,6125 Pine St,San Antonio,TX,78201,3159571893,carol.hall@outlook.com,English,Black/African American,ALLSCRIPTS
+ed4e7a38-636f-40f5-b2c2-8eaf339c8379,Wei,Williams,X,1973-07-05,Male,8952,4238 River Rd,Denver,CO,80201,3449111301,wwilliams@gmail.com,English,White,EPIC
+80c3f644-173b-4bfc-ad19-f76589c173c6,Anna,Miller,A,1955-05-07,Female,5901,1768 Main St,Cleveland,OH,44101,5954367237,anna41@yahoo.com,English,Hispanic/Latino,EPIC
+5e9017f6-7f79-4f62-878f-85574d0443be,Alejandro,Bailey,A,1968-03-18,Male,8673,5466 Union Ave,San Jose,CA,95101,5559006765,alejandrob@aol.com,English,Black/African American,EPIC
+f535914e-62a5-4ab0-8bf6-8f856e47f6c8,Michael,Bailey,H,1957-05-09,Male,6262,3727 Spring St,Denver,CO,80201,5198196395,mbailey@outlook.com,English,Hispanic/Latino,CERNER
+c16ccbfd-2423-48ac-a7a8-217e8a4f5813,Andrew,Flores,Q,1950-02-02,Male,2378,9255 Elm St,Detroit,MI,48201,9363214016,andrew.flores@outlook.com,Tagalog,White,ALLSCRIPTS
+cedeac4e-5ae7-4652-91a9-b4b8ea3764d3,Jose,Hill,U,1966-01-02,Male,3026,4373 Meadow Ln,New York,NY,10001,4374361427,jose18@protonmail.com,Spanish,Black/African American,EPIC
+4fd27f4c-4902-49df-ae5a-a8ba4801186b,Latasha,Stewart,,1980-12-27,Female,6694,246 Lake Rd,Atlanta,GA,30301,8874074351,,English,Black/African American,CERNER
+e62ff0c5-3df5-46eb-9a02-d6faa50e02e3,Alejandro,Del Rosario,,1979-09-23,Male,6457,9371 Meadow Ln,Las Vegas,NV,89101,9212399530,,English,White,ALLSCRIPTS
+8e86d8cf-a09c-440e-a5d7-14b0394a4377,Jamal,Gomez,B,1973-06-25,Male,0807,4771 High St,San Antonio,TX,78201,4926723727,jgomez@gmail.com,English,Black/African American,CERNER
+ec8b574b-2009-4602-890a-fa5fbbe5964a,Sandra,White,W,1990-10-19,Female,2930,9672 Highland Ave,Indianapolis,IN,46201,2924566309,sandra.white@outlook.com,English,White,CERNER
+9ee9e33e-41c1-48b0-ad3b-d8cfb400df77,Lisa,Ortiz,X,1980-07-17,Female,2619,9017 Market St Apt 175,Columbus,OH,43004,7798753459,,English,White,ALLSCRIPTS
+9b922980-b9c2-41ea-a6ee-fcbc1889d552,Brandon,Flores,O,1979-01-28,Male,0057,4147 Main St,Las Vegas,NV,89101,7562059084,brandon59@protonmail.com,English,White,CERNER
+98af79d1-21e3-4310-9438-dbfe3a75bc16,Marcus,Scott,R,1966-12-23,Male,,903 Sunset Blvd,Phoenix,AZ,85001,2338835889,marcus.scott@yahoo.com,English,White,EPIC
+d8b61156-fc1f-41b4-a850-cd35fee956f0,Dante,Powell,O,1977-03-18,Male,4903,6039 Market St,Austin,TX,73301,7632665797,dantep@yahoo.com,English,Hispanic/Latino,EPIC
+b8bc0bcd-e393-4fc9-9c99-b2c5d11515eb,Edward,Ward,,1990-06-14,Male,8666,7925 Franklin St,Chicago,IL,60601,9234947996,edwardw@icloud.com,English,Black/African American,CERNER
+3edd4b28-c7ef-485b-9d93-1aa87fb6ed3d,Keisha,Murphy,T,1974-12-28,Female,,7617 Sunset Blvd,New York,NY,10001,4128307793,kmurphy@icloud.com,English,Black/African American,EPIC
+2c984a8c-93d4-4124-9ebe-6f9a92414c6a,Thomas,Flores,R,1963-10-26,Male,1865,5461 Church St,Memphis,TN,38101,2293794178,thomas87@icloud.com,English,White,CERNER
+8cc25221-7d96-47e7-b995-c183bfd21dfe,Yuki,MacArthur,K,2003-03-02,Female,4904,5170 River Rd,Portland,OR,97201,9015396793,,English,White,ALLSCRIPTS
+81ece66b-0fea-4c9f-95ab-f7c11df8c271,Dennis,Watson,F,1969-06-19,Male,3070,1915 Jefferson Ave,Las Vegas,NV,89101,9262325448,dennisw@protonmail.com,English,White,EPIC
+2d98b22e-65b9-4b29-aa8b-a8f79787d65c,Mark,Mitchell,Y,1974-07-21,Male,,8193 Pine St Apt 946,Seattle,WA,98101,7365176363,,English,Hispanic/Latino,CERNER
+0242844a-d6f5-44c9-9dff-efb41b33b101,David,Collins,Q,1970-02-07,Male,,722 Valley Rd,St. Louis,MO,63101,5416781755,,Korean,Black/African American,CERNER
+a518b74a-f376-4a5e-b2ab-b32fe71c6e16,Brandon,Brooks,K,1972-07-08,Male,7227,1928 Lake Rd Apt 281,Memphis,TN,38101,8377739422,,English,White,CERNER
+34b8f349-8587-46fb-b4cc-5031df51a01b,Larry,Kelly,,1965-03-03,Male,5549,7269 Oak Ave Apt 483,Nashville,TN,37201,2513087284,,English,White,EPIC
+cba92ef5-a8fc-45d1-b7cc-9498d0ec3b18,Jo-Ann,Watson,W,1989-10-14,Female,8740,7630 Forest Dr Apt 833,Chicago,IL,60601,9156792593,jwatson@protonmail.com,English,White,ALLSCRIPTS
+cdca0cde-6b6e-48d3-886c-c878edc3cdbd,Janet,Gomez,,1971-05-02,Female,5320,7988 Main St Apt 116,Indianapolis,IN,46201,6723745624,janet.gomez@outlook.com,English,Asian,ALLSCRIPTS
+ef20a439-fcbd-48be-ada5-3ddd86b9979d,Christopher,O'Brien,O,1988-05-20,Male,2605,6289 Maple Dr,Seattle,WA,98101,8056418132,cobrien@icloud.com,English,Black/African American,CERNER
+96c9fc3a-b892-41d3-b9ec-3a344c26a60e,Mary-Kate,MacDonald,S,1966-06-07,Female,9094,7295 Elm St,Houston,TX,77001,8123117208,mmacdonald@gmail.com,English,Hispanic/Latino,MANUAL_ENTRY
+5a7dbca5-569d-41be-b932-c2f2f4be8b52,Mary,Long,,1965-09-21,Female,7326,3370 Valley Rd,San Antonio,TX,78201,8955118122,mary.long@icloud.com,English,Hispanic/Latino,EPIC
+2aa12eae-69db-4d3d-812c-1c64d8f06cf7,Justin,Davis,R,1962-03-13,Male,,5886 Cedar Ln,Nashville,TN,37201,4406427459,justin52@mail.com,English,Hispanic/Latino,EPIC
+7f93d7ee-3a23-420c-8e4c-84dd60e7ef86,Andrew,Harris,L,1971-04-29,Male,0190,258 Pine St,Chicago,IL,60601,6473392387,,English,Hispanic/Latino,ALLSCRIPTS
+89e4fca9-9655-4025-8c28-d181e2341e8f,Guadalupe,Richardson,,1983-07-18,Female,7373,5822 Park Ave Apt 620,Columbus,OH,43004,,guadaluper@hotmail.com,English,Hispanic/Latino,CERNER
+f7f00ec5-170f-4ad1-a221-8b19d82c410d,David,Reed,L,1962-04-21,Male,8624,4579 High St,Cleveland,OH,44101,8242905017,davidr@yahoo.com,English,White,MANUAL_ENTRY
+f02983e9-4c43-49d4-a010-eccabc858aaf,Patricia,Stewart,P,1964-06-19,Female,6897,4828 Hill St Apt 712,Jacksonville,FL,32099,9675115267,,English,Hispanic/Latino,EPIC
+843f93c0-bfcd-4099-b868-e7e4c03a749a,Justin,O'Neill,A,1977-07-21,Male,4552,2172 Meadow Ln,Dallas,TX,75201,2149592827,justin85@outlook.com,English,White,EPIC
+da3c0c9b-829b-419c-8af8-03a86a9ce772,Latasha,White,B,1969-10-14,Female,2376,2526 Union Ave,Las Vegas,NV,89101,5924438211,latashaw@outlook.com,English,Black/African American,EPIC
+b0a26289-e92a-4e52-bb04-a14450446ae9,Susan,Perez,P,1983-07-06,Female,6390,4303 Pine St,Seattle,WA,98101,4956597258,susanp@gmail.com,English,Black/African American,MANUAL_ENTRY
+e0bf25de-3143-4df1-b65d-8b8e7f2cc2de,Christine,Wright,,1953-02-20,Female,9571,7555 Jefferson Ave,Columbus,OH,43004,8888024193,christine.wright@outlook.com,Spanish,White,ALLSCRIPTS
+366f2dd9-cb4c-44aa-b6f3-afc1e7334bd0,Matthew,Ortiz,,1985-11-09,Male,0557,1507 Oak Ave,New York,NY,10001,4228132995,mortiz@yahoo.com,English,Black/African American,ALLSCRIPTS
+31803f64-3fa0-4835-ac18-ad2017cb186c,Melissa,Anderson,I,1972-11-07,Female,1240,7430 Lake Rd,Detroit,MI,48201,8839886298,melissa.anderson@yahoo.com,English,White,EPIC
+209e5ab5-53b5-493b-8ef3-6bb5256a7c87,Eric,Thompson,P,1966-09-19,Male,8061,2358 River Rd,Houston,TX,77001,8583088234,eric.thompson@yahoo.com,English,Hispanic/Latino,CERNER
+212ffbbc-8287-4f89-aeba-b6f93331a7ce,Jennifer,Murphy,,1977-05-13,Female,,6398 Lake Rd Apt 338,Los Angeles,CA,90001,7882039444,jennifer62@protonmail.com,English,Asian,ALLSCRIPTS
+79b69742-1cf7-454b-ba11-6877627bfd84,Aaliyah,Lewis,,1949-08-09,Female,8770,5881 Church St,St. Louis,MO,63101,8478622485,aaliyah11@icloud.com,Tagalog,Two or More Races,EPIC
+a7c37264-69a0-4626-92b8-356161ea0e3d,Marcus,Garcia,V,1983-12-28,Male,6391,1750 Sunset Blvd,Tampa,FL,33601,8476484104,,English,White,CERNER
+d530f519-3520-4dde-99dd-8b4596a45329,Latasha,Roberts,,1988-07-03,Female,7361,607 Church St Apt 807,New York,NY,10001,6153214468,lroberts@protonmail.com,Spanish,Hispanic/Latino,EPIC
+4778386d-d480-4361-b600-4dd59eb21ae7,Paul,Morales,P,1979-05-24,Male,,2139 Main St Apt 52,Baltimore,MD,21201,2996673796,paul.morales@yahoo.com,English,Hispanic/Latino,ALLSCRIPTS
+7e3d229c-8e6b-4e72-a997-f6fe4069ecd3,Ronald,Diaz,X,1981-04-19,Male,2250,3494 Jefferson Ave Apt 178,Austin,TX,73301,3234803314,ronaldd@outlook.com,English,White,EPIC
+ce6c5546-dfd4-45c3-b376-b681f13a3b1d,Elizabeth,Moore,,1987-05-15,Female,2584,7979 Maple Dr Apt 184,New York,NY,10001,9238675648,emoore@protonmail.com,English,White,CERNER
+ece82580-ca30-4700-93e8-b183a25d6125,Ana,Walker,T,1983-07-23,Female,1442,4935 Broad St,Detroit,MI,48201,3963209686,awalker@icloud.com,English,Two or More Races,CERNER
+1c047120-4c42-493e-8a44-1e31d55ae9a7,Richard,Harris,,1995-01-15,Male,7772,2889 Elm St,Seattle,WA,98101,,richard27@aol.com,English,White,CERNER
+9d90e92c-e838-47b4-b879-cfbd34f4da27,Yuki,Garcia,,1959-01-20,Female,7947,1902 Maple Dr,Denver,CO,80201,8067936340,yuki.garcia@icloud.com,English,White,EPIC
+9c45133e-3aba-4b1e-98c6-57c871bb1a15,Stephanie,Carter,C,1969-08-09,Female,0890,7142 Pine St,Tampa,FL,33601,3825967119,,Spanish,White,CERNER
+12e766e3-1f18-4ae7-8769-35140bf3e559,Juan,Nelson,,1978-01-26,Other,7627,6853 Elm St,Indianapolis,IN,46201,5028183568,jnelson@outlook.com,English,White,ALLSCRIPTS
+83abf8fb-6de7-46ee-b37e-23144aec5ae4,Sharon,Ramos,O,1980-11-13,Female,,4042 Park Ave,Charlotte,NC,28201,8053521083,sharon6@gmail.com,Spanish,Two or More Races,CERNER
+590552d0-8ff9-4a5a-94a2-fd500190e7c7,Carlos,Morris,W,1968-12-05,Male,0203,6663 Washington Blvd Apt 303,Baltimore,MD,21201,2922168860,carlos91@outlook.com,English,Asian,CERNER
+6b7d5c3b-e35b-4141-8c47-e0aa8aed11ed,Debra,Foster,,1990-04-07,Other,6068,7608 Highland Ave,Detroit,MI,48201,2725946454,debraf@aol.com,Spanish,Black/African American,CERNER
+db93fb40-c78b-40df-9f91-2664dd6b97a7,Lisa,Richardson,X,1959-04-30,Female,0844,6275 Broad St,Houston,TX,77001,,lrichardson@yahoo.com,English,White,EPIC
+62ce76a0-5103-4bb1-85b1-13912dcc33f0,Jin,Patel,S,1983-04-10,Male,3693,5779 Lake Rd,Austin,TX,73301,2552647108,jin.patel@protonmail.com,English,Asian,CERNER
+acf93143-aa65-4939-bb00-35791f73482d,Emma,Edwards,Z,1987-03-01,Female,7501,1314 Market St,Chicago,IL,60601,2783113699,eedwards@outlook.com,English,Hispanic/Latino,MANUAL_ENTRY
+bdec8a58-520c-4678-b60d-8c9d4c29b9de,Miguel,Mendoza,E,1996-08-01,Male,7272,352 Hill St Apt 23,Boston,MA,02101,4377326503,miguelm@icloud.com,English,Hispanic/Latino,CERNER
+183f0dd3-34c4-4729-8270-7d35729483ed,Destiny,Cruz,S,1959-01-13,Female,3715,6094 Hill St,Seattle,WA,98101,,dcruz@protonmail.com,Spanish,Hispanic/Latino,EPIC
+4c251336-d2f6-4152-818c-26ffe514e290,Brandon,Lee,,1957-03-20,Other,9413,7224 Lake Rd,Phoenix,AZ,85001,9242356192,brandon48@outlook.com,English,White,CERNER
+87480d25-796c-491f-a289-0e9d3d18ec28,Michael,Phillips,Y,1965-10-27,Male,8948,5428 Sunset Blvd,Denver,CO,80201,4969723409,michael.phillips@protonmail.com,Spanish,Hispanic/Latino,MANUAL_ENTRY
+dd985585-1143-4563-8e90-2b9d7ef31ece,Marcus,Anderson,M,1962-05-28,Male,7306,1516 Church St Apt 657,Jacksonville,FL,32099,7394275553,,English,Hispanic/Latino,ALLSCRIPTS
+07a0a7d0-b293-44bb-9df7-8b1c33c78286,Nancy,Rogers,P,1985-03-06,Female,5915,2424 Highland Ave,Columbus,OH,43004,5812125663,nancy.rogers@aol.com,English,Asian,ALLSCRIPTS
+033f3aef-b29a-4301-909b-1acbc388ee99,Rosa,O'Connor,F,1957-09-05,Female,6786,9621 Meadow Ln Apt 213,Phoenix,AZ,85001,7375432083,rosa.oconnor@mail.com,English,Black/African American,MANUAL_ENTRY
+d1689d0e-0369-4808-8a3d-664fdb96249b,Tyrone,Reyes,Y,1967-09-25,Male,8037,4948 Forest Dr,Los Angeles,CA,90001,6744291439,tyroner@outlook.com,English,Black/African American,CERNER
+420330f2-a181-4ec7-84a2-23c7fcdeb758,Pamela,Turner,,1981-04-17,Female,0466,4542 Union Ave,Houston,TX,77001,,pamela73@protonmail.com,English,Black/African American,CERNER
+e9d1d736-99a5-400f-a10c-0558c1deccac,Jacob,Mitchell,S,1964-06-15,Other,5237,2220 Broad St Apt 280,Indianapolis,IN,46201,8515641798,jmitchell@yahoo.com,Korean,Black/African American,EPIC
+be2e06d3-3545-4653-9ebb-2c75c629cf0c,Kevin,Cooper,K,1974-04-21,Male,4447,5940 Cedar Ln,Memphis,TN,38101,3472133243,kevin63@icloud.com,English,White,EPIC
+705520e4-0fe5-45cc-8c55-af924a26f67c,Jeffrey,McDonald,,1959-07-15,Male,9029,1868 Spring St,Baltimore,MD,21201,,jeffreym@gmail.com,English,Black/African American,EPIC
+faefd7b3-15a3-4fcf-beb3-57034a0ecf7d,Betty-Lou,Gutierrez,K,1989-01-04,Female,0471,1944 Park Ave Apt 711,Boston,MA,02101,4325143053,bettylou.gutierrez@yahoo.com,English,White,ALLSCRIPTS
+50647b6e-f4ac-43ed-9179-ebfc382361ef,Elizabeth,Sanchez,,1972-03-07,Female,4145,1086 Hill St,Los Angeles,CA,90001,3268164365,elizabeths@hotmail.com,English,White,EPIC
+9acf3ef7-45ff-4db2-99dc-2d79749648c7,Brenda,Howard,F,1993-07-19,Female,3962,9343 Maple Dr Apt 593,Denver,CO,80201,7414224138,brenda.howard@outlook.com,Spanish,White,MANUAL_ENTRY
+5b27e5c3-c13b-4524-ab9d-688f02c4b22b,Fatima,Campbell,F,2011-12-26,Female,6219,3511 Center St,Charlotte,NC,28201,5213268633,,English,Hispanic/Latino,ALLSCRIPTS
+1292b51a-5a37-41b3-80f1-9a7e75b6699f,Imani,Castillo,,1962-10-24,Female,6304,7487 Meadow Ln,San Jose,CA,95101,6544317672,imani.castillo@mail.com,English,Black/African American,EPIC
+295d6ec0-c6b0-4121-909e-15e8e7d1733f,Hiroshi,Gray,,1997-02-16,Male,6468,9676 Cedar Ln,Columbus,OH,43004,3722666959,hiroshi26@icloud.com,English,White,ALLSCRIPTS
+36c7ebe9-fa59-4cbc-8c7b-fe04ffca6d3d,Brenda,Ross,S,1967-06-09,Female,6557,7796 Valley Rd,Jacksonville,FL,32099,6967235569,,English,White,EPIC
+f570e623-2940-4b7d-98ed-666fb81efe83,Cynthia,Watson,A,1972-03-03,Female,0438,6270 Meadow Ln,Philadelphia,PA,19101,8368382578,cwatson@protonmail.com,English,Black/African American,CERNER
+0a31aaf5-46d5-4f31-9190-e68d5152199c,Aaliyah,Baker,R,1973-07-01,Female,,518 Spring St,Atlanta,GA,30301,6605227165,abaker@gmail.com,English,Black/African American,ALLSCRIPTS
+62dc10ec-50e6-405b-9cf7-31483ac61a36,Kevin,Morales,J,1980-02-08,Male,8037,9074 Valley Rd,Memphis,TN,38101,7753609301,,English,Hispanic/Latino,CERNER
+82d233fc-f9fc-4561-8239-4e80d3eac0ae,Alexander,Foster,K,1993-03-01,Male,,2101 Broad St,Los Angeles,CA,90001,2279836591,alexanderf@mail.com,English,White,EPIC
+d6d65658-130d-4d77-b022-9ae768ce8209,Jacob,Chavez,C,1971-11-02,Male,2781,8822 Church St Apt 674,New York,NY,10001,7817277900,jacob.chavez@protonmail.com,English,White,CERNER
+b7a65f03-8aab-4c65-a2f4-2c16c9939ed2,Matthew,O'Neill,W,1978-04-25,Male,8138,5564 Elm St,Denver,CO,80201,6464069142,moneill@yahoo.com,English,White,EPIC
+60dd787a-2564-47d5-829e-f7ce8ff2d908,Sharon,O'Connor,,1976-06-13,Unknown,5518,1103 Forest Dr,Dallas,TX,75201,4145552256,sharono@aol.com,English,Black/African American,CERNER
+d50ad8fd-3b49-47b1-a406-1dcf0e7b8c3b,Juan,Allen,O,1982-04-26,Male,2958,305 Sunset Blvd,Tampa,FL,33601,7907114489,juan35@protonmail.com,English,Asian,CERNER
+b69c2a8a-c1d3-42b4-a24e-2587c892f2ae,Janet,Reyes,,1962-11-07,Female,6721,1056 Sunset Blvd,Austin,TX,73301,4938613631,jreyes@hotmail.com,English,White,EPIC
+d012f5ff-1b5f-45f9-8367-b820a24563ae,Brandon,Reyes,N,1957-09-06,Male,0606,2611 Lake Rd Apt 265,San Antonio,TX,78201,4848743883,brandon93@gmail.com,English,White,ALLSCRIPTS
+87137c5d-090b-4543-b44f-07e62e16495e,Scott,MacArthur,,1945-05-05,Male,1479,2303 Park Ave Apt 753,Columbus,OH,43004,3237349605,scott.macarthur@yahoo.com,Korean,White,EPIC
+c2860210-6cd2-4aca-8de0-e08d02c72ce4,Heather,O'Neill,H,1984-08-30,Female,1750,3508 Lake Rd,Philadelphia,PA,19101,8032579034,heather41@yahoo.com,English,Black/African American,EPIC
+138f46c1-1278-4c00-86d1-dacd869ff87f,Paul,Campbell,L,1974-05-31,Male,,896 Highland Ave,Boston,MA,02101,4597657302,paul.campbell@icloud.com,English,White,ALLSCRIPTS
+bfe2c00e-7936-417a-9082-52cb6e6f61c0,Carlos,Allen,Y,1978-12-06,Male,2625,7191 Sunset Blvd,St. Louis,MO,63101,8596161555,carlos63@yahoo.com,Spanish,White,MANUAL_ENTRY
+c25ad0a3-3354-449e-bc37-2fd01ff303ea,Luis,De La Cruz,D,1965-07-23,Male,6895,8974 Franklin St,Las Vegas,NV,89101,9802534010,luis1@outlook.com,English,Black/African American,EPIC
+bf2cc80b-f0e7-4ec9-af45-d2ad435b5892,Sandra,Lee,,1996-05-03,Female,9732,6723 Church St,Memphis,TN,38101,3364663842,slee@icloud.com,English,White,EPIC
+77e351ce-c300-44dd-8ed2-e5baac509efd,Dennis,McDonald,H,1972-06-25,Male,3747,1458 High St Apt 719,St. Louis,MO,63101,2506108027,dennism@outlook.com,English,Hispanic/Latino,EPIC
+49ce091f-2d5d-4401-ae64-287283f19e3e,Carmen,Foster,O,1975-04-27,Female,3677,3329 Washington Blvd,Baltimore,MD,21201,4724949096,cfoster@mail.com,English,Asian,CERNER
+01fbd02e-1142-461c-97aa-84261f0f6096,Jose,O'Brien,,1978-05-24,Male,4068,9551 Valley Rd,Jacksonville,FL,32099,,jose89@icloud.com,Spanish,White,CERNER
+46bbe689-a578-417b-99f1-26ebc0d45fd7,Betty-Lou,Allen,,1964-06-27,Female,5453,3848 Union Ave,St. Louis,MO,63101,8868121745,,English,Black/African American,EPIC
+4ccd0f76-dac2-4c1f-b214-fd3c2f49c10f,Donna,Taylor,R,1967-01-12,Other,5557,7670 Pine St Apt 728,Tampa,FL,33601,3454662914,donnat@outlook.com,Chinese,White,MANUAL_ENTRY
+56299486-c7c8-41e7-b628-8e61a47c50fe,Eric,Ward,I,1973-07-16,Male,2703,8050 Jefferson Ave,Austin,TX,73301,8738518208,,English,White,EPIC
+f9d4964b-4c59-47d1-8b40-19b44dae5f9b,Eric,Lee,N,1952-08-01,Male,,9190 Union Ave,Jacksonville,FL,32099,9373513025,elee@hotmail.com,English,Asian,CERNER
+2d1abf21-8412-443c-bf8f-4e81cf6d3a8b,Malik,Ramirez,A,1954-07-16,Male,2958,1259 Park Ave,Charlotte,NC,28201,5362265657,malikr@yahoo.com,English,White,ALLSCRIPTS
+3c3bf3f8-9c1f-4051-bd43-b0cca00518b2,Charles,Collins,V,1996-11-14,Male,0095,719 Sunset Blvd,Austin,TX,73301,9499513118,charlesc@gmail.com,English,White,CERNER
+0d024ec0-cab2-4060-819b-eb4404b9a2b2,Maria,Lopez,F,1973-12-05,Female,6535,337 Washington Blvd Apt 799,Chicago,IL,60601,8629703525,,English,White,CERNER
+7a7b9c86-6879-470e-9ecd-fc39ac52636d,Dorothy,Rivera,L,1993-09-15,Female,9225,6932 Maple Dr,Las Vegas,NV,89101,8283908112,dorothyr@yahoo.com,English,Black/African American,EPIC
+bfa6e084-0e29-4e78-8697-88b1382e243e,Donna,Murphy,U,1977-07-11,Female,7671,1298 Union Ave,Charlotte,NC,28201,9005075073,donna.murphy@aol.com,English,White,MANUAL_ENTRY
+f800f213-bb81-48a9-b7ed-600514641efe,Shaniqua,Diaz,O,1986-11-25,Female,9593,8249 Main St Apt 678,Chicago,IL,60601,3866021741,,Spanish,White,EPIC
+ae72e78c-a0d8-4421-8031-dd0c33b93755,Mei,Richardson,K,1992-12-27,Female,1281,9897 Lake Rd,Boston,MA,02101,7472181095,mei22@gmail.com,English,Black/African American,EPIC
+4fdce323-5177-4abd-97a1-80143f5ed374,Latasha,Hill,T,1990-04-14,Female,4958,2050 Pine St Apt 115,Chicago,IL,60601,9123921439,lhill@outlook.com,English,Black/African American,ALLSCRIPTS
+2683e786-35b8-4455-8ba0-f392ade57d88,Nancy,Hill,E,1958-08-11,Female,1908,2498 Franklin St,Philadelphia,PA,19101,6822208364,nancy38@hotmail.com,English,White,EPIC
+38b110f5-ea9b-4f6e-97af-fee79f0c53a1,Carmen,Turner,X,1997-11-03,Female,,7965 Center St,Columbus,OH,43004,8946994799,carment@gmail.com,English,White,EPIC
+efe66cea-c28a-482b-a91f-b5d66458ad47,Fatima,Anderson,U,1987-10-08,Female,7147,2644 Hill St,New York,NY,10001,6484379317,fatima78@icloud.com,English,White,CERNER
+6f5e8d09-113d-4623-b8c4-423f43805996,Miguel,McDonald,U,1979-01-13,Male,4627,1413 Valley Rd,Baltimore,MD,21201,3608209063,,English,Hispanic/Latino,EPIC
+ba15ba25-1473-4564-b2ff-436ee9338e62,Richard,Williams,I,2002-09-29,Male,2862,8249 Oak Ave,Minneapolis,MN,55401,3168324714,,English,Hispanic/Latino,EPIC
+fa50a8a8-6125-47ba-8ca7-b89f87c993c6,Alexander,Foster,,1968-01-21,Male,8444,1707 Highland Ave Apt 969,Las Vegas,NV,89101,6689732817,alexander.foster@yahoo.com,English,White,EPIC
+6678b3e1-20ce-4161-b1cd-00c1d21ec038,Edward,Campbell,,1984-11-05,Male,8288,1627 Pine St,Seattle,WA,98101,3413254307,edward.campbell@mail.com,English,Hispanic/Latino,EPIC
+9ba42776-69d0-4af2-bfb7-7d2530859c62,Lisa,Wright,Y,1994-11-27,Female,8677,3739 Pine St,Charlotte,NC,28201,6196699456,lisa4@icloud.com,English,Two or More Races,EPIC
+83af8a47-46f0-457a-a3df-527669542cd4,Sarah,Hernandez,M,1966-01-14,Female,6443,608 Valley Rd,Atlanta,GA,30301,7882599516,sarahh@mail.com,Spanish,Asian,EPIC
+e36d2315-5b58-4398-a734-72a7d956ef54,Stephen,Ortiz,E,1981-12-20,Male,7244,5657 Sunset Blvd,Baltimore,MD,21201,5082861605,sortiz@mail.com,English,Hispanic/Latino,EPIC
+875118d3-af79-4158-b101-b1a0fa4e02bd,Marcus,Flores,Y,1991-05-12,Male,0456,8847 Forest Dr,Tampa,FL,33601,5119437926,marcus.flores@yahoo.com,English,White,CERNER
+11310e6a-d594-4481-a16c-e3a3065299ce,Richard,Long,D,1995-03-30,Male,3868,9529 Forest Dr,Miami,FL,33101,8817464831,rlong@aol.com,Spanish,White,CERNER
+0f51e62d-3ab1-492a-b6db-ae43e91bdfa4,Samuel,Gutierrez,Y,1969-10-05,Male,2401,6975 Spring St Apt 64,Baltimore,MD,21201,3336874519,samuel87@icloud.com,English,Hispanic/Latino,CERNER
+c80f16e2-36de-48d6-8638-6b4c69695398,Eric,Howard,N,1953-08-04,Male,6830,2669 Pine St,Minneapolis,MN,55401,6683329408,ehoward@yahoo.com,English,Hispanic/Latino,EPIC
+ff7cbdd5-b989-4fe9-9d49-9d6cc5ceb558,Tyrone,Mitchell,D,1976-06-01,Male,1807,6056 Forest Dr,Houston,TX,77001,3205805995,tyrone38@aol.com,English,White,EPIC
+c8e2cda1-25eb-4ce5-b175-2ca80e16750d,Susan,Flores,G,1966-04-07,Female,5712,733 Spring St,Chicago,IL,60601,6635457181,sflores@outlook.com,English,Black/African American,CERNER
+1f9ee323-e8f5-4a47-82f9-6d21d7ff8b45,Rafael,Martin,K,1954-02-25,Male,6711,3815 Market St,Columbus,OH,43004,,rafaelm@protonmail.com,English,White,ALLSCRIPTS
+fb9dbe0f-9a9b-4fb6-b596-57cf45032e27,Mary-Kate,Watson,W,1983-05-10,Female,3152,8878 Forest Dr,Las Vegas,NV,89101,7343938796,mwatson@gmail.com,English,White,ALLSCRIPTS
+0c7f7d0d-73c6-4741-8b22-5b4b07e4db69,Malik,Cruz,,1955-07-12,Male,6583,738 Union Ave,Portland,OR,97201,,malikc@mail.com,English,White,EPIC
+3c8423b9-1bc7-4dd6-93ed-f48f2ed01724,Keisha,Perez,,1966-01-20,Other,6672,2773 Oak Ave,Memphis,TN,38101,2279301958,kperez@yahoo.com,English,White,EPIC
+eb1dd09f-52dd-4625-aec5-ca9b573e8efc,Ashley,Miller,,1952-06-10,Female,8076,8265 Market St,Denver,CO,80201,5256757669,,English,White,CERNER
+ac16e5eb-6743-4919-bac4-4d8c482f4ad1,Jennifer,Wright,S,1981-06-24,Female,2057,9311 Spring St,San Jose,CA,95101,7124083332,jennifer32@outlook.com,English,White,EPIC
+495a80b4-d96a-4506-ae88-597258245e7e,Emma,Wood,A,1987-03-04,Female,7900,9796 Lake Rd,Dallas,TX,75201,5598474485,ewood@aol.com,Spanish,Hispanic/Latino,CERNER
+28c670b2-3318-4873-a3d9-29c3de9cbd8e,Carlos,Hughes,,1963-11-17,Male,3454,8271 Church St,Las Vegas,NV,89101,8504678417,chughes@icloud.com,English,Hispanic/Latino,EPIC
+11e12774-74f5-46c3-86f9-0d98afa21c41,Kimberly,Chavez,T,1961-08-09,Female,,2844 Spring St,New York,NY,10001,7009807435,kimberly.chavez@yahoo.com,Spanish,White,CERNER
+70c1c14b-2ae8-4363-87bb-5422c22defec,Dennis,O'Sullivan,M,1964-04-17,Male,2044,6070 Washington Blvd,Indianapolis,IN,46201,2209765606,dennis.osullivan@icloud.com,English,Black/African American,EPIC
+5ac797e1-9110-47d7-9ab3-7ce7e6817e45,Cynthia,Murphy,B,1952-11-19,Female,9929,117 Washington Blvd,San Antonio,TX,78201,3134849197,cmurphy@hotmail.com,English,Hispanic/Latino,EPIC
+2f2c0413-067b-463f-bda4-501bd24ace2f,Eric,Reed,Q,1977-04-23,Male,,8732 Meadow Ln,Baltimore,MD,21201,6642027997,eric42@gmail.com,English,White,EPIC
+97f75bf5-be4d-4a82-9caf-45702b028f6f,Keisha,Campbell,B,1987-12-10,Female,,6883 River Rd,St. Louis,MO,63101,,,English,Hispanic/Latino,ALLSCRIPTS
+6437c608-bcd9-42e7-8252-dc56667cb988,Rafael,Ruiz,C,1967-10-22,Unknown,1584,7864 Spring St,New York,NY,10001,8415425102,rafaelr@protonmail.com,English,White,CERNER
+283327c2-bad9-4b93-aff3-906fc9d675ae,Christopher,Jimenez,O,1981-02-15,Male,9485,1402 Oak Ave,Houston,TX,77001,9102663089,,English,White,EPIC
+823f394f-5e61-41a9-aff1-361cc9ee970b,Sarah,Wilson,R,1948-09-19,Female,6735,9824 Valley Rd,San Diego,CA,92101,6756382659,sarahw@gmail.com,English,White,EPIC
+93bc8f51-c07a-4282-a177-93f300558f6c,Thomas,Ramos,G,1966-06-19,Male,8337,5823 Spring St,Dallas,TX,75201,3904483255,thomasr@gmail.com,English,White,CERNER
+c591ce2d-c050-4f45-ab3e-f66e9f5dae39,Carolyn,Flores,R,1974-10-30,Female,4768,133 Center St,Jacksonville,FL,32099,2584439308,carolynf@gmail.com,English,White,CERNER
+efce6ed0-ad81-4567-ac42-395a95caab20,Thomas,Baker,,1984-08-03,Male,7657,5426 Forest Dr,Las Vegas,NV,89101,5066286384,,English,White,CERNER
+b6f935a9-d11d-42c8-aab0-91bcbb80ee66,Laura,Ruiz,,1983-10-17,Female,6158,6559 Elm St,San Antonio,TX,78201,,,English,White,CERNER
+397e079c-f6d4-4a4a-9a23-274b1fe5d817,Pedro,Harris,Y,1983-10-02,Male,,3263 Washington Blvd,New York,NY,10001,4689363855,pharris@hotmail.com,English,White,ALLSCRIPTS
+b5daa596-a0a0-48ca-81ee-d30e49c5955f,Jennifer,McDonald,M,1993-10-10,Female,4998,3935 Broad St,Indianapolis,IN,46201,7398388106,jmcdonald@yahoo.com,English,White,EPIC
+204486c2-cb67-4894-bfc4-e6a8a5d8f13d,Jack,Green,U,2001-11-25,Male,9622,8774 Hill St,San Antonio,TX,78201,2548445588,jack.green@protonmail.com,English,Black/African American,CERNER
+7a7b100e-b6e8-4180-982d-6903df0f4065,Jerry,Long,Y,1993-08-07,Male,6125,7919 Highland Ave,Denver,CO,80201,7956101599,jlong@hotmail.com,English,White,EPIC
+c0ab6da3-e778-413c-8dca-75173e213f67,Mary-Kate,Lee,L,1977-11-26,Female,2200,1377 Hill St,Atlanta,GA,30301,7972428622,marykate55@icloud.com,English,White,EPIC
+04f2b623-647e-4937-8d41-c2ff38eeaa56,Samantha,Wright,F,1988-02-24,Female,1350,8221 Center St,San Jose,CA,95101,,samantha.wright@hotmail.com,English,White,EPIC
+4ca16917-7b39-4249-9a1e-b4cd31e742bd,Ronald,Gray,J,1971-04-23,Male,3123,9897 Pine St,Baltimore,MD,21201,9577565278,,English,White,ALLSCRIPTS
+76273101-3865-4b25-8782-6bddc388583d,Mary-Jo,Phillips,Y,1985-07-15,Female,2445,6513 Park Ave,Cleveland,OH,44101,6854399451,maryjo93@protonmail.com,English,White,EPIC
+c1113fc0-9c30-4c3e-a60b-802c20fefd09,Miguel,Clark,R,1991-03-18,Male,9461,2103 Hill St,Cleveland,OH,44101,,mclark@icloud.com,English,White,CERNER
+56bfa54a-ee72-4006-aa1c-c5d01bac1e08,Jamal,Hill,A,1980-01-24,Male,5410,9880 Meadow Ln,Portland,OR,97201,5904097400,,English,White,CERNER
+6404f01d-1c4e-4e92-a4f3-084766d330fc,Rafael,Brooks,C,1978-01-08,Male,9058,526 Highland Ave,Philadelphia,PA,19101,,,English,White,EPIC
+44580825-16b7-4262-923c-9fd41a15813a,Terrence,Rodriguez,L,1985-09-05,Male,1814,8790 Spring St,Phoenix,AZ,85001,,trodriguez@hotmail.com,English,White,ALLSCRIPTS
+d09bdac6-4d36-47ed-89c5-d4b070d4af24,Michelle,Cox,J,1977-06-09,Female,7519,3305 Main St,Dallas,TX,75201,6088195044,michelle59@protonmail.com,English,White,CERNER
+3b4fe6e6-6968-43d1-ab45-917a609e8144,Alejandro,Hall,W,1973-01-07,Male,2942,7080 High St,Tampa,FL,33601,9157822565,ahall@gmail.com,English,Black/African American,CERNER
+7eafb751-94de-4746-8f90-9262c83a4e1e,Sarah,Hughes,G,1990-07-24,Female,9057,6042 Maple Dr,Houston,TX,77001,9985337719,sarah.hughes@aol.com,English,White,EPIC
+c3145f4f-d2ca-470d-8505-4d74b1f57726,Priya,Carter,M,1967-04-03,Female,2236,7607 Union Ave,Austin,TX,73301,,priya18@protonmail.com,English,White,EPIC
+a6fa24fd-c1f3-41dc-bfb6-7b4e038555a4,Matthew,Thompson,,1987-07-04,Male,2759,184 Valley Rd,Chicago,IL,60601,3824211564,matthew.thompson@hotmail.com,English,Hispanic/Latino,CERNER
+b5b719b9-e2d3-46c4-87f8-ebe9e91dafe2,Margaret,Roberts,O,1974-09-25,Female,4091,3909 Washington Blvd Apt 432,Jacksonville,FL,32099,,,English,Black/African American,CERNER
+93039ecb-5e41-493a-bec2-c8304a5101dd,Matthew,O'Connor,V,1976-01-11,Male,0721,8397 Cedar Ln,Charlotte,NC,28201,8413944393,matthew.oconnor@mail.com,English,White,EPIC
+e6db444e-deb7-4305-9f35-e1f5d1ec2314,John,Phillips,A,1989-02-28,Male,4562,6046 Oak Ave Apt 224,Detroit,MI,48201,9858139185,jphillips@yahoo.com,English,White,CERNER
+bca6d5bf-b248-49a3-b9a8-07a919bcc3cf,Deborah,Gray,Y,1965-04-18,Other,2872,5210 Valley Rd,Detroit,MI,48201,8237998354,deborah.gray@hotmail.com,English,White,CERNER
+48086c0c-9167-411f-8bfb-847b94637906,Helen,Walker,Y,1976-01-26,Female,4859,2485 Market St,San Antonio,TX,78201,,helenw@protonmail.com,English,White,EPIC
+577656af-4431-40ce-8b36-ae26f1bb6443,Elizabeth,Gutierrez,N,1969-05-11,Female,0388,5428 Church St,San Diego,CA,92101,8804544644,elizabethg@mail.com,English,White,CERNER
+3b7089f6-d670-4205-bccc-65fa2486f79e,Hiroshi,Rodriguez,B,1981-12-21,Male,2845,8993 Washington Blvd,Portland,OR,97201,,hrodriguez@aol.com,English,White,EPIC
+ca10182b-8725-4882-a47c-5dca3f43806e,Larry,Kelly,U,1982-12-22,Male,7883,5892 Market St,Chicago,IL,60601,6327178101,larry3@protonmail.com,English,White,ALLSCRIPTS
+0b851852-91a6-41b3-a3e9-59799269950e,Betty-Lou,Morgan,,1977-08-11,Female,4640,9211 Meadow Ln,Columbus,OH,43004,9326804206,,English,White,EPIC
+93f803b8-3cad-4514-8fb0-be0f4677e96c,Catherine,Morales,N,1987-09-13,Female,6113,8021 Hill St,Columbus,OH,43004,6182393039,catherine25@outlook.com,English,Two or More Races,MANUAL_ENTRY
+43bcf59f-f88d-4811-bcd6-cb02fdc2f181,Shaniqua,Price,W,1979-09-20,Female,4043,7828 Oak Ave,San Diego,CA,92101,9238921462,shaniqua34@outlook.com,Spanish,White,EPIC
+07bbadb6-0d52-46d0-af92-8e5e2e11e624,Michelle,Johnson,,1973-02-18,Female,6297,9604 Maple Dr,Columbus,OH,43004,6333697993,michelle65@aol.com,English,White,CERNER
+279c208b-befb-474c-a26d-06229a80df70,Nancy,Wilson,Y,1967-11-22,Female,6520,5048 Main St,Baltimore,MD,21201,2012992144,nancy68@mail.com,English,White,CERNER
+4ecc09d8-5f31-47e5-a899-cc494e25a979,Jack,White,G,2002-07-24,Male,1806,9292 Washington Blvd Apt 61,Indianapolis,IN,46201,9773965249,jack.white@mail.com,English,White,EPIC
+ec56b29e-bc86-47c3-88d6-f0f8f0099d32,Donald,Scott,,1965-08-03,Male,1651,1001 Lake Rd,New York,NY,10001,,dscott@gmail.com,English,White,EPIC
+2f671fb1-aa1f-4e65-9e92-008197731ca5,Anna,Morales,K,1973-06-01,Female,6074,5621 Church St,Memphis,TN,38101,8816087200,anna.morales@icloud.com,English,Hispanic/Latino,ALLSCRIPTS
+fb03e628-d7d0-4ce0-8bc9-ec7d5094d3ba,Andrew,Brown,Q,1980-11-28,Male,7785,6769 Valley Rd Apt 654,Denver,CO,80201,5292176901,andrew87@icloud.com,English,Black/African American,CERNER
+f47f5f38-e7a5-44b3-b439-afed636dd890,Lisa,Hall,P,1953-05-09,Female,1645,6306 Hill St,Boston,MA,02101,7327859267,,English,White,EPIC
+ae0da6cf-defe-4ecc-9c94-2d1edf888542,Destiny,Van Der Berg,O,1959-07-08,Female,3467,1466 Cedar Ln,Philadelphia,PA,19101,3645347283,destinyv@hotmail.com,Spanish,Hispanic/Latino,MANUAL_ENTRY
+63de80da-e4df-4282-a5d3-d81ce2e9208d,Kimberly,Morgan,P,1981-02-17,Female,5452,3667 Forest Dr,Cleveland,OH,44101,8595517176,kimberly84@mail.com,English,White,EPIC
+87be9bc1-9755-43af-b3cb-3789bfd2c96b,Mark,Lopez,S,1954-02-11,Male,2087,5135 Market St,Cleveland,OH,44101,,,English,White,ALLSCRIPTS
+666ce3ad-7c62-4218-a79d-7933a339d437,Susan,Foster,V,1986-01-29,Other,9856,3640 Cedar Ln,Portland,OR,97201,6715233370,susan29@aol.com,Spanish,Hispanic/Latino,EPIC
+9035290a-7b20-4e3c-842c-c5ede4407619,David,Kim,Q,1968-04-11,Male,3534,4776 Highland Ave,Seattle,WA,98101,,dkim@outlook.com,Spanish,White,CERNER
+1872cb21-46dc-4732-a6fe-9708b7a0fb47,Brian,McKenzie,M,1976-11-03,Male,2608,8978 Market St,New York,NY,10001,5569757412,bmckenzie@aol.com,Spanish,Hispanic/Latino,EPIC
+4c19b724-d298-48a6-bda9-28a3f7653f10,Malik,MacArthur,W,1983-06-13,Male,7904,2373 Washington Blvd,San Jose,CA,95101,9528661149,mmacarthur@yahoo.com,English,White,CERNER
+87202c1f-e7e0-4bb0-ac78-48121bcfb520,Joseph,Gonzalez,P,1956-01-10,Male,1922,5546 Forest Dr,Denver,CO,80201,9396135014,,English,White,CERNER
+579df759-0f1e-4916-8142-c61bad71c29f,Amanda,Wood,Y,1985-05-01,Female,7596,6261 Lake Rd,Cleveland,OH,44101,2113222910,,English,Black/African American,CERNER
+82df81f1-04b0-418c-8be3-e5bf1050bfdd,Jennifer,Ramos,S,2000-07-28,Female,1549,9714 Elm St,Miami,FL,33101,9196445888,jennifer.ramos@yahoo.com,Spanish,Hispanic/Latino,EPIC
+6bf3b09a-5f20-45c8-88c4-501a40e9553c,Jennifer,Gomez,R,1973-03-05,Female,9580,2034 Jefferson Ave,Nashville,TN,37201,3203853948,,English,White,EPIC
+3836ebe3-954f-4197-adc9-e6fa54deac63,Edward,Wood,,1994-06-18,Male,0573,2044 Center St,Chicago,IL,60601,3756331001,edwardw@gmail.com,English,Hispanic/Latino,EPIC
+4f5b5695-a76e-46ed-8a32-3d56666ac531,Samantha,Gutierrez,L,1990-04-15,Female,0732,602 Washington Blvd Apt 877,San Diego,CA,92101,3378164539,samantha17@aol.com,English,Hispanic/Latino,EPIC
+8551509e-fb7b-4048-b073-e97661c876be,Kenneth,Phillips,I,1987-04-22,Male,2346,3339 Maple Dr,Nashville,TN,37201,8489134156,kphillips@outlook.com,English,White,EPIC
+07abeb56-9422-46d6-b997-f601322fff7f,Amy,Martinez,,1998-09-04,Female,1457,5465 Jefferson Ave,Jacksonville,FL,32099,4314801161,,English,White,MANUAL_ENTRY
+b4b2ebd7-0128-4705-a52a-4f6366a2fec6,Ashley,Thompson,J,1980-06-07,Female,8021,8667 Broad St,Houston,TX,77001,7644772623,ashley41@outlook.com,English,White,ALLSCRIPTS
+c8920764-f293-4f1e-842b-e371725a7bc6,Jasmine,Peterson,M,1984-03-30,Female,2547,2071 Pine St,Memphis,TN,38101,2549427064,jasmine87@hotmail.com,Spanish,Hispanic/Latino,EPIC
+087b2bda-f7c7-4567-a591-678a243f6c91,Rachel,Cook,,1974-08-30,Other,3748,1425 Hill St,San Jose,CA,95101,2928492302,,English,White,EPIC
+978be23a-a566-45d7-9b51-3edbec77fe66,Larry,Peterson,Z,1948-09-07,Male,2235,8157 Center St,Seattle,WA,98101,7459143042,larry.peterson@hotmail.com,Spanish,White,CERNER
+7ab35517-374a-4ad7-9d9f-4b803ff9be7d,Amy,Patel,Q,2003-04-14,Female,9951,2762 Valley Rd,Indianapolis,IN,46201,4303792230,amyp@outlook.com,English,White,CERNER
+c5a0ce91-91e7-4bc3-a3a7-5b57608fc71d,Mark,Baker,H,1962-02-08,Male,7915,4338 Washington Blvd Apt 647,San Jose,CA,95101,4225129446,mark60@gmail.com,English,White,EPIC
+84d26e4a-58be-447e-850b-02fa1a7debac,Scott,Rivera,,2001-10-02,Male,3050,5809 Main St Apt 504,Columbus,OH,43004,7417263518,srivera@protonmail.com,Korean,Black/African American,EPIC
+11527e68-902b-42c2-ad34-fdcef07cb971,Jack,Hill,F,1987-08-22,Male,7198,2292 Broad St,Philadelphia,PA,19101,,jhill@hotmail.com,English,White,EPIC
+773beb2a-0879-49e5-9494-d3608322fd41,Raymond,Jones,,1978-12-25,Male,4354,6900 Union Ave,Houston,TX,77001,9313306322,raymond65@mail.com,English,White,MANUAL_ENTRY
+ea71f2b9-e32a-434c-8c4c-ed5dd186a816,Dorothy,Martin,A,1974-04-24,Female,7039,132 Spring St,Las Vegas,NV,89101,2849798027,dmartin@outlook.com,English,White,ALLSCRIPTS
+165bf1c3-64ca-4ce1-badd-ccb6bd7f3d4a,Amy,Bennett,G,1986-08-04,Female,1688,8231 Meadow Ln Apt 876,Baltimore,MD,21201,8493524758,,English,White,EPIC
+371562a9-fdfe-4b6a-8245-36d9b1c81081,Paul,Diaz,,1966-09-26,Male,5020,3792 Park Ave,Baltimore,MD,21201,7226371846,pauld@aol.com,English,Asian,EPIC
+bc2cd0a6-314a-4321-a96b-5bed323035a0,Richard,White,,1948-03-17,Male,5269,4675 Union Ave,San Antonio,TX,78201,6413895133,richardw@icloud.com,English,White,CERNER
+72ad8987-c38a-4864-be60-a63f4b947ba0,Dorothy,Nelson,Z,1992-07-05,Female,3903,4522 Washington Blvd,Detroit,MI,48201,,,English,Asian,CERNER
+41d83a35-386e-4042-b18a-2c0e47411c6c,Timothy,Harris,D,1957-03-03,Male,5618,7770 Jefferson Ave,San Jose,CA,95101,2443304140,timothyh@aol.com,English,White,CERNER
+7f28d4f1-76d5-4831-b32c-167c0255103d,Jorge,Rodriguez,Q,1960-03-29,Male,4491,2113 Hill St Apt 580,Baltimore,MD,21201,,jorge95@hotmail.com,English,Black/African American,CERNER
+615da939-e3cd-4e98-a765-697734f5c8d0,Karen,Perez,Q,1983-09-20,Female,6393,9949 Lake Rd,Columbus,OH,43004,,karen66@gmail.com,English,Asian,CERNER
+912250a8-e5e4-4b49-b5b2-217d0a7406c5,Jeffrey,Nguyen,R,1968-07-08,Male,0640,2428 Lake Rd,Detroit,MI,48201,2528575079,jeffrey.nguyen@hotmail.com,English,Black/African American,EPIC
+e389f090-d972-4d21-ac73-7fbbbbbd41a2,Catherine,Adams,,1968-04-11,Female,4326,2190 Spring St,Boston,MA,02101,2588401170,catherinea@hotmail.com,English,White,MANUAL_ENTRY
+1fa50371-2ab7-43fe-ae09-24b6d660427f,Anne-Marie,Wilson,W,1992-05-16,Female,9025,7245 Park Ave,San Antonio,TX,78201,8449707479,,English,Asian,CERNER
+257b1318-4fa4-4dec-887e-e3548ccadccf,Jin,Lopez,O,1962-01-05,Male,2885,9334 Union Ave,San Antonio,TX,78201,4882216081,,English,White,CERNER
+d0602c7f-be31-4b1d-a297-9a5fdd1d8c1f,Paul,Martinez,O,1943-02-22,Male,2249,194 Meadow Ln Apt 394,Boston,MA,02101,,pmartinez@gmail.com,Korean,White,EPIC
+8a0db67e-382f-4697-a3bc-97d7213e2e84,Betty-Lou,Johnson,A,1998-02-05,Female,5544,1393 Washington Blvd Apt 778,Cleveland,OH,44101,6543676036,bettylou.johnson@outlook.com,English,Black/African American,EPIC
+2e9bf6aa-bed0-415d-becb-f72b01948534,Jennifer,O'Sullivan,,1982-09-04,Female,3675,3714 Spring St,New York,NY,10001,4934317303,josullivan@yahoo.com,English,White,EPIC
+18e9e563-55d5-4539-a7e0-4467246b5c85,Carolyn,Martinez,D,1977-10-03,Female,1389,711 Meadow Ln Apt 439,Tampa,FL,33601,8143857967,,Spanish,Black/African American,EPIC
+b1f6b32c-fdce-4a68-a351-072359b884ee,Rachel,De La Cruz,,1956-11-26,Female,1251,36 Pine St,Miami,FL,33101,3515998318,rachel.delacruz@protonmail.com,English,White,MANUAL_ENTRY
+f91424ee-b82e-4435-8b71-7a960dbddf45,Daniel,Adams,F,1987-09-18,Male,8097,7886 Highland Ave,Charlotte,NC,28201,8515413264,daniel50@hotmail.com,English,Hispanic/Latino,CERNER
+d5f8643c-4980-4f40-a0f4-6e186e74bfe1,Jasmine,O'Sullivan,,1955-07-16,Female,3593,1430 Park Ave,Baltimore,MD,21201,2175718764,jasmineo@yahoo.com,English,Native American/Alaska Native,ALLSCRIPTS
+81910c26-8ffd-4862-9610-47dfe029e658,Paul,McDonald,N,1964-12-05,Male,3679,2258 Cedar Ln,Los Angeles,CA,90001,5869501431,paul.mcdonald@mail.com,Spanish,White,CERNER
+7ad7f498-bb26-49f2-bc8a-ce6eb879aa76,Kenneth,Brown,,1969-04-01,Male,6823,2989 Union Ave,Phoenix,AZ,85001,9155068703,kenneth.brown@icloud.com,English,White,EPIC
+4395cfd8-964d-49a3-a72e-405ed228321d,Barbara,Cox,Q,1968-01-16,Female,,6941 Valley Rd,Minneapolis,MN,55401,9284649222,bcox@hotmail.com,English,White,CERNER
+58ecd18e-658c-47da-9861-a773f4adc44d,Nicholas,Myers,,1983-12-31,Other,9163,1265 Highland Ave,Las Vegas,NV,89101,8576147233,,English,Black/African American,EPIC
+9bbc17eb-f8b3-4f9b-9a04-784fc329cb18,Anthony,Martinez,Y,1983-10-15,Male,,2667 River Rd Apt 217,San Jose,CA,95101,9745164075,anthonym@gmail.com,English,Hispanic/Latino,CERNER
+31d27ae1-4c47-4757-8599-6852bf407536,Aisha,Garcia,,1965-10-08,Female,6523,3193 Church St,Denver,CO,80201,3329192595,agarcia@yahoo.com,English,Hispanic/Latino,ALLSCRIPTS
+f6a00a93-a826-489c-81bb-c9fdfa2bfa80,David,Nguyen,,1968-04-23,Male,1528,3795 Washington Blvd,Baltimore,MD,21201,9879353638,dnguyen@icloud.com,English,White,EPIC
+7efb8b16-d085-432e-83df-b6efdd33eafd,Carmen,Garcia,Y,1980-05-27,Female,2496,8152 Cedar Ln,Portland,OR,97201,5167602428,cgarcia@protonmail.com,English,White,EPIC
+66d10b5f-775d-4b0e-b6c8-8de60d2a7daa,Carolyn,Lopez,,1986-04-05,Female,4226,4195 Jefferson Ave,Seattle,WA,98101,3433268999,,English,White,EPIC
+9a29f39a-5700-4129-bbe2-afc698ba144f,Dorothy,Cruz,T,1962-04-25,Female,7374,700 Meadow Ln,Dallas,TX,75201,,dorothy.cruz@gmail.com,English,White,EPIC
+4c020d58-b9a8-492b-93c0-db31eb956f72,Christopher,Lewis,O,1980-04-27,Male,7632,8768 High St Apt 185,Indianapolis,IN,46201,6069868096,,English,White,EPIC
+ccd25a67-09e6-4f7b-b790-59281a7961df,Heather,Ramirez,P,1963-07-04,Unknown,7699,3498 Church St,Phoenix,AZ,85001,9925892022,heather56@icloud.com,English,White,EPIC
+32134dd4-c289-427b-879d-27791ca8f49c,Luis,Wright,,1966-01-08,Male,1134,6637 Maple Dr,Dallas,TX,75201,6297374507,luis.wright@aol.com,English,White,EPIC
+9e95f4ca-f25d-4eff-94a6-16e60cb7128f,Carol,Sanchez,N,1995-01-09,Female,7156,9345 Market St,Jacksonville,FL,32099,8114032274,carols@outlook.com,English,White,ALLSCRIPTS
+ef0bf7d5-061e-4063-abbc-04b995cf20f3,Keisha,MacArthur,Z,1973-04-26,Female,8531,61 High St,Boston,MA,02101,8496602596,,Chinese,White,EPIC
+df5c9c49-2855-4d92-b00a-144609097bd5,Carol,Kim,L,1973-04-24,Female,0235,5961 Main St,Jacksonville,FL,32099,3279169177,carol53@protonmail.com,English,White,ALLSCRIPTS
+d3b624fc-6f8a-479c-ab2f-fa05c311a3c9,Raymond,Anderson,O,1966-09-01,Male,9056,2665 River Rd,Las Vegas,NV,89101,8759058167,raymond.anderson@yahoo.com,English,Black/African American,EPIC
+80efdf1c-6de0-4d79-bf08-72cd743d5971,Margaret,Murphy,T,1969-08-23,Female,0534,4750 Spring St,Memphis,TN,38101,7645902875,,English,White,EPIC
+f86ffb48-f4ec-4ff7-9b66-165f43717595,Priya,Evans,U,1979-04-10,Female,6484,6139 Park Ave,New York,NY,10001,8744706036,pevans@mail.com,English,White,EPIC
+cf595e1f-38fd-4f25-b1f0-3a75038026c9,Jack,MacDonald,X,1986-06-15,Male,3962,6413 Washington Blvd,Nashville,TN,37201,2527918030,,English,White,MANUAL_ENTRY
+9d6d0fcd-0807-4928-8677-d72f4f05cf32,Benjamin,Gutierrez,,1983-12-07,Male,2069,1940 Sunset Blvd,Denver,CO,80201,9808425263,bgutierrez@outlook.com,English,White,EPIC
+d984e163-ae1d-4f09-8627-8ba4831f7e31,Joshua,Brown,R,1970-09-24,Male,,2139 High St,Boston,MA,02101,3914454633,joshua93@hotmail.com,Korean,White,CERNER
+36da9bef-fced-4161-aa96-ac56c107d65a,Paul,Watson,,1978-06-13,Male,1817,9764 Cedar Ln Apt 290,Indianapolis,IN,46201,3842952267,paul27@icloud.com,English,Hispanic/Latino,ALLSCRIPTS
+672ba8b4-1a4e-4e3e-9dea-cc006dc56f89,Hiroshi,Watson,,1981-10-26,Male,7387,2640 Elm St,Miami,FL,33101,8757801515,,English,White,CERNER
+126d5d10-853d-42bc-b101-477aa34b53d3,Aaliyah,Smith,,1989-11-23,Female,3159,485 River Rd Apt 525,Las Vegas,NV,89101,4215732880,asmith@gmail.com,English,White,CERNER
+2f1a2c99-fa46-4a27-b0bc-b7b80ff1a170,Anna,Scott,C,1987-11-04,Female,8123,8400 Market St,Charlotte,NC,28201,4029035605,annas@yahoo.com,English,White,MANUAL_ENTRY
+f0c810b7-8e31-457e-bb7f-5f77f8065c0e,Mei,Diaz,I,1960-10-28,Female,9949,7034 Washington Blvd,Columbus,OH,43004,8472658363,,English,Hispanic/Latino,EPIC
+c3daee67-29e7-4c85-817f-45a58e2cc825,Terrence,Rivera,D,1971-01-02,Male,1190,6090 Broad St Apt 322,San Antonio,TX,78201,5269041178,terrencer@hotmail.com,English,Hispanic/Latino,EPIC
+7e3681d8-da57-43e3-b9db-2ff032aabfd3,Jason,Ortiz,,1964-06-25,Male,9959,1226 Forest Dr,Tampa,FL,33601,9746456206,jason.ortiz@hotmail.com,English,Hispanic/Latino,EPIC
+eb2bec95-2d8d-4f09-ba0c-936ebffd9cea,Donald,Thomas,T,1982-06-13,Male,,9434 Main St,New York,NY,10001,6122379740,donald.thomas@gmail.com,English,Hispanic/Latino,EPIC
+24b3654d-46e8-4470-8aae-fa06f354cd34,Nicole,Scott,L,1962-09-17,Female,5131,772 Market St,Seattle,WA,98101,7058562989,nscott@yahoo.com,English,White,EPIC
+0ab7645d-41cd-41a4-a722-5a47d38af976,Pamela,Lewis,,1964-10-02,Unknown,8807,861 Lake Rd,New York,NY,10001,,,English,White,EPIC
+3044f4c9-ed88-4b75-be2c-912c7eab96b5,Maria,Wright,E,1945-06-19,Female,2069,2425 Jefferson Ave,Austin,TX,73301,6238528320,maria74@hotmail.com,English,Hispanic/Latino,MANUAL_ENTRY
+6fc71d08-0feb-4f4f-a95f-ef02d3cc5828,Jin,Lewis,,1973-10-08,Male,3971,3374 Highland Ave Apt 996,Memphis,TN,38101,4172134541,jin25@mail.com,English,White,EPIC
+38b33206-07da-425d-b438-ccf2da015112,Monique,Rogers,Y,1999-10-23,Female,2523,8266 Cedar Ln,Cleveland,OH,44101,5725948412,mrogers@hotmail.com,English,White,EPIC
+5541f043-50ab-4b3a-a3a6-d93479c0bae3,Mary-Kate,Chavez,,1983-02-07,Female,7550,4371 Main St,Philadelphia,PA,19101,5604712938,marykate46@yahoo.com,English,White,EPIC
+09895556-cc46-40c4-87c2-4c0fb11255cb,Raymond,Miller,L,1975-02-15,Male,,6924 Washington Blvd,Columbus,OH,43004,8084829676,raymond.miller@mail.com,English,White,MANUAL_ENTRY
+1c17a6ac-e1d8-4d9e-9192-b8526196e11d,Richard,Jones,H,1969-12-13,Male,6628,6438 Cedar Ln,Columbus,OH,43004,9084749112,richardj@hotmail.com,Spanish,Hispanic/Latino,EPIC
+333a5053-5480-4375-983e-ca79ee156f8b,George,Cook,T,1973-08-05,Male,3909,5163 Valley Rd Apt 192,Philadelphia,PA,19101,6663451208,george.cook@mail.com,English,White,ALLSCRIPTS
+e9048571-fe0a-4479-944d-706661665244,John,Kim,P,1991-11-27,Male,0740,285 Forest Dr,Minneapolis,MN,55401,4337379243,,English,Native American/Alaska Native,EPIC
+5e35f28a-62d3-44b2-822a-2373fdbe315e,Raymond,Edwards,L,1984-06-28,Male,7970,5969 High St Apt 362,Dallas,TX,75201,5417308935,,Spanish,Hispanic/Latino,CERNER
+76e329ea-2a28-47c0-a49b-247e022cd57d,Jose,McKenzie,,1962-03-25,Male,7056,3381 Franklin St Apt 943,Jacksonville,FL,32099,8543105487,jmckenzie@protonmail.com,English,Black/African American,EPIC
+9bc82314-af03-4e37-8759-acc421e1713c,Miguel,Scott,B,1976-06-13,Male,5624,2015 Spring St,Minneapolis,MN,55401,5554952805,mscott@protonmail.com,English,Black/African American,EPIC
+2ae5bb9b-f0cb-42e6-bb24-0a07982f1ab2,Imani,Bennett,,1981-11-05,Female,,3561 Hill St,Los Angeles,CA,90001,7005131083,imanib@gmail.com,English,White,ALLSCRIPTS
+9e55aef3-e18d-44fa-a602-ff26e3b9e6c4,Tamika,Bennett,R,1976-01-17,Female,4434,3224 Spring St,Phoenix,AZ,85001,,tbennett@protonmail.com,Spanish,Black/African American,EPIC
+74c8c6d2-8d58-4e19-9f2f-c60ac34c946d,Matthew,King,T,1983-04-22,Male,9472,3269 Lake Rd Apt 568,Phoenix,AZ,85001,5122875871,mking@protonmail.com,English,White,EPIC
+7116d30e-4853-40cf-b331-12ad53faf304,Samantha,Cook,W,1958-10-09,Female,7006,6890 Spring St,Indianapolis,IN,46201,2279857896,,English,Black/African American,MANUAL_ENTRY
+20d67a63-1a16-4c6a-90fc-c63363643445,Anne-Marie,Rogers,T,1994-11-02,Female,6433,6602 Valley Rd Apt 827,Phoenix,AZ,85001,7306711890,,English,Black/African American,EPIC
+d094c34a-deaa-4a76-95ff-fdd1b1dfbb5b,Emma,Reed,K,1982-03-04,Female,9578,8370 Franklin St,Memphis,TN,38101,7283479115,,Spanish,Black/African American,ALLSCRIPTS
+ee70fe88-2369-46de-a733-e7cfeabf0522,Brandon,Castillo,A,1968-12-26,Male,0000,9893 Cedar Ln,Phoenix,AZ,85001,3066851403,brandon.castillo@protonmail.com,English,White,EPIC
+30886eb2-c98e-46fb-b926-49ab0719976c,Wei,MacDonald,I,1995-05-23,Other,2018,2397 Sunset Blvd Apt 146,Charlotte,NC,28201,8734463797,wei61@hotmail.com,English,White,CERNER
+5474497f-b352-4964-b868-51ec347e25ab,Keisha,Mitchell,M,1996-08-06,Female,6960,459 Hill St,Phoenix,AZ,85001,2117945960,,English,Black/African American,CERNER
+bcdc7c71-b54d-40f4-9b8d-8d4a53227208,Alexander,Moore,X,1958-08-19,Male,2593,8203 Center St,Jacksonville,FL,32099,7375999405,,English,White,EPIC
+247b35af-f43f-49e6-8c9a-4800f5cab292,Debra,Collins,Z,1959-05-08,Female,6454,7926 Market St,Chicago,IL,60601,3847899306,debrac@aol.com,English,Hispanic/Latino,EPIC
+0cbbb9ef-5d9e-4fd7-861b-39c81ef98c26,Mary-Jo,Rodriguez,,1956-01-20,Female,1740,7806 Church St,Seattle,WA,98101,9504422727,maryjo94@outlook.com,Vietnamese,White,MANUAL_ENTRY
+c68ab214-ca3a-4c63-b716-92fd6df7b742,Nicholas,Anderson,,1976-09-26,Male,0482,2852 Church St Apt 461,St. Louis,MO,63101,8527874272,,English,White,CERNER
+e2a0e359-9c84-4a0c-9333-f21f91a346da,Kenneth,Parker,Z,1992-12-24,Male,0397,1577 Washington Blvd Apt 144,Detroit,MI,48201,5689927685,kparker@yahoo.com,Spanish,Asian,MANUAL_ENTRY
+4aa43e58-5268-4d99-be31-7dce8d13d5cc,Monique,Murphy,,1968-07-25,Female,9153,2259 Maple Dr,Cleveland,OH,44101,2727822280,,English,White,EPIC
+955fb4ef-9719-42f3-8486-d7eceb9bb7e6,Susan,Kim,A,1948-12-19,Female,4749,4119 Market St,St. Louis,MO,63101,,skim@aol.com,English,Black/African American,CERNER
+57d43860-6590-40dd-a563-4a675d1115f9,Joseph,Cooper,D,2006-11-15,Male,0528,6905 Lake Rd,Austin,TX,73301,2603424346,joseph.cooper@icloud.com,English,Hispanic/Latino,EPIC
+4f264f11-86e7-42da-b3ea-c1c42c8e345a,Barbara,Hall,N,1993-05-30,Female,1320,9035 Union Ave,Tampa,FL,33601,2423061583,barbarah@hotmail.com,English,Hispanic/Latino,EPIC
+4a0f2701-ad48-41fa-8811-d21c77abc9b4,Cynthia,Williams,A,1971-07-08,Female,6215,297 River Rd,Memphis,TN,38101,5869123051,cwilliams@mail.com,English,White,EPIC
+7e0f9edb-f585-4283-ab61-4e5325dcb1ce,Catherine,Rivera,,2003-08-19,Female,3902,1508 Forest Dr Apt 423,San Diego,CA,92101,7497811750,crivera@gmail.com,English,White,EPIC
+a959d0d9-0b30-46c4-8444-8856ab4e64a6,Larry,Garcia,T,1982-11-06,Male,6517,2006 Valley Rd Apt 257,Seattle,WA,98101,4107066848,larryg@hotmail.com,English,Native American/Alaska Native,CERNER
+63421dbf-e006-4d65-b399-a67b29818aef,Amy,Ortiz,K,1985-04-11,Female,1710,5680 Spring St,Los Angeles,CA,90001,4862804335,aortiz@hotmail.com,English,White,CERNER
+fe23514c-3169-4653-bf9a-30d784493069,Barbara,Walker,U,1973-03-27,Female,0553,4555 Forest Dr,Dallas,TX,75201,2862615572,barbara.walker@mail.com,English,White,EPIC
+075f9434-e404-4fd5-ac48-719b7885ab74,Dennis,White,R,2013-03-01,Male,0512,5699 Main St,Nashville,TN,37201,5444684547,dennis93@icloud.com,English,Asian,MANUAL_ENTRY
+ecfba50f-5c23-4a7c-8cbe-5410b218edba,Margaret,Peterson,X,1964-07-09,Female,9381,9312 Jefferson Ave,Boston,MA,02101,5906784903,,English,White,ALLSCRIPTS
+288f52be-5238-4201-9209-1d269ac84208,Lisa,Young,J,1981-10-14,Female,0632,4494 Broad St,Las Vegas,NV,89101,8689901202,,English,Black/African American,EPIC
+a5f005b5-69c8-4cd4-bc90-184f02e65622,Brian,Cruz,O,1971-10-06,Male,9119,6695 Oak Ave,San Antonio,TX,78201,,brian9@icloud.com,English,White,ALLSCRIPTS
+bcd4c310-2dcb-4fc1-bfd8-d98fc6565800,Raj,Taylor,,1976-01-07,Male,0812,1876 Sunset Blvd Apt 701,San Diego,CA,92101,6507936199,,Spanish,White,EPIC
+a289055c-2586-4c0e-ba73-65c9bf58eeeb,Shirley,Allen,,1959-07-08,Female,9839,5730 Cedar Ln Apt 455,San Diego,CA,92101,2794424343,shirley88@icloud.com,English,Black/African American,EPIC
+9046017d-6e95-4a61-a696-5e916b0b35a0,Michael,Adams,L,2000-10-10,Male,6139,4818 Meadow Ln Apt 378,Seattle,WA,98101,,madams@gmail.com,English,Hispanic/Latino,CERNER
+cc18aefc-7e4e-4bdc-88a9-ae62c847c2dc,Anne-Marie,Alvarez,G,1990-05-01,Female,6243,1286 Maple Dr,Atlanta,GA,30301,7787159982,annemarie.alvarez@yahoo.com,English,Hispanic/Latino,CERNER
+3c1927e8-2cc5-4000-8979-8bc458b5882e,Samantha,Wright,,1962-06-19,Female,3998,3983 Jefferson Ave,Austin,TX,73301,5229662890,samantha94@protonmail.com,English,White,EPIC
+24649c23-af11-4382-aedb-81e1ed379b0f,Janet,Wood,H,1990-06-15,Female,2052,8809 Park Ave,St. Louis,MO,63101,7988813263,janetw@aol.com,English,White,EPIC
+c81c6f53-7113-49ff-8da2-7cb7206d35a4,Emily,Kelly,Y,1971-12-27,Female,7439,2733 Cedar Ln,New York,NY,10001,9286812654,,English,White,EPIC
+19561765-8140-4625-aa40-f6e72780bc78,Christopher,Taylor,Q,1947-10-14,Male,9124,4807 Cedar Ln,San Diego,CA,92101,5448052765,christophert@gmail.com,English,White,CERNER
+e3165d49-3ec1-456d-8181-8b73133b32fc,Carmen,Nguyen,W,1992-01-24,Female,9659,8346 Maple Dr Apt 8,St. Louis,MO,63101,5788908430,carmenn@protonmail.com,Korean,White,EPIC
+d60d4d12-9cb3-4803-ad5f-ce0868e867d3,Susan,Reed,Q,2001-08-24,Female,6292,2924 Pine St Apt 968,Austin,TX,73301,9484158053,susanr@icloud.com,English,White,EPIC
+13d5ff92-0e72-4831-8465-9951697a4f91,Pedro,Lewis,J,1989-11-21,Male,1738,3796 Valley Rd,St. Louis,MO,63101,,pedro.lewis@outlook.com,English,Hispanic/Latino,ALLSCRIPTS
+43502c8d-c316-440b-8063-0cb4b5c13185,Michael,Mitchell,,1957-08-26,Male,7435,1796 Highland Ave,San Jose,CA,95101,6556429081,michael.mitchell@outlook.com,English,White,CERNER
+72793c76-fe0e-4785-8a74-47ee9493f19a,Christopher,Adams,,1982-10-15,Male,8402,1214 Highland Ave,Memphis,TN,38101,2396432645,christopher.adams@icloud.com,English,Black/African American,EPIC
+7478bbd6-1af7-40f3-ba04-811e88fe9820,Dennis,Van Der Berg,V,1970-08-02,Male,8138,2160 Washington Blvd,San Jose,CA,95101,,dennis1@hotmail.com,English,Hispanic/Latino,CERNER
+6745d4c5-d60f-4d8a-99c5-3f30104979fd,Brian,Jones,I,1960-05-30,Male,9566,5714 Union Ave,San Diego,CA,92101,5074375786,brian81@protonmail.com,English,White,CERNER
+53f16663-632a-4cc6-bbfc-caaae3b2b416,Jeffrey,Anderson,Y,1974-08-21,Male,6960,2887 High St,Houston,TX,77001,5559137522,jeffrey63@protonmail.com,Spanish,White,EPIC
+09cb03ba-7a4a-4aca-87b5-98277c5baed8,Jason,Del Rosario,N,1992-03-01,Male,5295,5204 Spring St,Dallas,TX,75201,6084661895,jason.delrosario@hotmail.com,English,White,EPIC
+cc338210-409b-4131-8521-971cbeaeb982,Carol,Morgan,,2001-05-20,Female,2117,8844 Main St,Las Vegas,NV,89101,,carol.morgan@icloud.com,English,White,CERNER
+7ac752b8-c9c6-41c2-be9b-b29ebfefb06f,Ronald,Lee,M,2001-12-03,Male,2644,6126 Church St,St. Louis,MO,63101,4542131591,ronald65@yahoo.com,English,White,EPIC
+e7315a32-4069-4d7b-87b8-ca05de409630,Ryan,Watson,H,1951-10-01,Male,2149,4424 Maple Dr Apt 517,Minneapolis,MN,55401,9809507805,,Chinese,Hispanic/Latino,CERNER
+be92d987-56dd-4100-a340-64622e7b70ee,Carlos,Harris,J,1970-10-24,Male,0383,4491 High St,San Jose,CA,95101,8717908723,charris@mail.com,English,Hispanic/Latino,EPIC
+1a7da8d9-4c96-40d7-adf1-5233c560c36a,Jamal,Cook,,1958-09-21,Male,8955,1775 High St,Baltimore,MD,21201,6069894802,jamal.cook@protonmail.com,English,White,EPIC
+ffb598a1-8ea6-4cb8-9a74-1ea5041d132b,Lisa,Gonzalez,G,1974-07-30,Female,1374,6606 Meadow Ln,Phoenix,AZ,85001,7809784808,,English,White,EPIC
+92546e82-6ecb-4787-aa60-0db3e4b45e49,Donna,Jones,S,2000-11-13,Female,9214,8008 River Rd,Miami,FL,33101,4415298559,donna14@yahoo.com,Spanish,White,EPIC
+20bd7885-d7df-4bbd-83d0-4f29cc36fa83,Michelle,Gutierrez,F,1993-12-21,Female,1862,6950 Union Ave Apt 823,Los Angeles,CA,90001,3439669963,michelle.gutierrez@gmail.com,English,White,CERNER
+13f2f2a5-5abc-408d-a227-0d37e1f82795,Anna,Gutierrez,L,1984-11-06,Female,3349,6083 Center St,Miami,FL,33101,4155383217,,Spanish,Hispanic/Latino,EPIC
+432c05e4-4025-4487-a015-0ac54eea2b65,Joshua,Stewart,,1980-04-02,Male,3074,1538 River Rd,San Antonio,TX,78201,,joshuas@outlook.com,English,Hispanic/Latino,ALLSCRIPTS
+6df884f5-9d2a-442e-89ae-c917f58f9fe9,John,Harris,,1963-06-14,Male,6017,6608 Lake Rd,Las Vegas,NV,89101,4072793497,,English,White,EPIC
+cdf64dca-1c3f-4f1f-87b4-82aff3f130fe,Dorothy,O'Connor,U,2003-09-15,Female,9702,4543 Franklin St,Las Vegas,NV,89101,6844143754,,English,White,EPIC
+49063711-d3d9-4994-bd33-cfd877f9d84e,Emily,Jackson,,1967-03-13,Female,7203,7729 Church St,Charlotte,NC,28201,4467737442,emily91@mail.com,English,White,ALLSCRIPTS
+b0d64bdf-e0ed-47c9-b02e-10ba827fb696,Charles,Del Rosario,G,1986-01-08,Male,4550,2342 Spring St,Baltimore,MD,21201,4569012970,charlesd@mail.com,English,White,ALLSCRIPTS
+bf3e02a0-0d11-42d1-bdd6-821265da0cdc,Rachel,Sanders,T,2024-12-17,Female,2932,175 Washington Blvd,St. Louis,MO,63101,2058006085,rachel.sanders@icloud.com,English,White,EPIC
+385f4194-216a-42ea-b44a-affb4cae7dd8,Jin,Gomez,,1995-04-10,Male,4492,938 Forest Dr,Detroit,MI,48201,6828228446,jin.gomez@protonmail.com,English,White,EPIC
+d4c393dd-bffc-4ef3-8de0-b04058ef5b9c,Donna,Price,E,1952-02-10,Female,1021,1598 River Rd,Austin,TX,73301,8708281273,dprice@icloud.com,English,Asian,MANUAL_ENTRY
+8126bf96-83a7-4de2-aaac-1823ccd08bb5,Mary-Jo,Turner,V,1962-03-09,Female,8216,4369 Maple Dr Apt 46,Phoenix,AZ,85001,4039059281,maryjot@gmail.com,English,White,EPIC
+47ae802e-6757-4536-bc35-f4944003c008,Daniel,Reed,C,1972-02-22,Male,9685,330 Jefferson Ave Apt 11,Detroit,MI,48201,5836712331,dreed@hotmail.com,Chinese,Two or More Races,CERNER
+bd795f31-e4b9-4f28-9ef0-217c930f29e1,Dennis,Price,,1971-11-16,Male,5169,3703 Washington Blvd,Charlotte,NC,28201,5024658202,dennisp@protonmail.com,English,Two or More Races,CERNER
+d6266d1e-5ab5-4709-bdce-fb3f5c1cf6ea,Kevin,Jones,S,1990-12-16,Male,7108,4730 Washington Blvd,Jacksonville,FL,32099,7649605406,,Korean,White,EPIC
+6b5add08-a7ca-4717-a793-f4fb418c324b,David,Anderson,U,1964-01-04,Male,7655,5292 Broad St,Portland,OR,97201,2345302713,david21@gmail.com,English,White,EPIC
+9694d5e3-dc88-42b5-8d7b-3f01e26f6c56,Melissa,Rivera,O,1999-08-19,Female,7478,9437 Highland Ave,Portland,OR,97201,4494587114,melissa87@protonmail.com,English,White,MANUAL_ENTRY
+af5f6566-7ae5-4f21-bf41-e07debe9eb57,Tamika,Wilson,Y,1983-11-18,Female,6565,468 Elm St,Portland,OR,97201,8119149586,,English,Two or More Races,EPIC
+63ff6c68-78c8-4651-a86f-51d8201cf478,Susan,Lopez,Y,1967-09-18,Female,0013,2417 Washington Blvd,Memphis,TN,38101,2823894869,slopez@mail.com,English,Black/African American,CERNER
+7c245bc7-a723-4cf5-9e42-5e47a48d6793,Mary,Morris,,1966-02-16,Female,6456,3482 Union Ave,Baltimore,MD,21201,9234482569,mmorris@icloud.com,English,Two or More Races,EPIC
+ba79988f-291e-450a-a915-0334c7ca5026,Luis,Kim,C,1988-06-06,Male,,9971 Elm St,Tampa,FL,33601,5487131026,lkim@mail.com,English,Hispanic/Latino,EPIC
+bfff898e-fc1f-4779-98e3-d34c65a5355a,Jorge,Lopez,U,1958-01-08,Male,4668,6338 Valley Rd,San Jose,CA,95101,,jlopez@mail.com,English,Black/African American,CERNER
+1223f2a4-8b8a-4e54-b3d3-d4c1bb2f4951,Charles,Hall,D,1985-03-28,Male,2109,8307 Market St,Portland,OR,97201,,charles.hall@mail.com,English,White,EPIC
+0cb34e34-a852-47d9-8641-d0fa1d2fdeeb,Mei,Cook,P,1988-04-03,Female,8765,1830 Elm St,Jacksonville,FL,32099,5928902310,,English,Asian,CERNER
+d9b65bc6-d621-4245-9435-81741819d8be,Alejandro,Parker,,1977-07-29,Male,0820,9820 Valley Rd,Tampa,FL,33601,8915031385,alejandrop@outlook.com,English,White,EPIC
+cb4d0634-d24a-49cd-852e-b5920a9e3ef1,David,Kim,,1969-03-20,Male,6491,2872 Maple Dr,San Diego,CA,92101,3488489084,david45@aol.com,Spanish,Black/African American,EPIC
+76e3c442-e6e4-4464-9cbf-bb7b3290294d,Monique,Reed,C,1977-05-29,Female,1656,8399 Franklin St Apt 950,Columbus,OH,43004,5096327565,,Chinese,White,CERNER
+4c8ba4bc-fc11-4173-bbe6-4a6ca8b4032a,Lisa,MacDonald,D,1972-12-29,Female,4967,8423 River Rd,Las Vegas,NV,89101,2505838748,lmacdonald@mail.com,English,Hispanic/Latino,CERNER
+0acd2f6a-228b-4e1a-8f0f-affa326a2a27,Melissa,Gray,,1965-09-08,Female,4501,7577 Meadow Ln,Dallas,TX,75201,2994264683,,English,White,EPIC
+fd7ada00-0999-48e8-8f28-d3446db64cac,Alejandro,Ramos,T,1975-10-20,Male,7792,9137 Main St,St. Louis,MO,63101,6553558568,aramos@protonmail.com,Spanish,White,EPIC
+92e4545b-274a-480d-8890-7d84928a3e57,Dante,Hernandez,R,1969-07-10,Male,4781,5167 High St,Atlanta,GA,30301,,danteh@outlook.com,English,White,EPIC
+4818a1d1-268c-41e8-9451-219dfae6dc3b,Pamela,Bailey,H,1976-09-25,Female,2157,9948 Cedar Ln Apt 224,Columbus,OH,43004,3137845740,,English,Two or More Races,ALLSCRIPTS
+8c158f94-9820-4de2-a732-6d3d2554cf09,Mary-Jo,Peterson,Y,1969-11-16,Female,5950,1731 Valley Rd,Detroit,MI,48201,9808516206,maryjo29@mail.com,English,Two or More Races,CERNER
+248f6787-2a44-4194-a98a-f54aa63cac20,Mei,Lee,F,1944-09-21,Female,8727,5474 Jefferson Ave,Minneapolis,MN,55401,3005927850,mei.lee@mail.com,English,White,EPIC
+0f73d8f2-33b1-413d-b5af-0459b500ee82,Lisa,Kim,N,1963-12-03,Female,7731,1491 Broad St Apt 616,Memphis,TN,38101,8695989377,lisak@outlook.com,Spanish,White,EPIC
+44b31fac-88f6-43e4-ace7-a2045c0e6ba0,Stephanie,Adams,,1981-03-02,Female,3391,7556 High St,Portland,OR,97201,4473818559,stephaniea@yahoo.com,English,White,CERNER
+8b94998f-3bae-44cf-ad71-69dd47127d41,Mary,Myers,,1989-08-05,Female,1152,6834 Lake Rd,Miami,FL,33101,9329959751,mary.myers@protonmail.com,English,White,ALLSCRIPTS
+472da568-aa72-4a11-8ab3-7bccdbdad730,Elizabeth,Campbell,Q,2003-05-12,Female,7021,2033 Cedar Ln Apt 269,Miami,FL,33101,7939712831,elizabethc@icloud.com,English,White,ALLSCRIPTS
+7d0a1c82-b372-41a8-9960-6c2d52c52521,Matthew,Nelson,C,1998-11-26,Male,5610,7286 Church St,San Jose,CA,95101,7814811585,matthewn@outlook.com,English,White,ALLSCRIPTS
+729dc46c-ac64-4224-809e-6a6f636aec39,Emma,Flores,F,1969-06-21,Female,7787,7207 Valley Rd,Baltimore,MD,21201,9113313400,eflores@mail.com,English,White,CERNER
+c0684972-4c11-444c-9f8f-50bae77e52f0,John,King,Q,1977-09-10,Male,2791,2554 Forest Dr,Jacksonville,FL,32099,5835878950,john23@protonmail.com,English,White,CERNER
+927fd350-34fe-43a9-8bba-41d34fd4feea,Jeffrey,Flores,,2025-01-07,Male,1959,3227 Broad St,Detroit,MI,48201,8532129587,jeffrey.flores@hotmail.com,English,Black/African American,EPIC
+f20f9472-64a2-49bf-b790-e754d29ad576,Thomas,Wright,R,1966-02-27,Male,0917,9285 Center St,Indianapolis,IN,46201,9573875015,thomas.wright@protonmail.com,English,White,CERNER
+1e1c2d8d-5203-4362-a786-50114a1bf180,Timothy,Sanders,C,1992-01-25,Male,0997,3729 Park Ave,San Antonio,TX,78201,6753009797,timothy.sanders@gmail.com,English,Hispanic/Latino,EPIC
+cfe6b672-89b5-4c38-8021-f764a53a0f5e,Ronald,Gonzalez,G,1987-03-30,Male,1827,7253 Jefferson Ave,Boston,MA,02101,8508298475,ronald97@aol.com,English,White,CERNER
+0f90c0b5-6a1a-47d6-8f97-43bf91da0e46,Amir,Morris,U,1983-11-02,Male,8719,5590 Lake Rd,San Diego,CA,92101,8406502826,amir.morris@outlook.com,English,Hispanic/Latino,CERNER
+c08c9d10-6003-40f1-8f25-c1a1ec2f355e,Thomas,Ross,J,1951-10-19,Male,8824,2993 Washington Blvd,Minneapolis,MN,55401,4185149221,thomasr@protonmail.com,English,White,CERNER
+f39e94af-d875-4a0b-a960-d88e29c45c07,Kenneth,Harris,Z,1960-01-13,Male,9996,2575 Church St,Memphis,TN,38101,8698097830,kennethh@aol.com,English,White,EPIC
+fa7ff8ce-0ee4-45aa-b482-6a8b1e0a3181,Alexander,McDonald,O,1982-09-03,Male,,907 Spring St,Columbus,OH,43004,6679855492,,Spanish,White,EPIC
+b9da1699-c994-4b0f-9459-9c94efcdc136,Emma,McDonald,K,1957-09-04,Female,5336,9175 Franklin St Apt 221,Nashville,TN,37201,6504802750,,English,White,CERNER
+5f28d560-dce4-4501-b61b-99809e53fbc6,Jo-Ann,Stewart,B,1973-04-10,Female,4589,9603 Market St Apt 58,Las Vegas,NV,89101,4827507053,joann15@aol.com,English,Asian,EPIC
+ed2a0fbb-f17e-4ae4-8236-1de5cb9d0942,Kathleen,O'Sullivan,,1991-01-15,Other,9405,9206 Maple Dr,San Antonio,TX,78201,7599815271,kathleen.osullivan@aol.com,English,Two or More Races,ALLSCRIPTS
+0c9fd191-cb6a-4b4a-b9af-63d1c77687c6,Samantha,McKenzie,Y,2005-12-25,Female,3730,5935 Church St Apt 995,Indianapolis,IN,46201,4618181379,,English,White,EPIC
+7128bcca-46fe-43ab-b96f-2a4755ef3445,Susan,McDonald,Q,1965-09-29,Female,,526 Center St,Charlotte,NC,28201,7517035630,susan.mcdonald@yahoo.com,English,White,MANUAL_ENTRY
+e375f45e-c3cc-466f-885c-fbe5019aa599,Jasmine,Lee,C,1991-05-05,Female,1197,7061 Lake Rd,Atlanta,GA,30301,9563556413,,English,Hispanic/Latino,EPIC
+47030196-b10b-435d-9ac0-abeb079fd90f,Carmen,Del Rosario,,1983-06-14,Female,6388,140 Park Ave,New York,NY,10001,4287986351,carmend@hotmail.com,Spanish,Hispanic/Latino,EPIC
+c0f232d2-d63e-40b1-a422-68ae2476f43d,Rebecca,Flores,,1956-03-21,Female,8848,1135 Church St,Jacksonville,FL,32099,8734134304,rflores@mail.com,English,Two or More Races,EPIC
+93ff2c5a-4aa6-4eac-97a7-f5bba099a0ca,Pedro,Thomas,M,1973-03-24,Male,3417,807 High St,Columbus,OH,43004,9895893042,,English,Hispanic/Latino,MANUAL_ENTRY
+9f507312-0b35-4721-a053-dacba85f2eab,Ashley,Lee,D,1953-10-10,Female,5191,3130 Washington Blvd,Charlotte,NC,28201,5686895182,ashley.lee@protonmail.com,English,White,EPIC
+6a149f59-7087-40aa-92fb-8bde93a8814c,Carolyn,Campbell,C,1984-08-24,Female,4926,1384 Sunset Blvd,San Diego,CA,92101,6822165500,ccampbell@icloud.com,English,White,CERNER
+1e5e1c69-272d-4440-b887-8bc73d2a6736,Joshua,Moore,Y,1956-12-24,Male,4801,6798 Elm St,Jacksonville,FL,32099,7313553975,joshua.moore@yahoo.com,English,White,EPIC
+da6164c7-3d82-44cc-b109-c349c93aedfb,Shirley,Richardson,Z,1972-03-24,Female,7708,2365 Spring St Apt 387,Los Angeles,CA,90001,9397373781,,English,White,ALLSCRIPTS
+221fbbd8-c3b1-4f3a-81b0-0b4cd49b28ee,Thomas,Anderson,O,1946-07-13,Male,9883,12 Hill St,Miami,FL,33101,4633316290,thomas.anderson@icloud.com,English,Hispanic/Latino,CERNER
+42113004-83dd-4be3-840f-161622cb13bb,Stephanie,Taylor,,1980-01-29,Female,2336,1347 Franklin St Apt 414,San Diego,CA,92101,8293075092,stephaniet@outlook.com,English,Asian,MANUAL_ENTRY
+4c7a9da1-2fcd-4558-9d47-d6c2b5154f6e,Ebony,Gutierrez,I,1975-09-02,Female,2379,561 Franklin St,Portland,OR,97201,2494023984,,English,White,ALLSCRIPTS
+8de2cdbf-a454-4ae9-962f-1326ea80f1a7,Carlos,Adams,,1983-08-01,Male,5634,9457 Market St,San Antonio,TX,78201,8364699943,carlosa@aol.com,English,White,EPIC
+072510bc-fa9f-46a3-ba9d-287933b790f1,Latasha,Foster,V,1951-07-21,Female,5987,417 River Rd Apt 233,Charlotte,NC,28201,3133235844,,English,White,CERNER
+f84a1c49-4f2b-492c-9794-04d46e9d339f,Lisa,MacArthur,F,1959-09-19,Female,8370,2322 Valley Rd,San Antonio,TX,78201,,lmacarthur@icloud.com,English,Hispanic/Latino,CERNER
+5446b655-e1de-4245-8070-e30cd8b81027,Janet,Cooper,,1958-10-01,Female,2713,3708 Jefferson Ave,Detroit,MI,48201,8246344312,janet38@mail.com,English,White,ALLSCRIPTS
+9f1fd9aa-20ac-4591-998e-40eb12ffd99f,Andrew,Castillo,A,1983-02-25,Male,9105,5106 Washington Blvd,Memphis,TN,38101,2682607723,,English,White,ALLSCRIPTS
+98596be4-8c70-44bd-9289-09443a376677,Amy,Gomez,U,1993-11-25,Female,1155,4526 Pine St,San Diego,CA,92101,9577993487,amyg@outlook.com,Tagalog,White,EPIC
+1d8fb7d5-4310-483a-86d0-beb5ebbe90bb,Brandon,Ortiz,,1966-05-22,Male,3804,7181 Hill St,Memphis,TN,38101,8246653517,,Vietnamese,Asian,EPIC
+0bfbb6b4-abcd-4c31-a22b-009cb4887b01,William,Carter,I,1963-06-14,Male,7983,4770 Park Ave,Atlanta,GA,30301,,william31@icloud.com,Spanish,White,EPIC
+25a1e528-edb8-4667-bec2-8a962ecd12ff,Brenda,MacDonald,I,1965-12-01,Female,5387,4117 Broad St Apt 104,Charlotte,NC,28201,6974489109,brendam@mail.com,English,Native American/Alaska Native,ALLSCRIPTS
+51b990e8-8d9e-4f32-aba2-7ba74b2d8263,Jean-Marie,Carter,V,1991-06-04,Female,1615,1556 Cedar Ln,Portland,OR,97201,7948887911,jeanmarie45@gmail.com,English,Hispanic/Latino,ALLSCRIPTS
+ecb1559e-3778-49f0-937e-1cc2f5cd7966,Juan,O'Malley,X,1962-08-31,Male,0420,9289 Elm St Apt 969,San Antonio,TX,78201,4996221464,juano@aol.com,English,White,EPIC
+394be164-82b6-4df0-9a8d-ea3e53f3c19e,Katherine,Collins,U,1978-12-19,Female,8966,5274 Franklin St,Detroit,MI,48201,3767112456,katherinec@hotmail.com,English,Asian,EPIC
+d68da2c3-7182-445d-bdc1-29f4f30bb744,Raj,Brooks,,1949-09-29,Male,7953,5522 High St,Jacksonville,FL,32099,3725301260,,English,White,MANUAL_ENTRY
+a7209158-c145-4508-9e78-a183e085aee1,Imani,Nguyen,R,1967-03-01,Female,1483,9798 Valley Rd,Baltimore,MD,21201,9335489729,imani.nguyen@outlook.com,Spanish,White,CERNER
+96e07662-651c-4a31-8831-69d21f0ab0ba,Jessica,Lewis,B,1957-12-06,Other,4485,8102 Park Ave,New York,NY,10001,4514318214,jessica.lewis@hotmail.com,English,White,MANUAL_ENTRY
+a3e77ede-93ab-4f17-89c5-23981532978a,Aisha,MacDonald,R,1994-09-02,Female,8496,6548 Sunset Blvd,Portland,OR,97201,5969645284,aisha34@icloud.com,English,White,MANUAL_ENTRY
+fa9a0f3b-5d1f-42f9-9dc1-7c2b5b6a7ef7,Samantha,Cooper,W,1983-01-26,Female,4045,8820 Forest Dr Apt 940,Miami,FL,33101,7199258794,scooper@yahoo.com,Spanish,White,CERNER
+9d94d2e2-fa34-4386-86fc-8f48f2896a64,Destiny,O'Sullivan,O,1979-08-13,Female,8145,7147 Maple Dr,Portland,OR,97201,7736591942,dosullivan@protonmail.com,English,Black/African American,EPIC
+df4ae921-8ffe-4980-a46b-13db8cff162e,Brenda,Reed,,1948-03-29,Female,8041,2185 Market St,Charlotte,NC,28201,7519135991,brendar@mail.com,English,Black/African American,EPIC
+dc6036e9-54dc-4554-a43d-12057c1e8ea8,Jo-Ann,Thomas,C,1990-01-10,Female,4076,2939 Elm St Apt 952,Las Vegas,NV,89101,3225392459,,English,Hispanic/Latino,CERNER
+ed67f1d5-2eae-4247-aaf2-737ce2f5504d,Ana,Carter,E,1988-10-09,Female,5098,2907 Highland Ave,Jacksonville,FL,32099,2923885268,ana.carter@hotmail.com,English,White,ALLSCRIPTS
+f224e97e-e697-40c4-9f2a-e364f9e159e1,Jennifer,De La Cruz,R,1963-01-13,Female,,207 Main St,Denver,CO,80201,7817767141,jennifer25@outlook.com,English,Hispanic/Latino,EPIC
+bfedc049-6786-4c41-9ff4-451eddb12af9,Joshua,Kim,F,1970-08-25,Male,2908,2439 High St Apt 40,Denver,CO,80201,3235195774,,Spanish,White,CERNER
+ad7d36f3-1a71-4b39-b44a-8fff379e8b2a,Matthew,Murphy,,1964-10-18,Male,8978,6371 High St,Minneapolis,MN,55401,2675465034,mmurphy@hotmail.com,English,White,EPIC
+9b00e506-38e5-4e4b-85e9-ed001ba532cd,Aisha,O'Neill,V,1958-04-13,Female,9685,8518 Maple Dr,Houston,TX,77001,7397769715,aishao@hotmail.com,English,White,ALLSCRIPTS
+ff0a8898-bf18-4ba8-a37c-6a816a926e4b,Luis,Phillips,C,1993-10-19,Male,9988,5012 Union Ave,Columbus,OH,43004,9899001903,luis.phillips@gmail.com,English,Hispanic/Latino,CERNER
+8196560f-e8a8-4a00-9622-0e0b769711eb,Amanda,Chavez,B,1974-07-07,Female,,6307 Washington Blvd,San Jose,CA,95101,9006449329,amandac@outlook.com,Spanish,Black/African American,EPIC
+2ece72e3-14d5-4912-a0f1-f4777ca16cfc,Alejandro,White,W,1986-07-24,Male,0255,6251 Washington Blvd,Los Angeles,CA,90001,4972044938,alejandro23@icloud.com,English,White,MANUAL_ENTRY
+49311e99-5fc8-42a5-8082-8af83c7d742e,Joshua,Jackson,T,1954-05-04,Male,6927,9348 Highland Ave,Memphis,TN,38101,4098695466,joshua54@gmail.com,English,White,ALLSCRIPTS
+e73c664c-2033-425f-907a-039620ad4c97,Hiroshi,Allen,U,1977-08-19,Male,3653,1875 Cedar Ln Apt 811,Chicago,IL,60601,3877496363,,Spanish,White,MANUAL_ENTRY
+3181b688-ed6a-4e1f-8fec-e364b4c16cae,Maria-Elena,Torres,J,1980-06-17,Female,1956,3312 Maple Dr,Columbus,OH,43004,3307301584,mtorres@yahoo.com,English,White,EPIC
+f0705a46-a4cf-4082-afa8-819c75eb7d9d,Sarah,Walker,L,1983-06-03,Female,8251,3097 Jefferson Ave,Atlanta,GA,30301,7822143502,sarahw@aol.com,English,White,MANUAL_ENTRY
+e2349d8d-0238-4735-a425-46fb0fd647b2,Dennis,Martin,Q,1973-03-05,Male,3184,7191 Main St,Austin,TX,73301,,dmartin@aol.com,English,Hispanic/Latino,MANUAL_ENTRY
+ea4c88ba-3911-4b69-8482-c4fd1526052a,Thomas,Evans,A,1982-10-22,Male,2350,1701 Valley Rd,Tampa,FL,33601,7762597349,thomas.evans@yahoo.com,English,Hispanic/Latino,EPIC
+f54a1e54-d02f-45d6-a3ba-2c5c393d509d,Fatima,Kelly,J,1982-04-18,Female,7367,3894 Valley Rd,St. Louis,MO,63101,8516658850,fatimak@outlook.com,English,White,EPIC
+e5ae229f-d405-41bf-a3d4-2b55504d912d,Heather,Allen,L,1977-11-03,Female,7535,8872 Park Ave,Charlotte,NC,28201,8415614409,heather54@mail.com,Spanish,White,EPIC
+e265c0b2-05b8-4d9e-b0a9-39b57ce78902,Patrick,Baker,M,1992-01-24,Male,3373,3555 Highland Ave Apt 200,San Diego,CA,92101,9468756954,patrickb@mail.com,English,White,EPIC
+07771421-13cb-4ab6-b593-e3926f642b1e,Rafael,Hill,Y,1965-12-27,Male,9038,2568 Valley Rd,Tampa,FL,33601,3846531390,rhill@mail.com,English,Asian,CERNER
+8439c6bf-9545-4b2e-9d41-6915748c4d94,Mary-Jo,Kelly,G,1988-01-16,Female,7677,2140 Jefferson Ave,San Diego,CA,92101,9818279693,maryjo.kelly@gmail.com,English,White,EPIC
+206df397-91fb-4620-91d0-4d4066c306f6,Susan,Nelson,K,1964-01-22,Female,5039,1082 Broad St,Minneapolis,MN,55401,6576866547,susan.nelson@aol.com,English,White,MANUAL_ENTRY
+a2b37082-880e-4b2b-9cba-20a10841879b,Miguel,Thomas,T,1981-09-07,Male,9049,7694 Highland Ave,Detroit,MI,48201,4553163402,miguel.thomas@yahoo.com,English,White,CERNER
+e76800d1-a237-446e-aeea-0527adf378d1,Robert,Ramos,L,1958-01-07,Male,0325,9287 Broad St,Seattle,WA,98101,5782703903,,English,Black/African American,EPIC
+73206e6c-b1f8-40e5-ad73-6c4e0f983b18,Ronald,Brooks,W,1985-02-20,Male,8105,9672 Spring St,New York,NY,10001,4583969411,ronaldb@gmail.com,English,White,CERNER
+cbd7d963-c9d1-432a-9663-9ac11be794d5,Shirley,Edwards,K,1951-05-11,Female,1314,9033 Oak Ave Apt 949,Austin,TX,73301,9527871314,shirley61@hotmail.com,English,White,CERNER
+64171209-af71-430a-b070-8ef50be48ee8,Dennis,Nelson,Q,1969-09-02,Male,5605,5673 Franklin St,Phoenix,AZ,85001,4884732364,dennisn@yahoo.com,English,White,EPIC
+ccc9f88f-e63d-41a6-a625-4b63afd1a0cf,Anthony,Young,,1982-12-04,Male,1235,221 Franklin St,New York,NY,10001,8322723559,anthonyy@protonmail.com,Spanish,White,CERNER
+a5b3984f-8c6b-4d4e-84bd-f8a1ab160a43,Andrew,Sanchez,C,1970-01-02,Male,1500,7094 Valley Rd,New York,NY,10001,,,English,Black/African American,CERNER
+3a69d0a3-c078-4410-8769-84d91eec1f23,Ronald,Price,T,1980-04-23,Male,1003,3030 Center St Apt 181,Indianapolis,IN,46201,4693479880,ronald.price@hotmail.com,Spanish,Two or More Races,EPIC
+1af2f44e-af5d-4809-8e3b-aa7474c089f6,Samuel,Long,F,1992-09-11,Male,9704,9856 Spring St,San Jose,CA,95101,6364566648,samuell@gmail.com,English,Two or More Races,EPIC
+6794334e-a7c6-4a4f-aa27-2e3cee8d23e6,Raj,Hall,B,1997-02-19,Male,7306,1446 Church St,New York,NY,10001,5709142079,rajh@icloud.com,Chinese,Hispanic/Latino,EPIC
+17795df3-2b27-469a-a0a0-7056cfaf196e,Hiroshi,Green,X,1994-12-25,Male,2794,5782 Spring St,Los Angeles,CA,90001,6126748608,hiroshi95@outlook.com,English,White,ALLSCRIPTS
+88f9c04f-9734-4cd0-ae28-5e598f3613fd,Maria,Van Der Berg,M,1986-04-30,Female,2474,3014 Washington Blvd Apt 401,Portland,OR,97201,4775454240,,English,White,EPIC
+55720755-c11b-4f3e-a266-6f1eb7c5628e,Destiny,Scott,,1964-08-02,Female,8177,7129 Elm St,Charlotte,NC,28201,5613082096,destinys@protonmail.com,English,White,CERNER
+7520250f-4ece-4302-8295-11928b9713e2,Sharon,Turner,J,1985-10-26,Female,7028,1997 Meadow Ln Apt 289,Las Vegas,NV,89101,5829053099,sharon.turner@protonmail.com,English,White,EPIC
+fe519250-c786-4c83-8bd3-31652e7f51ec,Samuel,Ruiz,,1986-10-25,Male,7801,4597 River Rd,Miami,FL,33101,9153993082,sruiz@hotmail.com,English,Hispanic/Latino,CERNER
+29d69c27-3bef-4f32-8177-0d8ddd78e410,Samantha,Rogers,M,1976-02-24,Female,7580,4359 Maple Dr,Las Vegas,NV,89101,9884823344,srogers@gmail.com,English,Black/African American,EPIC
+50556678-a412-4f15-bebe-029a8c69ea15,Jin,Bailey,,1996-11-12,Male,7941,9909 River Rd,Austin,TX,73301,3928112972,jbailey@gmail.com,English,Hispanic/Latino,EPIC
+f09a8f86-7e0f-4beb-9b96-1b18c5c2fa56,Guadalupe,Hughes,A,1979-11-05,Female,,6905 Maple Dr,Detroit,MI,48201,3516577259,guadalupeh@protonmail.com,English,White,CERNER
+a50bcad4-606f-4eac-8137-6345d1ddd462,Alejandro,Torres,,1967-02-02,Male,0277,859 Church St,Houston,TX,77001,5229377144,alejandrot@mail.com,English,White,EPIC
+26cd23e7-822a-4eee-a0b7-f05c552df9b8,Barbara,Chavez,,1993-07-14,Female,2160,1047 Maple Dr Apt 105,Seattle,WA,98101,9304402505,barbara.chavez@icloud.com,English,White,ALLSCRIPTS
+e8af4c18-1505-4a85-8717-a92e226eff06,Aaliyah,Davis,U,1983-09-14,Female,8980,1466 Washington Blvd,Minneapolis,MN,55401,4674324920,,Spanish,Hispanic/Latino,EPIC
+ab025ad9-d048-4213-89e5-ded04904ecef,Laura,Morris,,1974-01-18,Female,2255,5235 Church St,Denver,CO,80201,6052199359,laura4@protonmail.com,English,White,EPIC
+4fcd1e78-9b71-4337-9588-90f967d23ecc,Rebecca,Robinson,A,1965-10-12,Female,9528,6032 Center St,Tampa,FL,33601,4173559785,,English,Asian,CERNER
+e39f560f-7813-476e-8cf3-f79a5a83869b,Jack,Rogers,G,1975-12-27,Male,4265,1953 Sunset Blvd,Columbus,OH,43004,,jrogers@mail.com,English,White,EPIC
+858ba803-45b8-4bac-a511-77d441fb8dc2,Edward,Sanchez,X,1987-11-02,Male,3511,9720 Hill St,Tampa,FL,33601,,edward.sanchez@aol.com,English,White,EPIC
+9562e3d8-6ac9-474e-82eb-16ed3c0bf9af,Raymond,Clark,X,1986-09-15,Male,2707,8056 Union Ave,St. Louis,MO,63101,8834542272,raymond.clark@gmail.com,English,White,MANUAL_ENTRY
+9cdb83b0-344d-4b32-af3f-4b40b5c22592,Dennis,Sanders,F,1968-02-18,Male,3527,3126 Spring St,Detroit,MI,48201,4866271366,denniss@gmail.com,English,White,CERNER
+b8c471e2-ffcb-438c-96db-142e32fa00ce,Rebecca,Thomas,X,1950-08-12,Female,1844,3848 High St,Chicago,IL,60601,7704795424,,English,Hispanic/Latino,EPIC
+14a86c71-3907-4030-bc98-5e7a177e6700,Sharon,Rodriguez,M,1984-03-19,Female,,7631 Spring St Apt 14,Charlotte,NC,28201,2458722032,sharonr@aol.com,Spanish,Hispanic/Latino,EPIC
+5512333f-cb11-4f77-9824-766231669bcb,Jonathan,Van Der Berg,,1986-05-06,Male,,7133 River Rd,Portland,OR,97201,4379321774,jonathanv@yahoo.com,English,Hispanic/Latino,CERNER
+0f20af17-aae5-42b0-b23c-62b51ae5bc43,Jack,Castillo,E,2001-10-17,Male,5681,2851 Forest Dr,Charlotte,NC,28201,5559855791,,Spanish,Two or More Races,ALLSCRIPTS
+c7d36684-a5a8-4fa9-9732-be21033c0d7e,Ana,Campbell,C,2000-10-11,Female,7644,8835 Valley Rd Apt 44,Indianapolis,IN,46201,8403486597,acampbell@outlook.com,English,Black/African American,EPIC
+903ad20d-df8f-432d-a97b-69a0348f58cf,Sandra,Cook,Q,1995-02-07,Female,4173,9019 Valley Rd,St. Louis,MO,63101,9009266486,sandrac@icloud.com,English,White,CERNER
+230133f5-ff12-4482-86b1-8acfb07a2429,Laura,Kelly,N,1992-12-07,Female,7432,3086 Highland Ave Apt 813,Phoenix,AZ,85001,3107073365,laura31@aol.com,English,White,CERNER
+3520c4ec-91e1-41c8-960f-415e9dcfeb48,Timothy,Brown,,2017-10-26,Male,3042,1169 Maple Dr,Minneapolis,MN,55401,6325667602,,English,White,EPIC
+60e8ee09-e4b0-4dc5-9fac-ded09b53866e,Scott,Diaz,P,1989-04-20,Male,0516,5237 Broad St Apt 718,Seattle,WA,98101,5929709831,scottd@mail.com,Spanish,Hispanic/Latino,MANUAL_ENTRY
+78d4f99e-42af-4aa4-bb2c-e86148c7795d,Hiroshi,Ross,P,1991-11-24,Male,1359,1541 High St,San Diego,CA,92101,8186801562,hiroshi28@protonmail.com,English,White,CERNER
+e45661b5-6f1c-499f-b1ac-c080bb5807fb,Linda,Cook,Q,1970-06-22,Female,8776,799 Lake Rd,Detroit,MI,48201,7023788401,lindac@outlook.com,English,White,EPIC
+96cbd4f9-fa6d-48cc-b7ca-2627e45f2737,Karen,Sanchez,H,1966-04-06,Female,2893,6173 Oak Ave,Atlanta,GA,30301,8997979083,karen.sanchez@protonmail.com,English,White,EPIC
+3ba8e271-764a-4a13-8f1e-d0f70ba3369d,Jean-Marie,Brown,L,1971-04-10,Female,6034,8905 Cedar Ln,Detroit,MI,48201,,jeanmarie.brown@mail.com,English,White,ALLSCRIPTS
+4216bcd7-742e-4599-addd-8be1257780a6,Fatima,Phillips,H,1992-01-22,Female,2654,9346 Elm St,Chicago,IL,60601,7595825309,fatima75@outlook.com,English,Hispanic/Latino,EPIC
+f2d8faef-7118-4f0b-bb64-276022ce11e0,Scott,Moore,M,1971-04-01,Male,4356,8693 Main St,Portland,OR,97201,5274498870,scott85@hotmail.com,English,Hispanic/Latino,EPIC
+b2a630a2-3f48-4502-88ee-be7f487e3d26,Marcus,Brooks,Z,1976-02-29,Male,2080,8354 Pine St,Cleveland,OH,44101,,mbrooks@yahoo.com,English,Black/African American,ALLSCRIPTS
+f842f62d-29a1-4265-a4fe-883b80f7413e,Janet,Lewis,N,1961-10-27,Female,0453,6123 Market St,San Antonio,TX,78201,4309663086,jlewis@mail.com,English,Hispanic/Latino,CERNER
+cf912f07-1069-4f7a-bd96-3aedb805630a,Karen,Parker,N,1971-03-05,Female,2384,655 Broad St,Atlanta,GA,30301,8655495972,karen40@icloud.com,English,Hispanic/Latino,EPIC
+ee5c3e53-920d-4584-b8d4-81df63900804,Jo-Ann,Ruiz,V,1993-06-12,Female,5522,8023 Church St,Chicago,IL,60601,2644575394,jruiz@aol.com,English,White,MANUAL_ENTRY
+7644393f-7fde-4938-ad60-fdfb89e69862,Rachel,Flores,,1989-10-13,Female,6742,4324 Meadow Ln,Dallas,TX,75201,9868273281,rachelf@aol.com,Spanish,Hispanic/Latino,CERNER
+bb45ae41-b275-4b73-a455-45fe7317e2fd,Diego,Howard,D,1980-05-13,Male,9799,5528 Elm St,Miami,FL,33101,5834517416,diego73@aol.com,English,White,EPIC
+72e79264-d8f5-4f02-b05c-9d00f35e88b6,Angela,Thomas,R,2006-09-09,Female,,4175 Union Ave,San Antonio,TX,78201,7974839374,angela.thomas@hotmail.com,English,Black/African American,MANUAL_ENTRY
+4bc9d589-b397-4dc1-a15f-2e70e4158617,Fatima,Parker,D,1972-03-10,Female,,4545 Cedar Ln,Chicago,IL,60601,2989607934,fatima.parker@gmail.com,English,Black/African American,CERNER
+864be1d5-8051-46f6-875e-ff8a02679743,Jacob,Robinson,,1970-06-02,Male,4370,9055 Broad St,St. Louis,MO,63101,7667986189,jrobinson@outlook.com,English,Black/African American,EPIC
+57a6cf4a-e13a-4b38-a57b-726d36264865,Dante,Patel,I,1973-12-01,Male,3620,7529 Meadow Ln Apt 178,San Diego,CA,92101,4863091051,dante56@aol.com,English,White,EPIC
+5775fc15-4490-4e49-be15-c6a333eba43f,Ana,Alvarez,E,1983-09-20,Female,6228,8869 Jefferson Ave,New York,NY,10001,7036479584,ana64@gmail.com,English,Black/African American,EPIC
+f065cfe2-ec73-4ac1-995d-41508d7a7d4f,Christopher,Kim,V,1994-12-16,Male,5787,4492 Park Ave,Columbus,OH,43004,5888148695,christopher.kim@hotmail.com,English,Asian,ALLSCRIPTS
+b7704c75-ac7a-4ce9-8382-bbb4704afdd5,Frank,Campbell,P,1957-08-30,Male,6949,7166 Lake Rd,Chicago,IL,60601,4666903590,,English,Black/African American,CERNER
+476b4330-c79f-4f2e-9f94-2caf2734d0f2,Stephanie,McConnell,,1979-12-09,Female,2601,9058 Oak Ave,Chicago,IL,60601,4616633441,smcconnell@mail.com,English,White,EPIC
+16389647-3e3b-4329-b41c-643b9a4f3992,Cynthia,Van Der Berg,,1973-03-11,Female,2882,8978 Union Ave,San Jose,CA,95101,4412174201,cynthia.vanderberg@yahoo.com,English,White,CERNER
+61129b1c-cad7-4fef-a569-83e504fd047d,Destiny,Ross,F,1956-12-06,Female,5332,2815 Jefferson Ave,Cleveland,OH,44101,7127161931,destiny7@outlook.com,English,White,EPIC
+2def710e-6f7e-4e65-bc77-b776a1f98b63,Catherine,Kelly,O,1947-12-09,Female,1800,4067 Elm St,Baltimore,MD,21201,2685863226,,English,Hispanic/Latino,ALLSCRIPTS
+9bc6564b-a0c6-4441-8d30-24dc87015c50,Maria-Elena,Peterson,M,1963-05-13,Female,5798,9921 Forest Dr,Miami,FL,33101,9694579576,mariaelena65@outlook.com,English,White,EPIC
+70a5294c-e2b0-48a4-808a-38066f650964,Catherine,MacDonald,,1986-05-29,Female,6268,4908 Broad St Apt 499,Columbus,OH,43004,2164208135,cmacdonald@outlook.com,English,White,EPIC
+599d4de8-fc67-4f9f-8fda-f34fa53ae08b,Ryan,Cruz,,1995-09-23,Male,7590,6813 Oak Ave,Phoenix,AZ,85001,8553035840,ryan60@icloud.com,English,White,EPIC
+28548491-8873-463c-ad9d-0dbcd88a98e7,Darnell,Peterson,P,1962-03-06,Male,3169,8303 Elm St Apt 104,San Jose,CA,95101,9287755417,,English,White,CERNER
+12b219b2-4abe-4937-8c3a-b3d78c5c02ef,Rafael,Phillips,T,1996-11-06,Male,8470,2021 High St,Portland,OR,97201,7262379978,rafael20@yahoo.com,English,Black/African American,CERNER
+f3fd328e-253f-4d32-9ce9-e8fcc251ec3a,Anna,Jackson,,1970-12-28,Female,6289,6462 Park Ave Apt 311,Dallas,TX,75201,,,English,Hispanic/Latino,EPIC
+5a62aded-22ce-4af9-aa4c-52bc6eee16f1,Donna,Diaz,I,1966-03-06,Female,0613,7908 Maple Dr,Dallas,TX,75201,3698889085,,Spanish,Hispanic/Latino,ALLSCRIPTS
+a8568a86-3666-45db-beb7-0d1ed57e0f77,Jack,McConnell,I,1976-06-14,Male,5416,5350 Center St Apt 699,Detroit,MI,48201,8037325570,jack.mcconnell@hotmail.com,English,Hispanic/Latino,EPIC
+a1fbefeb-7c8d-4c45-8aa0-b24fcff6be6e,Nicole,Murphy,M,1956-11-30,Female,2424,3664 Park Ave,Nashville,TN,37201,3563009883,nicole96@mail.com,English,Hispanic/Latino,EPIC
+62da64df-ee3e-4620-b6b1-01e95d764ec8,Kenneth,Richardson,V,1970-03-05,Male,0932,6651 Spring St Apt 485,Charlotte,NC,28201,5415792937,kenneth63@protonmail.com,English,White,EPIC
+5b402923-9faf-417e-ae46-1aee9086d5c7,Pamela,Young,F,1986-06-04,Female,1357,1346 Maple Dr,Houston,TX,77001,,pyoung@protonmail.com,English,White,CERNER
+bec784d0-6fe8-4b69-aaa8-5bd5339708a3,Justin,MacDonald,V,1958-04-17,Male,9371,663 Elm St,Chicago,IL,60601,2397962349,jmacdonald@gmail.com,English,Hispanic/Latino,EPIC
+fedcd0f7-2a0a-4800-93ab-2b8c1e80f605,Monique,Martinez,J,1965-11-26,Female,8435,8134 Meadow Ln,Houston,TX,77001,6025463667,moniquem@protonmail.com,English,Black/African American,CERNER
+a2d89102-20a0-4b6d-8bcc-4f7aca40d920,Jacob,O'Brien,J,1963-05-03,Male,3943,2437 Highland Ave Apt 82,Indianapolis,IN,46201,,jacob14@outlook.com,English,White,CERNER
+6c127b80-1fe0-4b62-b503-d0dce296c37e,Raymond,Ruiz,H,1980-02-02,Male,9045,9629 Hill St,Boston,MA,02101,6848711554,raymondr@mail.com,English,White,EPIC
+190dc0cb-c202-488f-85cb-34ad28ff4fe4,Angela,Roberts,,1991-07-22,Female,6512,5302 High St Apt 335,Miami,FL,33101,9246326157,aroberts@outlook.com,English,White,EPIC
+8564786d-444b-4403-8382-153175e3f267,Christine,Jackson,,1964-07-29,Female,3313,2958 Spring St Apt 10,Boston,MA,02101,9285517111,cjackson@yahoo.com,English,White,EPIC
+efed4b61-3723-4701-b35d-4fa4f45c2507,Tamika,Scott,Q,1962-06-11,Female,3222,646 High St,Charlotte,NC,28201,4977518478,,English,White,EPIC
+6b72ce89-7510-475e-8cdd-7bb267edd7cc,Sarah,Stewart,N,1946-06-06,Female,5163,9682 Park Ave,Minneapolis,MN,55401,8672394759,sarahs@aol.com,English,Hispanic/Latino,EPIC
+4b316bb7-22c1-4593-8fe2-f5ecdb244aed,Rafael,Walker,N,1991-03-09,Male,4483,8955 Spring St Apt 890,Nashville,TN,37201,9858556016,rwalker@gmail.com,English,Black/African American,CERNER
+e74188ba-53db-4a9f-a131-b0e0595117e1,Kathleen,Roberts,K,1967-04-01,Female,1305,4024 Union Ave Apt 133,Austin,TX,73301,9484643769,kroberts@aol.com,English,White,CERNER
+e9d4ecfe-a872-416e-bcc9-ed96cf343cab,Larry,Flores,W,1956-07-04,Male,1248,1990 Main St,Phoenix,AZ,85001,,larry.flores@aol.com,Tagalog,White,EPIC
+26ed7d1a-7ec8-499e-8111-9a5c2387c579,Jasmine,Reyes,P,1982-02-21,Female,1507,2891 Market St,Jacksonville,FL,32099,4569421298,jreyes@yahoo.com,English,White,EPIC
+c3f22a40-4e75-4534-8441-c47588fa1616,Jasmine,Harris,Y,1986-05-15,Female,5573,6378 Jefferson Ave,Cleveland,OH,44101,9946124479,,English,Black/African American,CERNER
+856bf0e2-a28c-4470-8a9f-b0e8e469ed1a,Sarah,Myers,,1994-07-22,Female,7501,5280 Sunset Blvd,Columbus,OH,43004,2376634081,,English,White,MANUAL_ENTRY
+c1eb97db-3b30-4d9c-9df4-ca2edc04ab5d,Debra,Turner,A,2003-10-20,Female,1396,1573 Meadow Ln,Phoenix,AZ,85001,8073398756,debra.turner@icloud.com,English,White,EPIC
+e655c64d-8577-461b-b1c1-59f5574ff147,Guadalupe,Nguyen,,1948-05-07,Female,2243,4232 Market St,Baltimore,MD,21201,6212769699,guadalupen@protonmail.com,English,White,EPIC
+ce21a48d-2932-4452-8a56-2cf9fd6ccbe8,George,Alvarez,,1954-01-31,Male,9878,1641 Broad St Apt 999,Las Vegas,NV,89101,5415253027,,English,Hispanic/Latino,ALLSCRIPTS
+26647d02-5bc7-45b5-a93c-2cc867f039ed,Stephen,Flores,R,1975-02-25,Male,8993,9460 Highland Ave,St. Louis,MO,63101,8735042645,stephen40@gmail.com,English,Black/African American,EPIC
+b284c4f3-3235-4b26-9b47-42ef376603ec,Kimberly,Rodriguez,,2009-05-31,Female,,7815 Oak Ave,Tampa,FL,33601,7543095330,,English,White,EPIC
+27c942b3-f875-422a-8cb5-c9c93ffe04ab,Kwame,Hughes,U,1969-04-10,Male,8350,6684 Main St,San Diego,CA,92101,7909474072,kwame8@hotmail.com,English,Black/African American,CERNER
+13eb5d60-8fdf-4c57-9924-a3ed62667a1b,Terrence,Nguyen,M,1991-06-04,Male,9475,4414 Park Ave,San Jose,CA,95101,9236305177,terrence.nguyen@protonmail.com,English,Hispanic/Latino,EPIC
+fe6515fd-e275-4b5c-8542-98ea438b6ec1,Steven,Kelly,,1980-04-26,Male,0658,4096 Franklin St Apt 74,San Diego,CA,92101,3364235530,skelly@gmail.com,Spanish,White,ALLSCRIPTS
+6ace1887-4a87-4e1d-90ce-6cf1fa459d94,Anthony,Baker,,1982-01-21,Male,2019,6042 Church St,Cleveland,OH,44101,7318965506,abaker@hotmail.com,English,White,EPIC
+a4487673-5581-4825-9060-13a8281f9aba,Amy,Morales,I,1986-08-25,Female,1006,977 Franklin St,Miami,FL,33101,6233135705,,English,White,EPIC
+9647f008-c93f-4776-8d4a-482266666acc,Terrence,Rodriguez,L,1971-11-03,Male,7362,4516 Union Ave,San Antonio,TX,78201,6914258178,terrence31@gmail.com,English,White,MANUAL_ENTRY
+c979038d-ec21-416d-8098-45d95fa7bd65,Emily,Anderson,,1984-02-13,Female,8462,5083 Franklin St,Miami,FL,33101,,emilya@yahoo.com,English,White,ALLSCRIPTS
+f008e64c-bf4a-4ede-a5d1-f7f9ab77fabb,Imani,McKenzie,Z,1967-07-11,Female,8143,56 Pine St,Denver,CO,80201,9069887876,imckenzie@gmail.com,English,White,CERNER
+bacab4ef-d4e1-4722-941b-8522b8f66994,Guadalupe,Allen,I,1994-04-24,Female,9856,9241 Broad St Apt 484,Portland,OR,97201,4505321750,gallen@icloud.com,English,White,CERNER
+da722e30-740a-422e-9a3d-4e2e608ed748,Tyrone,Williams,D,1986-06-18,Male,3789,719 Washington Blvd,Charlotte,NC,28201,9562742681,twilliams@protonmail.com,English,Asian,EPIC
+e10d91e4-1241-4ff7-a4e1-d6ea81db555c,David,Allen,,1982-11-12,Male,7370,3426 Maple Dr,Tampa,FL,33601,3212955101,david6@hotmail.com,Spanish,White,CERNER
+194e4a9a-c7a2-40ca-b6f0-3c029f522d05,Mary,MacDonald,G,1979-09-07,Female,1639,8253 Forest Dr,Chicago,IL,60601,2006376717,mmacdonald@protonmail.com,English,Asian,EPIC
+d170804c-b9d6-481e-9590-731b13629ee9,Jennifer,Bennett,,1972-03-14,Female,3208,3426 Washington Blvd Apt 472,Minneapolis,MN,55401,,jennifer.bennett@outlook.com,Spanish,Asian,EPIC
+9ee4802f-c9b9-4b4e-a2f4-3b305e57e3c3,Nicole,McDonald,E,1968-04-20,Female,2606,6195 Main St Apt 36,Seattle,WA,98101,9006302778,,English,White,EPIC
+64242f8e-2afe-49d3-8f2f-7f1d0277d98d,Jorge,Robinson,F,1977-06-25,Male,8697,9695 Forest Dr,Tampa,FL,33601,3618089730,jorge58@hotmail.com,English,Black/African American,ALLSCRIPTS
+ab1bd2f4-1bae-4642-9039-678f362e1e4e,Benjamin,King,X,1958-03-31,Male,4842,8773 High St,Columbus,OH,43004,3189113077,benjamin.king@hotmail.com,English,Hispanic/Latino,EPIC
+e3cc8fc0-6cbb-4328-a6e0-cfae8dd185d2,Kimberly,Miller,R,1956-12-08,Female,8329,9944 River Rd,Cleveland,OH,44101,7652856556,kimberlym@yahoo.com,English,Hispanic/Latino,EPIC
+e998aff9-a8ba-4c47-96fd-31b2dd405583,Luis,Morales,G,1995-01-20,Male,3612,1465 Center St Apt 453,Baltimore,MD,21201,,luism@yahoo.com,English,White,CERNER
+6658620b-6474-42fc-95b4-2f6c1a32a02d,Nancy,Brown,,1972-05-01,Unknown,0497,5284 Elm St,Chicago,IL,60601,7992832353,nancy13@protonmail.com,English,Black/African American,EPIC
+b20eb1c6-fa64-4a19-a3d8-02771f1f6628,Linda,Castillo,,1975-10-08,Female,1886,8258 Sunset Blvd,Miami,FL,33101,3632879941,linda37@protonmail.com,English,Two or More Races,EPIC
+f609746f-734a-4d7a-b8c2-d87ac9cdc2f3,Larry,Cook,B,1982-07-19,Male,0430,9818 Oak Ave Apt 268,Los Angeles,CA,90001,5865536594,,Spanish,Hispanic/Latino,EPIC
+2d020f3b-aefe-4a9b-9124-1e9c0c4a86e8,Dennis,Reed,,1960-09-10,Male,4414,3734 Church St,Denver,CO,80201,,dennis74@outlook.com,Spanish,White,CERNER
+af7c86c4-2233-4a47-adcc-645f75935fbe,Wei,Miller,H,2000-06-18,Male,5817,279 Jefferson Ave,Miami,FL,33101,7383893060,,English,White,MANUAL_ENTRY
+4b44a619-cb64-4d22-ac55-fbdf4a2cf78f,Angela,McDonald,R,1960-07-13,Female,4286,4238 Sunset Blvd Apt 972,Detroit,MI,48201,4547284176,angela.mcdonald@hotmail.com,English,White,EPIC
+d4abedbf-945d-4966-b899-090600cf3b5b,Emily,Hughes,V,1978-06-17,Female,5038,4876 Elm St Apt 901,Charlotte,NC,28201,9343337033,emily.hughes@mail.com,English,Native American/Alaska Native,EPIC
+33c18a1d-f089-4115-ac5c-6aaa6f453ba4,William,O'Sullivan,U,1967-09-21,Male,6122,4762 Oak Ave Apt 808,Atlanta,GA,30301,8915776569,wosullivan@outlook.com,Spanish,White,CERNER
+4a3de7fe-09e1-4558-a605-ee3cfa738036,Brandon,Evans,J,2013-06-29,Male,0368,3701 Franklin St Apt 248,Atlanta,GA,30301,7127313923,bevans@aol.com,English,Black/African American,ALLSCRIPTS
+129e7602-ab80-4f56-861f-e65a35481cba,Gregory,Jones,,1979-05-13,Male,4773,3353 Washington Blvd,San Diego,CA,92101,5633989621,gregory.jones@icloud.com,English,Asian,EPIC
+77c6c294-1eb0-495a-a0d9-f28914227255,Anthony,Lopez,,1991-01-29,Male,9936,3951 Forest Dr Apt 696,San Antonio,TX,78201,4213377635,anthony6@hotmail.com,English,Asian,EPIC
+f1838f2a-b806-47b8-a9a4-e755019b2876,Amir,Murphy,K,1986-09-16,Male,8203,6672 Jefferson Ave,Cleveland,OH,44101,2082104028,amir.murphy@gmail.com,English,Native American/Alaska Native,EPIC
+d8340ec2-c4ac-4484-9d02-9959cfba393b,Betty-Lou,Ortiz,H,1981-05-13,Female,4323,4648 Meadow Ln Apt 743,Boston,MA,02101,2038354501,bettylou.ortiz@icloud.com,English,White,CERNER
+5ead4dd5-d02d-43f4-a09f-eec2908566d0,Monique,Brooks,J,1989-02-06,Female,3700,6505 Center St,San Diego,CA,92101,8003427672,,Spanish,White,MANUAL_ENTRY
+545ef21e-449f-4a3c-82ad-0a1ade5357e6,Tamika,Jackson,,1988-08-31,Female,4180,598 Highland Ave,St. Louis,MO,63101,3337329783,tamika.jackson@gmail.com,French,White,EPIC
+eb65ddb6-fefd-4f53-9502-94f7558796f4,Guadalupe,Parker,X,1972-03-14,Female,1572,2111 Spring St,Houston,TX,77001,,,English,White,CERNER
+e341271b-7a78-480d-95da-bc62d3be573f,Jerry,Gomez,C,1965-09-23,Male,7465,5250 Franklin St,Chicago,IL,60601,9864235161,jerry7@icloud.com,English,Hispanic/Latino,EPIC
+86835fa5-d6e7-4875-a595-558d1acad094,Latasha,Watson,N,1999-06-17,Female,2336,3455 Center St,Las Vegas,NV,89101,2413184966,latasha68@gmail.com,French,White,EPIC
+0dbbecf4-c32c-4ce4-b664-544c5c395893,Marcus,Patel,E,1984-05-08,Male,2033,1679 Valley Rd,Los Angeles,CA,90001,2188201778,marcusp@yahoo.com,English,White,MANUAL_ENTRY
+16c07cdd-4ffb-463d-a06b-3bffaccc9055,Mei,Allen,F,1970-09-13,Female,9384,6894 Jefferson Ave,Las Vegas,NV,89101,9998725856,meia@protonmail.com,English,Hispanic/Latino,ALLSCRIPTS
+e882e664-a487-4220-8a85-fa2bf3a30033,Jean-Marie,Young,,1987-07-21,Female,9330,3186 Elm St,Las Vegas,NV,89101,9994285823,jeanmarie.young@mail.com,English,Black/African American,CERNER
+0a0b0b9c-65f3-4096-9e10-b86f8e36c7dc,Janet,Martin,D,1980-08-13,Unknown,0500,7242 Elm St,Detroit,MI,48201,9414339519,janetm@icloud.com,English,White,ALLSCRIPTS
+0c438e48-2768-4e0d-b692-c393927219dd,Imani,Long,,1971-04-06,Female,6676,1931 Pine St,Tampa,FL,33601,6445491490,imanil@outlook.com,English,Black/African American,EPIC
+10c0701e-d5d6-4f29-84ff-79de06d60a97,Nancy,Powell,S,1987-09-22,Female,1192,3550 Main St,St. Louis,MO,63101,3008883387,nancyp@icloud.com,Vietnamese,White,EPIC
+4b98992d-ed6f-4d64-9d0f-933b5d6dba00,Jonathan,Phillips,H,1998-07-14,Male,0664,483 Elm St,Cleveland,OH,44101,2068839419,jonathan.phillips@mail.com,English,White,ALLSCRIPTS
+9c02a627-9a48-460c-ab98-2766c7d53f47,Tamika,Sanchez,,1989-04-25,Female,5486,418 Oak Ave,Minneapolis,MN,55401,2578265575,,English,Black/African American,EPIC
+11af0496-96d4-41f8-a90d-7678234d531f,Susan,Collins,F,1964-06-14,Female,6736,2354 Oak Ave,Detroit,MI,48201,4864761275,susanc@protonmail.com,English,White,EPIC
+a51ca3df-fa27-4ffe-98d1-37a2ebee30ed,Kimberly,Castillo,N,1989-04-24,Female,2247,319 River Rd,Jacksonville,FL,32099,7039428768,kimberly.castillo@gmail.com,Korean,Native American/Alaska Native,EPIC
+43d603d3-ce8c-41d7-ba8f-e6bad95e3770,Terrence,Gray,C,1966-08-19,Male,2173,5148 Broad St,St. Louis,MO,63101,5536102781,terrence.gray@yahoo.com,English,White,CERNER
+9e882e75-e073-4a37-a0f5-f0a06f687671,Kenneth,Smith,H,1977-09-01,Male,8409,5207 Pine St,Memphis,TN,38101,5535852986,,English,White,ALLSCRIPTS
+56a173ab-5a91-433c-b63f-5b75d5cea4cf,Helen,King,X,1946-10-30,Female,,6482 Hill St,Cleveland,OH,44101,2966415512,helen31@gmail.com,English,Black/African American,EPIC
+47bacd74-44a6-4a16-8b00-5ef4147309ef,Wei,Morgan,,1984-01-22,Male,8186,8412 Elm St,Memphis,TN,38101,,wmorgan@yahoo.com,English,Black/African American,EPIC
+c8a371ef-bed4-4045-acb8-4a9b962bf08a,Rosa,Perez,K,1977-04-19,Female,3831,6980 Park Ave,Atlanta,GA,30301,3177273903,rosa.perez@icloud.com,English,White,CERNER
+5780225f-7a73-4345-bf25-80934c71d1d8,Robert,Murphy,S,1993-06-27,Male,7023,1950 High St,Columbus,OH,43004,,robert31@protonmail.com,English,Native American/Alaska Native,ALLSCRIPTS
+c680825c-4ea8-476c-8d1e-991cb45870a7,Patricia,Campbell,M,1983-01-07,Female,5722,2609 Maple Dr,Austin,TX,73301,8755741243,patriciac@protonmail.com,English,Hispanic/Latino,EPIC
+0c4ef367-0034-4536-bb8c-99f828d7a746,Brian,Martinez,E,1977-10-20,Male,7482,9735 Oak Ave,Atlanta,GA,30301,8984744853,brian.martinez@aol.com,English,White,ALLSCRIPTS
+a9742d65-c084-4db0-ba62-778a54a15aeb,Raymond,O'Connor,,1995-04-27,Male,7096,9802 Highland Ave,Boston,MA,02101,4988633129,raymond.oconnor@icloud.com,English,White,EPIC
+04ce8d64-c297-4b76-b73a-17fb42cb7bdd,Andre,Cook,Z,1991-03-15,Male,7231,5849 Elm St,Chicago,IL,60601,6585998825,,Korean,Black/African American,EPIC
+ebdd1f4f-1382-452a-8904-2e29c133c00b,Mei,Scott,C,1970-05-21,Female,7559,8720 Union Ave,Seattle,WA,98101,8387888151,meis@outlook.com,English,Hispanic/Latino,EPIC
+914ef989-53cc-48bd-a48b-14efbf2025dd,Christopher,O'Brien,K,1977-04-22,Unknown,6530,3052 Valley Rd,Detroit,MI,48201,2539125412,christopher97@icloud.com,English,Asian,CERNER
+c97ccf41-6ae7-49e8-a7bb-e9d61fba83b2,Jean-Marie,Jones,,1967-07-05,Female,5613,6137 Lake Rd,Cleveland,OH,44101,6026717456,,English,Black/African American,EPIC
+ca0b638e-e940-497c-af69-4e260305846f,Kimberly,Mendoza,S,1967-11-22,Female,3640,3188 River Rd,Cleveland,OH,44101,3055487633,,English,Black/African American,CERNER
+c7f3e522-3744-4274-bc76-9f4cb2717c25,Jamal,Ross,P,1960-09-22,Male,9428,6614 Forest Dr,Philadelphia,PA,19101,5517427062,,English,White,CERNER
+35bdaffd-ebb6-410f-b475-427c98251923,Patrick,Brown,P,1943-07-23,Male,6328,9154 Church St Apt 329,Cleveland,OH,44101,9918965707,pbrown@hotmail.com,English,Black/African American,CERNER
+99f6f94f-b933-4d40-a109-15f4e92a7394,Shaniqua,O'Sullivan,D,1959-01-16,Female,,5466 Forest Dr,Denver,CO,80201,2885724443,shaniquao@yahoo.com,English,White,EPIC
+41290ec6-0e58-4183-af90-d6e25a384625,Anthony,Ramirez,L,1986-05-21,Male,6872,8594 Cedar Ln,Seattle,WA,98101,5242461263,anthony.ramirez@aol.com,English,Two or More Races,ALLSCRIPTS
+22dac35a-19b5-4773-b2a4-bf45d1d06d60,Alexander,Thompson,T,2024-04-02,Male,7747,986 Meadow Ln,Nashville,TN,37201,6892065451,alexandert@hotmail.com,English,White,ALLSCRIPTS
+5b173600-ac36-48f2-badd-0c869ace092a,Imani,O'Neill,Y,1985-08-27,Female,5315,9562 Center St,Cleveland,OH,44101,7516525579,imani18@outlook.com,Spanish,White,CERNER
+4dacbc47-ba73-48ef-a9db-bfcd871a5248,Tyrone,Cooper,X,2008-10-17,Other,4719,8226 Pine St,Philadelphia,PA,19101,3212848014,tyrone.cooper@gmail.com,English,White,EPIC
+a1f62628-0064-406c-bac1-5958f85aa6e6,Ryan,Ramos,H,1997-02-22,Male,2148,1897 Church St,Detroit,MI,48201,,,English,Hispanic/Latino,EPIC
+e4a2c8bd-34ac-428c-a346-2b504b8e15b2,Luis,Bailey,V,1965-07-16,Male,6276,9609 Meadow Ln,Columbus,OH,43004,7119064638,luisb@protonmail.com,English,White,EPIC
+828a510b-9de8-4dd8-abed-945133d3485d,Patrick,McConnell,X,1968-04-12,Male,6042,3427 Maple Dr,San Jose,CA,95101,3779249902,pmcconnell@yahoo.com,English,White,EPIC
+9b66a635-302f-4977-a913-e8b14aa99bfc,Mary,Watson,C,1954-02-24,Female,6805,8021 Elm St,Dallas,TX,75201,5532249724,,English,White,CERNER
+07110cdb-5c30-4f54-90b9-be36df0f61ed,Alejandro,Thompson,L,1967-08-06,Male,4265,5951 River Rd,Boston,MA,02101,5883581535,alejandro66@yahoo.com,English,Black/African American,CERNER
+9008e2bb-213b-44d1-b5ea-2d2089f21e88,Maria-Elena,Miller,F,1983-05-09,Female,1037,3524 Washington Blvd,Indianapolis,IN,46201,4227784049,mmiller@gmail.com,English,White,CERNER
+ab05619c-28e7-4621-a978-e0364d310fcc,Sharon,Patel,F,2014-02-04,Female,5356,9588 Maple Dr,Memphis,TN,38101,7633474874,sharonp@icloud.com,Spanish,White,ALLSCRIPTS
+1e5ba9a2-0333-4001-9978-f4d21aa26d16,Aaliyah,Clark,J,1976-05-10,Female,8078,2648 Market St,San Diego,CA,92101,7845405276,aaliyah.clark@protonmail.com,English,White,CERNER
+42baec73-b7ba-46da-8259-cf34d212bce1,Anne-Marie,Cruz,,1968-06-19,Female,1144,909 Church St,Philadelphia,PA,19101,6799779634,annemarie28@yahoo.com,Spanish,White,EPIC
+fb08c256-c3c9-475e-8aac-ec25cf3e9534,Ebony,Young,,1954-02-20,Female,5968,890 River Rd Apt 39,Columbus,OH,43004,4719799010,ebony67@protonmail.com,English,Black/African American,EPIC
+f3988080-4be8-4278-9551-7f574b9f3188,Catherine,Bennett,F,1972-12-06,Female,6460,998 Jefferson Ave,St. Louis,MO,63101,2414061284,catherine31@aol.com,English,White,ALLSCRIPTS
+5f078d41-9041-4112-a3a8-73ae31c51c54,Mary-Kate,Adams,,1950-01-19,Female,9347,1534 Main St,Tampa,FL,33601,3719976705,madams@yahoo.com,English,White,CERNER
+ef599979-9541-4f97-9091-a8b04ab869c5,Deborah,Davis,G,1965-04-06,Female,7702,3448 Valley Rd,Chicago,IL,60601,,deborah.davis@outlook.com,English,White,CERNER
+0170d62b-ba02-41dd-a97a-e8a65ea1a1b9,Kenneth,Thomas,W,1961-05-06,Male,1886,1463 Cedar Ln Apt 413,Las Vegas,NV,89101,3852422981,kthomas@gmail.com,Spanish,White,CERNER
+190e05e7-4fee-45b1-ad7f-a11db298678a,Lucia,Young,,1979-05-22,Female,3507,4811 Forest Dr Apt 390,Los Angeles,CA,90001,7492133930,lucia.young@aol.com,English,Two or More Races,ALLSCRIPTS
+76d34257-9ad3-4748-b668-685a6edf70e8,Daniel,Torres,,1990-07-08,Male,5523,144 Forest Dr,Cleveland,OH,44101,3538105697,dtorres@gmail.com,Spanish,White,MANUAL_ENTRY
+891a95fd-c345-4c44-b0a1-45d9916f8d06,Dennis,MacDonald,Z,1981-05-04,Male,,3517 Highland Ave,St. Louis,MO,63101,3319979135,dennis30@yahoo.com,English,White,EPIC
+d9c62b13-a6ae-48fe-b0b1-6ca629cdc141,Alexander,Peterson,L,1996-01-25,Male,0443,1228 Franklin St,Dallas,TX,75201,,alexander.peterson@gmail.com,English,Black/African American,EPIC
+f3aa7b98-98e5-4c71-a37a-a99fcd2571af,Raj,Scott,,1959-06-08,Male,7259,1399 Spring St,Boston,MA,02101,6224333129,,English,Hispanic/Latino,CERNER
+11edbacd-4578-4936-ac23-a7213aa6dfef,Debra,Green,,1957-04-25,Female,0124,4677 Oak Ave,San Diego,CA,92101,8305717644,debra48@protonmail.com,English,Black/African American,EPIC
+26996e0a-5cbb-4872-bb7c-8eaa68e72220,Frank,Mitchell,,1998-01-02,Male,4116,1744 Pine St,Seattle,WA,98101,6442022811,,English,Two or More Races,EPIC
+99c9fe74-bbea-4534-b1e0-19819400ba26,Ashley,Jones,,1967-09-09,Female,1644,6532 Lake Rd,Indianapolis,IN,46201,,,English,White,CERNER
+013f262a-aeb2-47be-9032-96cfabc7cd0d,Janet,Edwards,,1998-06-01,Female,,1773 Church St,Boston,MA,02101,4007201695,janet.edwards@yahoo.com,English,Asian,EPIC
+c1791b73-22e9-4c0b-a6e3-fed8dd635789,Richard,O'Malley,L,1939-08-07,Male,6563,1872 Highland Ave Apt 18,Philadelphia,PA,19101,3865579711,richard58@icloud.com,Spanish,White,CERNER
+7c4f90e3-c1ec-4643-8b80-6ac8e3baa4d1,Rebecca,Thomas,K,1982-12-24,Female,3282,6596 Elm St,Las Vegas,NV,89101,6504608167,rebecca.thomas@mail.com,English,Hispanic/Latino,EPIC
+ac07be77-ba17-4d06-b384-8fb47fd6b3be,Andrew,Hughes,A,1934-09-22,Male,1641,5413 Sunset Blvd,San Jose,CA,95101,3192518322,andrewh@protonmail.com,English,White,CERNER
+09b18e4f-000e-4181-a890-611bd1a1102d,Jacob,Cooper,R,1968-03-04,Male,9222,4417 Forest Dr Apt 256,Atlanta,GA,30301,9242676188,jacob.cooper@gmail.com,English,White,CERNER
+c5089b30-5384-45c7-b6d2-1e4f36cdaa10,Keisha,Gomez,Q,1954-05-15,Female,7589,7193 Valley Rd Apt 425,Portland,OR,97201,7699675794,,English,White,EPIC
+912f735a-fc4f-4f3f-b7ce-717e90b75e41,Susan,Morales,I,1977-11-29,Female,2854,5281 Spring St Apt 755,Atlanta,GA,30301,7278855736,susan79@yahoo.com,English,White,CERNER
+1664a6c1-39df-4d4b-bb49-fc1c9327d695,Carol,Del Rosario,V,1970-03-12,Female,8856,2811 Cedar Ln Apt 57,Cleveland,OH,44101,8768811449,carol.delrosario@aol.com,English,White,CERNER
+03532771-d9d8-4691-99e8-c2320c7e71e0,Mary-Kate,Rogers,Y,1967-06-13,Female,2401,1835 Maple Dr,Tampa,FL,33601,9487509251,marykate.rogers@aol.com,English,Hispanic/Latino,MANUAL_ENTRY
+5873f763-3379-4505-a5da-f16481201917,Nicole,Morgan,,1975-10-06,Female,3819,7215 Center St,Portland,OR,97201,7523762011,nicole.morgan@aol.com,English,Hispanic/Latino,EPIC
+ca16d4cd-a482-4300-a0ba-8a4a8ce37900,Melissa,MacDonald,,1992-06-17,Female,9759,1500 Jefferson Ave,Columbus,OH,43004,,,English,Black/African American,ALLSCRIPTS
+c0661571-c622-45a0-98f2-c7c26919f41e,Kevin,Kim,R,1968-09-19,Male,7817,820 Lake Rd Apt 364,Memphis,TN,38101,3204642448,kevink@mail.com,English,White,CERNER
+3b0d6e87-4800-4d12-beda-3532d06e3279,Amy,Thompson,V,1980-04-16,Female,3672,6184 Broad St Apt 954,Austin,TX,73301,8748867523,,English,White,ALLSCRIPTS
+53da7458-214a-458c-8d4e-a00001d93e5b,Pamela,McDonald,M,1998-05-22,Female,4352,8384 Hill St Apt 455,Indianapolis,IN,46201,,pmcdonald@yahoo.com,English,White,CERNER
+083cc0a8-6e63-41c6-956b-c9309ed6bcb5,Jose,Scott,E,1983-04-04,Male,9402,3638 Lake Rd,Miami,FL,33101,7134331673,jose34@outlook.com,English,White,MANUAL_ENTRY
+55f4a905-a86a-4a16-9b99-de2bdc6b89d9,Lucia,Cox,N,1948-02-27,Female,3513,1851 Forest Dr,Minneapolis,MN,55401,4545663674,lucia92@hotmail.com,English,White,EPIC
+8e7085e0-999e-46a4-902d-dba3e2b3d6dd,Mary,Baker,,1972-11-30,Female,,5263 River Rd,Dallas,TX,75201,9989171359,maryb@icloud.com,English,White,EPIC
+686bb599-cfe0-440f-b43c-9277ba0dec84,Guadalupe,Green,G,1979-06-19,Female,1035,7934 Franklin St Apt 529,Seattle,WA,98101,4648089818,guadalupe.green@gmail.com,English,Hispanic/Latino,ALLSCRIPTS
+4a8c01e6-fda0-40e9-b40d-08dde8f23fc6,Jonathan,Hernandez,N,1987-07-13,Male,1713,3711 Church St,Miami,FL,33101,8415855342,jonathan90@hotmail.com,Spanish,Black/African American,CERNER
+2c08d799-8cdd-4bc7-ab10-cc440231136c,Amir,Carter,W,1970-10-15,Male,5137,808 Cedar Ln Apt 139,Miami,FL,33101,8953841959,acarter@protonmail.com,Spanish,White,ALLSCRIPTS
+81d1d70d-e603-4a41-95fc-d30668c0191b,Mark,Martinez,N,1980-04-20,Male,3720,9765 River Rd,Minneapolis,MN,55401,6044127901,mmartinez@mail.com,English,Hispanic/Latino,CERNER
+2c358f14-81da-4888-a01d-8a2af03bf12a,Joseph,Carter,B,1954-06-22,Male,2226,8690 Forest Dr,San Jose,CA,95101,,josephc@mail.com,Spanish,Hispanic/Latino,CERNER
+1939bcdc-4b94-46a0-8496-a8d8d96ad22c,Jose,Miller,N,1972-11-23,Male,5091,6941 Broad St,Austin,TX,73301,7502298382,josem@aol.com,English,White,ALLSCRIPTS
+dd740b89-45d1-46fe-8a22-4150bc356f0c,Linda,Diaz,,1967-09-13,Female,2143,3020 Jefferson Ave,Cleveland,OH,44101,2553117496,linda.diaz@icloud.com,English,Black/African American,MANUAL_ENTRY
+add1987f-63fe-400c-a098-a60ff3749d1b,George,Thomas,,1987-11-04,Male,7404,7838 Highland Ave,Charlotte,NC,28201,3379826177,george.thomas@mail.com,English,White,EPIC
+63d947af-3cf5-473b-948f-527cadc5d7bd,George,Mitchell,Q,1971-07-17,Other,0982,8796 Main St Apt 603,New York,NY,10001,6056929102,george.mitchell@outlook.com,English,Hispanic/Latino,CERNER
+3e95cd2e-5305-4464-a20e-328d3bcae00c,Lucia,Powell,Z,1986-11-15,Female,6693,4311 Elm St,Miami,FL,33101,3509472817,luciap@gmail.com,English,Asian,ALLSCRIPTS
+751a3495-b9b8-4320-ae7a-75aa860d7f50,Ryan,Parker,S,1979-07-07,Male,,5741 Sunset Blvd Apt 272,Nashville,TN,37201,3795173095,,English,Black/African American,ALLSCRIPTS
+6bd01363-c95c-4723-8664-4b21bccde319,Angela,Campbell,I,2006-03-05,Female,,4170 Hill St,Charlotte,NC,28201,6785463386,acampbell@yahoo.com,English,White,MANUAL_ENTRY
+97ede96d-425c-47ec-8407-e6b31974cf33,Dante,Foster,Y,1979-04-21,Other,1390,7183 Jefferson Ave,Indianapolis,IN,46201,8805003725,dante25@gmail.com,Spanish,White,ALLSCRIPTS
+3af67055-c2e8-4378-8b9e-56745a92c7a7,Carolyn,Alvarez,,2017-06-22,Female,1102,6342 Park Ave,Las Vegas,NV,89101,9318504184,,English,White,EPIC
+12fdbbd4-ec30-4007-b967-f38dfb99bff6,Emily,Wright,H,1981-10-30,Female,,1702 Center St Apt 894,Cleveland,OH,44101,6857175695,emilyw@yahoo.com,English,White,EPIC
+2d1f3eea-52ef-496c-bd4c-72bc73c2e8ed,Janet,King,,1967-03-12,Female,3444,8767 Broad St,Minneapolis,MN,55401,8344228378,janetk@yahoo.com,English,Black/African American,CERNER
+1878efcf-07e0-4565-aacf-67512938ac3e,Alejandro,Cook,I,1958-05-27,Male,6972,8646 Center St,Portland,OR,97201,9829071998,acook@icloud.com,English,White,EPIC
+bf924037-8387-4eeb-805e-e544c334367e,Andrew,Allen,B,1994-02-15,Male,9801,6248 Highland Ave,Nashville,TN,37201,4087704709,aallen@outlook.com,English,Hispanic/Latino,ALLSCRIPTS
+24c095a5-676c-45c1-a283-b1880e60b4b6,Mark,Chavez,P,1943-01-24,Male,9282,2825 Center St,San Antonio,TX,78201,9287914474,,English,White,ALLSCRIPTS
+d1e787de-5a98-497a-87d2-c9547b103dbb,Ryan,Thompson,A,1970-03-06,Male,6323,7111 Market St Apt 932,Indianapolis,IN,46201,,ryan92@protonmail.com,English,White,CERNER
+dbff4952-f430-4d6f-8a15-b3c099761953,Deborah,Mitchell,C,1984-12-04,Female,4740,5232 Sunset Blvd,St. Louis,MO,63101,8037221776,dmitchell@aol.com,English,White,EPIC
+071c558c-da78-4551-a241-ac118663a734,Jo-Ann,Green,Z,1944-02-23,Female,,277 High St,San Antonio,TX,78201,3862037063,joann43@aol.com,English,White,EPIC
+5cdc8c43-18fa-4369-b823-e7fdfb6f4da2,Elizabeth,Parker,V,1986-02-25,Female,,6439 Broad St,Detroit,MI,48201,,,English,White,EPIC
+9ef0dc2f-dcb0-456a-81e9-b8e97b324ccc,Samuel,Gonzalez,S,1968-11-21,Male,7691,8566 Meadow Ln Apt 792,Los Angeles,CA,90001,3996407876,sgonzalez@aol.com,English,Hispanic/Latino,CERNER
+832a20db-0fe0-439a-8d76-d1547aca8b4a,Mary-Jo,Lee,O,1972-07-04,Female,9100,9270 Cedar Ln,Denver,CO,80201,8768568951,maryjo.lee@yahoo.com,English,Hispanic/Latino,EPIC
+4f616b35-67d7-4e9c-9810-b9d737757357,Christopher,Reed,M,1994-03-21,Male,3878,365 Maple Dr Apt 903,Phoenix,AZ,85001,5676659552,christopher.reed@outlook.com,English,White,CERNER
+063f5a76-8f58-4512-9b39-90fa445e59fd,Dante,Mitchell,C,1972-07-19,Male,1929,7974 High St,Indianapolis,IN,46201,,dante38@protonmail.com,English,White,ALLSCRIPTS
+bd666feb-1520-4696-8c70-23e952e86cc8,Marcus,Jackson,,1989-05-26,Male,6599,7140 Lake Rd Apt 145,Phoenix,AZ,85001,6885429392,marcusj@protonmail.com,Spanish,Asian,EPIC
+658ef9eb-2c60-4615-9323-6f1458bcf25f,Margaret,O'Sullivan,V,1981-03-12,Female,8286,48 Forest Dr Apt 865,Phoenix,AZ,85001,7082001295,margaret9@gmail.com,English,Asian,ALLSCRIPTS
+ae373c3b-faee-4a15-9179-e3ecbbe48d55,Richard,Collins,,1960-01-31,Male,7700,8243 Elm St,Philadelphia,PA,19101,9384861082,,English,Hispanic/Latino,CERNER
+7347a54e-8ff5-483f-80b4-d1687ca2040a,Ebony,White,,1978-02-18,Female,6876,6382 River Rd,Chicago,IL,60601,5822068888,,English,Hispanic/Latino,CERNER
+333562ae-7606-480b-8b1f-12b1fda4eb31,Jessica,Lopez,,1959-10-02,Female,2916,7600 Cedar Ln,Cleveland,OH,44101,5223908002,,English,Asian,EPIC
+3fd51aa7-de81-4e99-a39c-78e86f58d76c,Lucia,Miller,E,1975-03-01,Female,9726,241 Main St,Austin,TX,73301,9178692419,luciam@aol.com,Spanish,White,EPIC
+b9971248-16b2-4abb-a458-6ef4b86d7ccd,Jean-Marie,Gutierrez,S,1972-06-26,Female,6752,2155 Meadow Ln,Jacksonville,FL,32099,9843187773,jgutierrez@yahoo.com,English,White,ALLSCRIPTS
+ffd09231-fe1e-4f45-a8f5-151ac9cb54c1,Lisa,Ramirez,X,1975-10-18,Female,,9200 Valley Rd,Jacksonville,FL,32099,3872708672,lisar@hotmail.com,English,White,CERNER
+50ab6730-a052-4021-97d0-e13f2a8a2655,Kathleen,Baker,E,1979-09-02,Female,6645,4473 River Rd,Cleveland,OH,44101,6583989977,kbaker@aol.com,English,White,MANUAL_ENTRY
+d2b1278f-501f-43fb-b870-877d23753633,Ryan,Carter,Z,1942-11-13,Male,2259,778 Church St,Nashville,TN,37201,6544831821,ryanc@protonmail.com,English,White,EPIC
+685c6f9f-2b2f-4329-a011-7a4dcad1835f,Edward,Reed,,1998-03-27,Male,8861,5461 Jefferson Ave,St. Louis,MO,63101,,edward.reed@aol.com,Spanish,Hispanic/Latino,EPIC
+4d35d5fb-92b2-47f7-ab04-de444dfb3920,Charles,Gonzalez,Q,1969-04-21,Male,,4833 Highland Ave,Austin,TX,73301,2559033902,,English,White,CERNER
+4a7496ad-8292-4f1c-8733-1b99d7b9bd94,Ryan,Green,I,1978-04-13,Male,2902,1355 Valley Rd Apt 449,New York,NY,10001,7795651975,,English,Two or More Races,ALLSCRIPTS
+97caff96-28e8-4c4a-bdd5-e4640e4002e5,Lisa,Green,,1971-01-04,Female,5685,9638 Lake Rd,Miami,FL,33101,5472328177,lisa13@protonmail.com,Spanish,White,ALLSCRIPTS
+d3ec2420-00b4-4b9b-b1d2-6c75b2b53920,Marcus,Miller,W,1952-06-13,Male,0459,3779 Valley Rd,St. Louis,MO,63101,,,English,White,MANUAL_ENTRY
+9743b688-de89-40b1-8ffe-b59e2aad9046,Nicole,Foster,G,1984-04-02,Female,2065,3515 Spring St Apt 627,Los Angeles,CA,90001,9784912055,,English,Black/African American,CERNER
+9d4a65f6-8fb0-40f4-b8b6-26fde3c01dd1,Jeffrey,Wood,T,1994-05-21,Male,8936,5671 Jefferson Ave,Jacksonville,FL,32099,9027806578,,English,White,EPIC
+98dbef82-0999-459b-87c9-638e11f347d0,Hiroshi,Reed,A,1985-08-27,Male,8970,1208 River Rd,Los Angeles,CA,90001,4692454958,hreed@aol.com,Spanish,White,CERNER
+3d16e607-f100-426d-b79e-50ba63bb9074,Pamela,Flores,L,1987-12-09,Female,,8041 High St,Columbus,OH,43004,3605426375,,English,Black/African American,EPIC
+ba8db903-8317-4784-9600-8a6834b0e6ef,Raj,Ramirez,K,1978-01-01,Male,7526,4175 Elm St,Nashville,TN,37201,8777863448,rajr@hotmail.com,English,White,EPIC
+fb4a6baf-007d-453d-9aa3-580ce8503a2b,Mary-Kate,Garcia,N,1943-05-03,Female,,93 Sunset Blvd,San Diego,CA,92101,6237225149,marykate.garcia@outlook.com,English,White,EPIC
+7595d2b6-448d-46ea-b3a5-dfe704bcb9ca,Mary,Torres,K,1943-08-24,Female,9217,8898 High St,Nashville,TN,37201,3902893801,mtorres@mail.com,English,White,EPIC
+b88a4746-281c-4a3e-b5d4-8697cdd5baa0,Rosa,Bennett,F,1985-03-30,Female,2317,6063 Broad St,Indianapolis,IN,46201,,rbennett@protonmail.com,English,White,EPIC
+a3eb7273-c455-4952-a56b-5ba4af4dc5b5,Michelle,Lewis,R,1966-04-15,Female,1621,9962 Franklin St,Detroit,MI,48201,,michelle67@yahoo.com,Spanish,White,CERNER
+b22d07c1-f759-4e6d-8e66-ebe8957c2179,Carmen,Wilson,Q,1975-08-26,Female,6085,9016 River Rd Apt 603,Austin,TX,73301,7829678598,carmen.wilson@protonmail.com,English,Hispanic/Latino,CERNER
+a2d02aeb-7b3d-417d-b022-bb363aef1d9f,Debra,Walker,Y,1968-12-18,Female,6151,2533 Center St,Las Vegas,NV,89101,3767215523,debra.walker@aol.com,English,White,EPIC
+b2c6c59b-45ea-4d87-8d9d-da85ff252c82,Michelle,Smith,,1995-06-23,Female,4825,2089 Sunset Blvd,Nashville,TN,37201,3388783547,,English,White,EPIC
+c916598c-55ae-4a3c-8fce-630922ea2b05,Luis,Sanders,,1977-02-08,Other,5896,9871 Highland Ave Apt 11,Portland,OR,97201,9538421213,,English,White,MANUAL_ENTRY
+78359f29-c56a-4d68-95ea-cfdfeab0d46a,Joshua,Lewis,E,1994-08-20,Male,2083,1692 Park Ave,Baltimore,MD,21201,9959773140,joshua.lewis@mail.com,English,White,EPIC
+e2ed0205-c7ae-44d5-8940-d8dab614fc94,Joseph,Hall,T,1972-08-16,Male,6518,9578 Cedar Ln,Tampa,FL,33601,9862721375,joseph.hall@yahoo.com,English,White,EPIC
+0a305acd-3054-4e5c-ba02-79b19d37f620,Michelle,Howard,Q,1948-12-22,Female,0477,4063 Franklin St,Dallas,TX,75201,8345967420,,English,White,ALLSCRIPTS
+634340bb-db13-4b17-a17a-f25913200d59,Donald,Turner,Q,1961-10-03,Male,6843,6444 High St,Minneapolis,MN,55401,2415924831,donald11@outlook.com,English,White,EPIC
+1966f249-be56-4aed-9e17-f393584308b0,Angela,Hill,O,1970-08-30,Female,3216,5017 Meadow Ln,Memphis,TN,38101,7816266632,,English,Black/African American,EPIC
+04bfeee6-95e2-4877-bdd5-61b5a1e98d7b,Steven,McConnell,,1956-02-10,Male,2406,3547 Spring St,Dallas,TX,75201,9565516252,steven.mcconnell@outlook.com,English,Asian,CERNER
+912dee7c-7739-46be-aff1-e7c8cc97284a,Ronald,Patel,N,1953-01-26,Other,5097,1387 Valley Rd,St. Louis,MO,63101,4694254293,ronaldp@hotmail.com,English,White,ALLSCRIPTS
+440baa7f-47a5-460e-93fb-3b8b25c35130,Janet,Morgan,,1975-03-20,Female,3946,1290 Highland Ave,Chicago,IL,60601,7417117646,,Spanish,White,EPIC
+55434931-371d-4f17-ad3f-f70a55c8e9a4,Jerry,Ruiz,I,1939-08-03,Male,7430,9615 Highland Ave,Columbus,OH,43004,4749396496,jerry31@icloud.com,English,Hispanic/Latino,CERNER
+841c74ea-10e2-420c-9993-1ff4145f5b0f,Maria-Elena,Roberts,T,1974-03-05,Female,4593,1296 Elm St,Phoenix,AZ,85001,7489141129,mariaelena.roberts@aol.com,English,White,ALLSCRIPTS
+282cb53e-9eee-45e7-9e38-55106b8061e5,Katherine,Powell,S,1990-09-19,Female,7318,1849 Park Ave Apt 891,Philadelphia,PA,19101,3394457028,kpowell@yahoo.com,English,White,MANUAL_ENTRY
+104c1ec6-14c9-4313-8d61-abd4949a3b53,Eric,Wood,G,1975-09-06,Male,4931,5190 Hill St,Atlanta,GA,30301,6637807760,eric.wood@protonmail.com,Spanish,White,EPIC
+84cebfe5-6433-47ee-b5c6-ada2f13ed3a8,Ashley,Murphy,L,1945-01-18,Female,1970,6036 Franklin St,Chicago,IL,60601,,amurphy@aol.com,English,White,ALLSCRIPTS
+6fe4959e-d430-4346-957c-5a38ff699ee6,Amanda,Parker,Q,1972-04-23,Female,8160,1843 Union Ave Apt 989,Los Angeles,CA,90001,8638921414,aparker@mail.com,English,White,CERNER
+0b35f27b-2da2-4ab9-9bdb-e7c279c64bee,Jorge,Phillips,N,1987-12-28,Male,0055,4566 Oak Ave,Houston,TX,77001,,jorge20@icloud.com,English,White,EPIC
+46379199-82a1-43cc-8438-d7e301dda410,Katherine,Wood,B,1943-08-10,Female,2919,2098 Maple Dr,Boston,MA,02101,8783992964,katherine.wood@aol.com,Korean,White,ALLSCRIPTS
+9c5ba8c2-1624-4b63-8f97-0fbdb17f5c96,Nancy,Murphy,B,1968-12-27,Female,6194,5667 Broad St,Las Vegas,NV,89101,6003801438,nancy74@outlook.com,English,White,EPIC
+fbd189f9-dc4c-402a-bc1c-2da9c2dfa710,Alexander,O'Sullivan,V,1990-01-17,Male,7253,3115 Center St,San Diego,CA,92101,4945728760,aosullivan@hotmail.com,English,White,EPIC
+df42e387-2dd1-482d-8300-177da8f79c6a,Frank,Jones,C,2007-03-04,Male,7522,8380 Elm St,Los Angeles,CA,90001,3239829284,frank.jones@hotmail.com,English,White,CERNER
+2b8b68ca-f969-418b-9cba-fe546bde3609,Matthew,Rivera,R,1969-04-25,Male,2996,1469 Union Ave,Baltimore,MD,21201,6459245294,matthew52@aol.com,English,White,EPIC
+844a838d-68d2-4284-92a4-d6ec7be39d0c,Paul,Clark,G,1938-04-27,Male,2320,8329 Main St,Philadelphia,PA,19101,4994593522,pclark@outlook.com,English,Asian,MANUAL_ENTRY
+61512da2-399a-4858-94f0-bcb78f1641c6,Dennis,White,T,1962-10-01,Male,6383,7845 Park Ave Apt 664,San Diego,CA,92101,2564787501,dennis.white@protonmail.com,English,White,CERNER
+769aba37-1f25-4561-be6b-536f0a923cd4,Tyrone,Flores,U,1976-06-22,Male,0222,1176 Park Ave,Tampa,FL,33601,8762589334,tyrone30@mail.com,English,White,EPIC
+2fe46fc9-9141-475c-888b-173cc062a204,Stephen,O'Brien,L,1985-01-04,Male,1102,1417 Spring St,Jacksonville,FL,32099,2797796606,stephen.obrien@aol.com,English,Asian,EPIC
+f720c74a-985f-408b-a664-a70aa9ed8733,Betty-Lou,Adams,P,1958-10-09,Other,0986,9 Pine St Apt 173,Seattle,WA,98101,3628821244,,English,Hispanic/Latino,EPIC
+7b71d0f0-fb07-47d8-bf65-e81077782503,Nancy,Martin,G,1998-08-23,Female,6611,8716 Forest Dr,Indianapolis,IN,46201,7797358775,nancy55@outlook.com,English,White,EPIC
+ca0c7262-615e-431f-911f-fcaefe591e87,Melissa,Taylor,M,1986-04-23,Female,7542,9450 Center St,Austin,TX,73301,7576306773,melissat@hotmail.com,English,White,CERNER
+8d265c56-3c84-4c13-8380-7c2867973544,Maria,Nelson,A,1954-06-19,Female,2976,2043 Pine St Apt 124,San Diego,CA,92101,5602246719,marian@mail.com,English,Black/African American,CERNER
+ecb0720a-c2ff-4a4d-a95b-7cec502f71af,Aisha,Smith,A,1983-01-23,Female,9195,6483 Hill St,Indianapolis,IN,46201,6457087568,aisha76@protonmail.com,English,White,EPIC
+7d176674-f5c7-46d4-81e2-aa9ee505667a,Frank,Diaz,B,1977-03-25,Male,5783,3615 Union Ave Apt 603,Austin,TX,73301,4787787989,frank.diaz@protonmail.com,English,Black/African American,CERNER
+76c9417a-94b0-49cf-959b-a1176e10c3ef,Kwame,Hughes,K,1962-12-25,Male,,9725 High St,Jacksonville,FL,32099,5583123646,khughes@protonmail.com,English,White,EPIC
+dfec60f8-506e-47b3-954b-aef256e27cd5,Benjamin,Ward,,2004-06-11,Male,6446,4616 Spring St,Jacksonville,FL,32099,5389715288,bward@aol.com,English,Asian,EPIC
+6367c6e1-0918-41da-9baf-2ee5d6287589,Brandon,Ward,,1980-06-17,Male,9651,9953 Park Ave,San Diego,CA,92101,4644828387,brandonw@aol.com,English,Hispanic/Latino,ALLSCRIPTS
+adc5b97e-2b68-4544-8803-a6ecb14c33c5,Imani,Perez,,1963-09-06,Female,7815,3581 Forest Dr,Boston,MA,02101,9897345417,,English,White,MANUAL_ENTRY
+128c7d43-35c5-43a4-a4fa-9b5d22073b95,Imani,Edwards,,1972-04-18,Unknown,7843,711 Union Ave,Atlanta,GA,30301,7315564157,imanie@mail.com,English,Hispanic/Latino,EPIC
+8c7dff2d-96cc-489a-9a4c-4570b0fc791c,Barbara,Young,,1982-10-31,Female,1050,3661 Forest Dr Apt 29,Phoenix,AZ,85001,9545642747,,English,White,CERNER
+a5505828-4592-4b3e-9ddb-6b677a230052,Carlos,MacArthur,W,1957-06-10,Male,5419,5528 Sunset Blvd,Portland,OR,97201,2027688049,cmacarthur@yahoo.com,English,White,CERNER
+5eb15252-9866-4682-a0c6-8f58a9cadfa9,Deborah,King,M,1980-12-11,Female,9023,788 Washington Blvd,Jacksonville,FL,32099,6173613223,,English,White,EPIC
+51aed821-9c80-4993-ad3f-8ffe427c61d6,Eric,Evans,,1972-02-11,Male,,7386 Highland Ave,San Diego,CA,92101,9098907492,erice@gmail.com,Spanish,Asian,ALLSCRIPTS
+b9585a3f-0303-40bb-8cab-75b2d9aca207,Brenda,Carter,B,1961-02-23,Female,7983,4687 Maple Dr,Indianapolis,IN,46201,2385094405,bcarter@gmail.com,English,White,MANUAL_ENTRY
+cb2029db-0c63-4768-a194-8292bd5c8625,Tyrone,Ward,N,1953-09-23,Male,7347,5518 Franklin St,Atlanta,GA,30301,3634034293,,English,Black/African American,ALLSCRIPTS
+e9f76560-014f-4890-9cc5-b833ff86ac3a,Robert,Moore,S,1966-04-03,Male,3595,4156 Spring St,San Antonio,TX,78201,,robertm@mail.com,English,White,ALLSCRIPTS
+0820f1e2-b3c1-4346-a2b8-819694ecb070,Jin,Ward,Y,1976-10-26,Male,0928,4555 Sunset Blvd,Philadelphia,PA,19101,,jinw@outlook.com,English,White,EPIC
+2652389e-2e51-48c0-add7-88b45533d137,Steven,Garcia,,1977-06-12,Male,0268,7442 Highland Ave Apt 168,Chicago,IL,60601,3354991853,steven57@gmail.com,English,Black/African American,ALLSCRIPTS
+2ff41970-1c64-4c9a-8a54-5e1fa640a1a7,Anthony,McDonald,U,1970-05-17,Male,5261,4268 Spring St Apt 806,Minneapolis,MN,55401,3874701819,anthony69@hotmail.com,English,Black/African American,CERNER
+b2e3496a-c2b4-4e15-8b18-37699e4780dd,Amir,Van Der Berg,F,1964-06-13,Male,5623,6459 Jefferson Ave,Columbus,OH,43004,7199423415,avanderberg@protonmail.com,English,Hispanic/Latino,ALLSCRIPTS
+a7aa6305-1d60-48cc-b6f1-9d2787d411a7,George,Gonzalez,,1960-02-25,Male,1953,7503 Center St Apt 714,Denver,CO,80201,9047667814,george.gonzalez@gmail.com,English,White,ALLSCRIPTS
+656529d8-082c-4936-be1b-de81ae73a8ad,Barbara,O'Connor,H,1987-06-07,Female,4125,5816 Elm St,Baltimore,MD,21201,9823129093,,English,White,MANUAL_ENTRY
+473e2d29-15fb-4e4c-b697-942aadc03b64,Angela,Young,,1984-08-14,Female,0351,4740 Pine St Apt 385,Jacksonville,FL,32099,8955285270,ayoung@mail.com,Spanish,Asian,EPIC
+0c4bb8e2-300f-46da-bd8d-fd0e2ff87f4a,Stephanie,Sanchez,J,1986-03-25,Female,8496,8333 Meadow Ln,Seattle,WA,98101,4776751340,stephanie48@gmail.com,Korean,Hispanic/Latino,CERNER
+6d3c69bf-841a-4ef4-a28d-22b9075f9c96,Benjamin,Harris,O,1946-08-02,Male,2976,6999 Sunset Blvd,Columbus,OH,43004,8129586186,benjamin24@aol.com,English,Hispanic/Latino,EPIC
+7637018a-59fb-4edf-bbcd-57d71ba3a71c,Alexander,Reed,,2003-10-03,Male,2322,9906 Pine St Apt 378,Miami,FL,33101,3613545683,,English,Two or More Races,EPIC
+ced5bdc3-7399-4f80-94b9-9bb44875d721,Benjamin,Green,W,1960-06-16,Male,7141,7591 Valley Rd,San Diego,CA,92101,6183765860,benjamin6@outlook.com,English,White,EPIC
+f5d232dc-31a7-44ff-82f6-4502948dca01,Darnell,Brown,R,1982-02-09,Male,8819,663 Oak Ave,Atlanta,GA,30301,4299213572,,English,White,EPIC
+8af85d86-f989-44a4-aceb-32a8fbebf33a,Brian,Powell,,1967-11-08,Male,1845,6103 River Rd Apt 446,Baltimore,MD,21201,7487117577,brian.powell@gmail.com,English,White,EPIC
+a38d6977-066a-4fd2-b0db-93e4d0e1f4e2,Heather,Flores,Y,1957-04-10,Female,,2911 Forest Dr,Columbus,OH,43004,7096529592,heatherf@icloud.com,French,Asian,MANUAL_ENTRY
+bf0f7133-864a-4163-a179-c1259f307da1,Pamela,Van Der Berg,J,1955-02-10,Female,2118,4853 Valley Rd Apt 626,San Antonio,TX,78201,6463483933,,English,White,EPIC
+f91986e4-f055-4ea0-8315-fb517b23cd0a,Larry,Lee,R,1967-11-15,Male,8373,9312 Jefferson Ave,St. Louis,MO,63101,2926828315,,Tagalog,White,CERNER
+5d8b330e-b6e5-4dbb-9995-4d40f0dc8c11,Brenda,Kelly,D,1936-05-17,Female,3263,9004 Main St Apt 897,Houston,TX,77001,6192213754,brendak@gmail.com,English,Asian,EPIC
+5bbb00aa-42e7-421e-8243-232ff5e345d5,Andre,Gomez,,1966-03-16,Male,2940,4003 Center St,Dallas,TX,75201,2015633651,andre.gomez@outlook.com,English,White,EPIC
+97eadf45-1486-4a4c-9d95-09b85910747f,Michelle,O'Sullivan,N,1968-12-04,Female,2905,9107 Washington Blvd,Cleveland,OH,44101,5948894339,michelle.osullivan@protonmail.com,English,White,CERNER
+6340f4f1-b1a0-4b29-9891-71746cee9028,Aaliyah,O'Neill,Y,1989-02-08,Female,9046,1781 Main St,San Jose,CA,95101,8797173569,aoneill@hotmail.com,English,Black/African American,CERNER
+3a7c9a22-c4e8-40bc-828b-9c807d6e1db8,Laura,Hall,O,1967-06-05,Female,1037,7814 Church St,Denver,CO,80201,9172207652,laura64@protonmail.com,English,Black/African American,EPIC
+02f802fd-53b8-4c0d-9526-c87194378e69,Catherine,O'Sullivan,A,1999-07-07,Female,4364,1230 Meadow Ln Apt 622,San Diego,CA,92101,6193198547,catherine46@yahoo.com,English,Hispanic/Latino,CERNER
+93b0500d-0cb1-40d9-b56b-5fca8178fa62,Nicole,Hall,F,2002-04-19,Female,,2469 Highland Ave,Baltimore,MD,21201,6087467299,nicole.hall@icloud.com,English,White,EPIC
+cb5b33c5-c46c-47cb-bad9-5e2e9846b405,Amir,Ramos,F,1981-11-16,Male,0147,7281 Franklin St,Atlanta,GA,30301,8222238291,amir19@protonmail.com,English,Hispanic/Latino,MANUAL_ENTRY
+91967a71-3e3f-4caa-af47-fb9afa5b9452,Pedro,Kelly,P,1968-03-27,Male,9064,9754 High St,Miami,FL,33101,4617726766,pedrok@aol.com,English,Hispanic/Latino,EPIC
+3ffecbf5-9b6e-48ad-8d69-8aa1692cf386,Tamika,McConnell,N,1988-08-11,Female,5625,6532 Franklin St,San Antonio,TX,78201,3095895799,tamikam@gmail.com,English,White,ALLSCRIPTS
+f7b20ae9-7763-4503-ad50-17dc5afe069a,Darnell,O'Neill,A,1973-10-21,Male,1937,515 Elm St,Minneapolis,MN,55401,2406067557,doneill@gmail.com,English,Hispanic/Latino,ALLSCRIPTS
+b60c4653-59be-432c-8b82-178cbcaebed3,Anthony,Foster,,1993-06-21,Male,0674,7905 Hill St,Austin,TX,73301,4428338761,anthonyf@yahoo.com,English,White,EPIC
+99a07677-be87-4b5d-b875-4f00e458fe2a,Mei,Powell,A,1983-03-11,Female,,5652 Franklin St,Los Angeles,CA,90001,3048066830,mei46@gmail.com,English,White,CERNER
+2323e724-ff8f-47ad-a28e-55e919e629dd,Deborah,O'Sullivan,R,1992-11-02,Female,9330,8236 Jefferson Ave,Los Angeles,CA,90001,2198692938,deborah.osullivan@outlook.com,English,White,CERNER
+90e03c26-52f5-44ea-865d-eed02eba811f,Jack,Del Rosario,B,2003-12-02,Male,4843,4130 Pine St,San Jose,CA,95101,6026955493,jack72@mail.com,English,White,EPIC
+58c1c255-e262-4bfc-bf89-c0cf2c976c0d,Paul,Powell,D,1982-06-03,Male,7826,5168 Spring St,Phoenix,AZ,85001,3853271129,paulp@hotmail.com,English,White,EPIC
+c602ad49-30ab-4175-8195-b9b443267a51,Jerry,Hill,V,1963-10-25,Male,3650,7162 Church St Apt 869,Las Vegas,NV,89101,4377474690,jhill@protonmail.com,English,White,CERNER
+dc7c3efd-7e9c-44b2-8a16-6d206c177470,Kevin,Hughes,T,1952-09-22,Male,3028,1114 Highland Ave,Chicago,IL,60601,9978553345,khughes@protonmail.com,English,Two or More Races,EPIC
+595a0542-b8d8-4998-bc1c-e389cdd9c4ce,Amy,Richardson,K,1967-04-09,Female,9079,2802 Elm St,Austin,TX,73301,8975543292,amy13@icloud.com,English,Hispanic/Latino,EPIC
+c574fc96-53cb-4f0a-8518-0bf169a4b68e,Charles,Edwards,,1978-05-14,Male,,9819 Maple Dr,San Jose,CA,95101,4756824773,cedwards@hotmail.com,English,White,ALLSCRIPTS
+dba07dbd-918a-438e-a0f1-8ce46a6a727b,Emma,Anderson,O,1972-02-06,Female,4919,9357 High St Apt 297,Baltimore,MD,21201,8174081600,emma.anderson@protonmail.com,English,White,EPIC

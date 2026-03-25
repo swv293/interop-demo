@@ -1,0 +1,29 @@
++------------------------------------------------------------------+
+|                    URGENT PRIOR AUTH REQUEST                       |
+|                    {HEALTH_PLAN_NAME}                              |
++------------------------------------------------------------------+
+
+REQUEST DATE: {SUBMISSION_DATE}         AUTH REF: {AUTH_NUMBER}
+
+PATIENT:
+  Name: {LAST_NAME}, {FIRST_NAME} {MIDDLE_INITIAL}
+  DOB:  {DOB}          Gender: {GENDER}
+  ID#:  {MEMBER_ID}    SSN4:   {SSN4}
+  Tel:  {PHONE}
+
+REQUESTING PROVIDER:
+  {PROVIDER_NAME} (NPI: {PROVIDER_NPI})
+  {FACILITY_NAME}
+  Fax: {PROVIDER_FAX}
+
+SERVICE REQUESTED:
+  CPT:  {PROCEDURE_CODE} {PROCEDURE_MODIFIER}
+  ICD:  {DIAGNOSIS_CODE}
+  From: {SERVICE_FROM_DATE}  To: {SERVICE_TO_DATE}
+  Units: {REQUESTED_UNITS}
+
+CLINICAL RATIONALE:
+{CLINICAL_JUSTIFICATION}
+
+Urgency: [ ] Standard (14 day)  [X] Urgent (72 hour)
++------------------------------------------------------------------+

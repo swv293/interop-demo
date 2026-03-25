@@ -1,0 +1,18 @@
+                        LABORATORY REPORT
+                        {FACILITY_NAME}
+
+Patient: {FIRST_NAME} {LAST_NAME}        DOB: {DOB}
+ID: {MEMBER_ID}                           Collection: {SERVICE_FROM_DATE}
+
+Ordering Provider: {PROVIDER_NAME}  NPI: {PROVIDER_NPI}
+
+Test                    Result      Reference Range     Flag
+--------------------------------------------------------------
+{LAB_TEST_1}           {LAB_VAL_1}  {LAB_REF_1}        {LAB_FLAG_1}
+{LAB_TEST_2}           {LAB_VAL_2}  {LAB_REF_2}        {LAB_FLAG_2}
+{LAB_TEST_3}           {LAB_VAL_3}  {LAB_REF_3}        {LAB_FLAG_3}
+
+Clinical Correlation: {DIAGNOSIS_CODE} - {DIAGNOSIS_DESC}
+Authorization Reference: {AUTH_NUMBER}
+
+Report generated: {SUBMISSION_DATE}
