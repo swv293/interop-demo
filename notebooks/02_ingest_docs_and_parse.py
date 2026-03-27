@@ -91,10 +91,7 @@ display(raw_files_df.select("path", "modificationTime", "length").limit(10))
 # MAGIC CREATE OR REPLACE TEMPORARY VIEW parsed_docs_raw AS
 # MAGIC SELECT
 # MAGIC   path,
-# MAGIC   ai_parse_document(content, named_struct(
-# MAGIC     'mode', 'OCR',
-# MAGIC     'outputFormat', 'MARKDOWN'
-# MAGIC   )) AS parsed
+# MAGIC   ai_parse_document(content) AS parsed
 # MAGIC FROM read_files(
 # MAGIC   '/Volumes/serverless_stable_swv01_catalog/raw/raw_docs/',
 # MAGIC   format => 'binaryFile',
@@ -118,16 +115,13 @@ files_with_id = raw_files_df.withColumn(
 )
 
 # Parse using SQL expression on each row
-# ai_parse_document accepts binary content and returns a parsed struct
+# ai_parse_document accepts binary content and returns a parsed VARIANT
 parsed_df = files_with_id.selectExpr(
     "doc_id",
     "path AS file_path",
     "modificationTime AS file_mod_time",
     "length AS file_size_bytes",
-    """ai_parse_document(content, named_struct(
-        'mode', 'OCR',
-        'outputFormat', 'MARKDOWN'
-    )) AS parsed_result"""
+    "ai_parse_document(content) AS parsed_result"
 )
 
 # COMMAND ----------
@@ -142,27 +136,29 @@ parsed_df = files_with_id.selectExpr(
 
 # COMMAND ----------
 
-# Flatten the parsed result into usable columns
+# Flatten the parsed VARIANT result into usable columns
 extracted_df = parsed_df.select(
     "doc_id",
     "file_path",
     "file_size_bytes",
 
     # Concatenate all text elements into a single raw_text field
-    F.concat_ws(
-        "\n",
-        F.transform(
-            F.col("parsed_result.document.elements"),
-            lambda elem: elem.getField("content")
+    # VARIANT fields use : path syntax, not . dot notation
+    F.expr("""
+        concat_ws('\n',
+            transform(
+                try_cast(parsed_result:document:elements AS ARRAY<VARIANT>),
+                elem -> try_cast(elem:content AS STRING)
+            )
         )
-    ).alias("raw_text"),
+    """).alias("raw_text"),
 
     # Error status — null means successful parse
-    F.col("parsed_result.error_status").alias("parse_error_status"),
+    F.expr("try_cast(parsed_result:error_status AS STRING)").alias("parse_error_status"),
 
     # Metadata fields
-    F.col("parsed_result.metadata.pageCount").cast("int").alias("page_count"),
-    F.col("parsed_result.metadata.confidence").cast("float").alias("parse_confidence"),
+    F.expr("try_cast(parsed_result:metadata:pageCount AS INT)").alias("page_count"),
+    F.expr("try_cast(parsed_result:metadata:confidence AS FLOAT)").alias("parse_confidence"),
 
     # Timestamps
     F.current_timestamp().alias("ingest_ts"),
