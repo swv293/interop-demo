@@ -2,6 +2,10 @@
 
 End-to-end Databricks lakehouse demo for healthcare clinical document processing: AI-powered document parsing, probabilistic record linkage (Fellegi-Sunter), and prior authorization matching.
 
+> **Companion repo:** [`databricks-clinical-matching-prod`](https://github.com/swv293/databricks-clinical-matching-prod) takes the same logic and delivers it as a production-shaped Lakeflow streaming pipeline with built-in DQ gates, parallel branches, an orchestrated job, and a Databricks Asset Bundle. Use this repo to learn the pattern; use that one to deploy it.
+
+Licensed under the [Apache License, Version 2.0](LICENSE).
+
 ## System Overview
 
 The Prior Authorization (PA) module manages the lifecycle of service authorization requests from submission through clinical determination. Authorization requests arrive via three channels — electronic (X12 278 / FHIR), telephonic (CIT), and fax — and are persisted as records linked to the Member golden master.
@@ -169,6 +173,8 @@ Member (golden master)          Authorization                Clinical Document
 - Cluster with Databricks Runtime 14.0+ (for `ai_parse_document` and `ai_query`)
 - Unity Catalog enabled
 
+> **Catalog name**: notebooks deploy to the workspace catalog `serverless_stable_swv01_catalog`. The `infra/*.sql` files still reference `healthcare_demo` as a logical placeholder — substitute `serverless_stable_swv01_catalog` (or your workspace catalog) when you run them. The `healthcare_demo_*` names referenced under PHI/PII Protection below are workspace IAM **group** names, not catalog names, and stay as-is.
+
 ### Step 1: Create Infrastructure
 
 Run the SQL files in order on a SQL Warehouse or notebook:
@@ -194,8 +200,8 @@ python data/generation/generate_synthetic_data.py
 pip install fpdf2
 python data/generation/generate_pdfs.py --output data/generated_docs/ --limit 100
 
-# Upload CSVs to UC volume
-databricks fs cp data/synthetic/ /Volumes/healthcare_demo/raw/raw_docs/seed_data/ --recursive
+# Upload CSVs to UC volume (substitute your workspace catalog if different)
+databricks fs cp data/synthetic/ /Volumes/serverless_stable_swv01_catalog/raw/raw_docs/seed_data/ --recursive
 ```
 
 ### Step 3: Run the Pipeline
