@@ -508,12 +508,14 @@ def generate_document(row: dict, row_index: int, output_dir: Path) -> str:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Generate clinical PDF documents")
+    parser = argparse.ArgumentParser(description="Generate clinical PDF documents (and optionally TIFFs)")
     parser.add_argument("--input", "-i",
                         default=str(PROJECT_ROOT / "data" / "synthetic" / "intake_forms_structured.csv"))
     parser.add_argument("--output", "-o",
                         default=str(PROJECT_ROOT / "data" / "generated_docs"))
     parser.add_argument("--pdf", type=int, default=60, help="Number of PDFs to generate")
+    parser.add_argument("--tiff", type=int, default=0,
+                        help="Number of fax-realistic G4 TIFFs to generate (delegates to generate_tiffs.py; requires Pillow)")
     args = parser.parse_args()
 
     output_dir = Path(args.output)
@@ -545,8 +547,33 @@ def main():
 
     print(f"  PDFs: {pdf_count}/{pdf_count} done")
 
+    tiff_count = 0
+    if args.tiff > 0:
+        try:
+            from generate_tiffs import generate_tiff, load_font
+        except ImportError as e:
+            print(f"\nError: --tiff requires Pillow. Install with `brew install pillow` (macOS) or `pip install Pillow`.")
+            print(f"  Underlying error: {e}")
+            sys.exit(2)
+
+        offset = pdf_count
+        if offset + args.tiff > len(rows):
+            print(f"Warning: requested {args.tiff} TIFFs but only {len(rows) - offset} CSV rows remain after PDFs. Clamping.")
+            args.tiff = max(0, len(rows) - offset)
+
+        font = load_font()
+        print(f"\nGenerating {args.tiff} fax-realistic G4 TIFFs...")
+        for i in range(args.tiff):
+            fname = generate_tiff(rows[offset + i], offset + i, output_dir, font)
+            generated.append(fname)
+            if (i + 1) % 5 == 0 or (i + 1) == args.tiff:
+                print(f"  TIFFs: {i + 1}/{args.tiff}")
+        tiff_count = args.tiff
+
     print(f"\nGenerated {len(generated)} documents:")
     print(f"  PDFs:  {pdf_count}")
+    if tiff_count:
+        print(f"  TIFFs: {tiff_count}")
     print(f"  Dir:   {output_dir}")
 
     # Print file sizes

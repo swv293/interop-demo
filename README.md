@@ -76,8 +76,10 @@ interop_demo/
 │   │   ├── prior_auth_form_*.txt      # PA form templates (3 variants)
 │   │   └── clinical_note_*.txt        # Clinical note templates (3 variants)
 │   └── generation/
-│       ├── generate_synthetic_data.py # Generates seed CSVs
-│       └── generate_pdfs.py           # Renders PDFs from templates + CSV data
+│       ├── generate_synthetic_data.py    # Generates seed CSVs
+│       ├── generate_pdfs.py              # Renders PDFs from templates + CSV data
+│       ├── generate_docs_standalone.py   # Stdlib-only PDF + (optional) TIFF generator
+│       └── generate_tiffs.py             # Fax-realistic G4 TIFF generator (Pillow)
 ├── notebooks/
 │   ├── 01_ingest_seed_data.py               # Load CSVs → Delta tables
 │   ├── 02_ingest_docs_and_parse.py          # Binary file read + ai_parse_document
@@ -199,6 +201,10 @@ python data/generation/generate_synthetic_data.py
 # Generate PDFs from templates (requires fpdf2)
 pip install fpdf2
 python data/generation/generate_pdfs.py --output data/generated_docs/ --limit 100
+
+# (Optional) Generate fax-realistic CCITT G4 TIFFs to exercise the TIFF channel.
+# Requires Pillow (`brew install pillow` on macOS, or `pip install Pillow` in a venv).
+python data/generation/generate_docs_standalone.py --pdf 60 --tiff 10 --output data/generated_docs/
 
 # Upload CSVs to UC volume (substitute your workspace catalog if different)
 databricks fs cp data/synthetic/ /Volumes/serverless_stable_swv01_catalog/raw/raw_docs/seed_data/ --recursive
