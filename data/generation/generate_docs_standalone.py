@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
-Generate clinical PDF and TIFF documents using ONLY the Python standard library.
+Generate clinical PDF documents using ONLY the Python standard library.
 
-Produces minimal but valid PDF and TIFF files with embedded clinical text from
+Produces minimal but valid PDF files with embedded clinical text from
 the intake_forms_structured.csv seed data. No external dependencies required.
 
 Usage:
-    python3 generate_docs_standalone.py --pdf 60 --tiff 10 --output data/generated_docs/
+    python3 generate_docs_standalone.py --pdf 60 --output data/generated_docs/
 """
 
 import argparse
@@ -14,7 +14,6 @@ import csv
 import hashlib
 import os
 import random
-import struct
 import sys
 import zlib
 from pathlib import Path
@@ -473,107 +472,10 @@ class MinimalPDF:
 
 
 # ---------------------------------------------------------------------------
-# Minimal TIFF writer (no dependencies)
-# ---------------------------------------------------------------------------
-
-def text_to_bitmap(text: str, width: int = 2550, line_height: int = 30, char_width: int = 15) -> bytes:
-    """Convert text to a raw bitmap (1-bit per pixel, packbits-like).
-    Returns raw uncompressed grayscale image bytes (8-bit)."""
-    lines = text.split("\n")
-    height = max(len(lines) * line_height + 100, 400)
-
-    # Create a white image (255 = white for 8-bit grayscale)
-    img = bytearray(b'\xff' * (width * height))
-
-    # Simple bitmap font rendering — draw black pixels for each character
-    # We use a very basic approach: each char is a small block of dark pixels
-    y_offset = 50
-    for line in lines:
-        x_offset = 100
-        for ch in line:
-            if ch != ' ' and ch.isprintable():
-                # Draw a small block for each character (crude but visible)
-                for dy in range(2, line_height - 8):
-                    for dx in range(1, char_width - 3):
-                        py = y_offset + dy
-                        px = x_offset + dx
-                        if 0 <= py < height and 0 <= px < width:
-                            # Create character-like patterns
-                            if (dy + dx + ord(ch)) % 3 != 0:
-                                img[py * width + px] = 0  # black
-            x_offset += char_width
-            if x_offset > width - 100:
-                break
-        y_offset += line_height
-        if y_offset > height - 50:
-            break
-
-    return bytes(img), width, height
-
-
-def write_tiff(filepath: str, image_data: bytes, width: int, height: int):
-    """Write a minimal valid TIFF file (uncompressed 8-bit grayscale)."""
-    # TIFF header
-    header = struct.pack("<2sHI", b"II", 42, 8)  # Little-endian, TIFF magic, IFD offset
-
-    # IFD entries (tag, type, count, value_or_offset)
-    entries = [
-        (256, 3, 1, width),          # ImageWidth
-        (257, 3, 1, height),         # ImageLength
-        (258, 3, 1, 8),             # BitsPerSample
-        (259, 3, 1, 1),             # Compression = None
-        (262, 3, 1, 1),             # PhotometricInterpretation = BlackIsZero
-        (273, 4, 1, 0),             # StripOffsets (placeholder)
-        (278, 3, 1, height),        # RowsPerStrip
-        (279, 4, 1, len(image_data)),  # StripByteCounts
-        (282, 5, 1, 0),             # XResolution (placeholder)
-        (283, 5, 1, 0),             # YResolution (placeholder)
-        (296, 3, 1, 2),             # ResolutionUnit = inch
-    ]
-
-    num_entries = len(entries)
-    ifd_size = 2 + num_entries * 12 + 4  # count + entries + next_ifd
-    data_start = 8 + ifd_size
-
-    # Resolution rational values (300/1)
-    res_offset = data_start
-    res_data = struct.pack("<II", 300, 1)  # 300 DPI
-    image_offset = data_start + len(res_data) * 2
-
-    # Fix offsets
-    fixed_entries = []
-    for tag, typ, count, value in entries:
-        if tag == 273:  # StripOffsets
-            value = image_offset
-        elif tag == 282:  # XResolution
-            value = res_offset
-        elif tag == 283:  # YResolution
-            value = res_offset + 8
-        fixed_entries.append((tag, typ, count, value))
-
-    with open(filepath, "wb") as f:
-        f.write(header)
-
-        # IFD
-        f.write(struct.pack("<H", num_entries))
-        for tag, typ, count, value in fixed_entries:
-            f.write(struct.pack("<HHII", tag, typ, count, value))
-        f.write(struct.pack("<I", 0))  # Next IFD = 0 (none)
-
-        # Resolution data
-        f.write(res_data)  # XResolution
-        f.write(res_data)  # YResolution
-
-        # Image data
-        f.write(image_data)
-
-
-# ---------------------------------------------------------------------------
 # Main generation logic
 # ---------------------------------------------------------------------------
 
-def generate_document(row: dict, row_index: int, output_dir: Path,
-                      output_format: str = "pdf") -> str:
+def generate_document(row: dict, row_index: int, output_dir: Path) -> str:
     """Generate a single document from a CSV row."""
     seed = int(hashlib.md5(f"{row_index}_{row.get('doc_id','')}".encode()).hexdigest(), 16) % (2**31)
     rng = random.Random(seed)
@@ -596,31 +498,22 @@ def generate_document(row: dict, row_index: int, output_dir: Path,
 
     doc_id = row.get("doc_id", f"doc_{row_index:06d}")
 
-    if output_format == "pdf":
-        filename = f"{doc_id}.pdf"
-        filepath = output_dir / filename
-        pdf = MinimalPDF()
-        pdf.add_text_page(text)
-        pdf.save(str(filepath))
-    elif output_format == "tiff":
-        filename = f"{doc_id}.tiff"
-        filepath = output_dir / filename
-        img_data, w, h = text_to_bitmap(text, width=2550, line_height=30)
-        write_tiff(str(filepath), img_data, w, h)
-    else:
-        raise ValueError(f"Unknown format: {output_format}")
+    filename = f"{doc_id}.pdf"
+    filepath = output_dir / filename
+    pdf = MinimalPDF()
+    pdf.add_text_page(text)
+    pdf.save(str(filepath))
 
     return filename
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Generate clinical PDF and TIFF documents")
+    parser = argparse.ArgumentParser(description="Generate clinical PDF documents")
     parser.add_argument("--input", "-i",
                         default=str(PROJECT_ROOT / "data" / "synthetic" / "intake_forms_structured.csv"))
     parser.add_argument("--output", "-o",
                         default=str(PROJECT_ROOT / "data" / "generated_docs"))
     parser.add_argument("--pdf", type=int, default=60, help="Number of PDFs to generate")
-    parser.add_argument("--tiff", type=int, default=10, help="Number of TIFFs to generate")
     args = parser.parse_args()
 
     output_dir = Path(args.output)
@@ -631,41 +524,29 @@ def main():
         reader = csv.DictReader(f)
         rows = list(reader)
 
-    total_docs = args.pdf + args.tiff
-    if total_docs > len(rows):
-        print(f"Warning: requested {total_docs} docs but CSV only has {len(rows)} rows. Using first {len(rows)}.")
-        total_docs = min(total_docs, len(rows))
+    if args.pdf > len(rows):
+        print(f"Warning: requested {args.pdf} docs but CSV only has {len(rows)} rows. Using first {len(rows)}.")
+        args.pdf = len(rows)
 
     random.seed(42)
-    # Shuffle to get diverse form types
-    selected = rows[:total_docs]
+    selected = rows[:args.pdf]
+    pdf_count = len(selected)
 
-    pdf_count = min(args.pdf, len(selected))
-    tiff_count = min(args.tiff, len(selected) - pdf_count)
-
-    print(f"Generating {pdf_count} PDFs and {tiff_count} TIFFs...")
+    print(f"Generating {pdf_count} PDFs...")
     print(f"Output directory: {output_dir}")
 
     generated = []
 
     for i in range(pdf_count):
-        fname = generate_document(selected[i], i, output_dir, "pdf")
+        fname = generate_document(selected[i], i, output_dir)
         generated.append(fname)
         if (i + 1) % 10 == 0:
             print(f"  PDFs: {i + 1}/{pdf_count}")
 
     print(f"  PDFs: {pdf_count}/{pdf_count} done")
 
-    for i in range(tiff_count):
-        idx = pdf_count + i
-        fname = generate_document(selected[idx], idx, output_dir, "tiff")
-        generated.append(fname)
-
-    print(f"  TIFFs: {tiff_count}/{tiff_count} done")
-
     print(f"\nGenerated {len(generated)} documents:")
     print(f"  PDFs:  {pdf_count}")
-    print(f"  TIFFs: {tiff_count}")
     print(f"  Dir:   {output_dir}")
 
     # Print file sizes
