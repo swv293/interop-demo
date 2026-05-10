@@ -171,11 +171,13 @@ Member (golden master)          Authorization                Clinical Document
 
 ### Prerequisites
 
-- Databricks workspace: `fevm-serverless-stable-swv01.cloud.databricks.com`
-- Cluster with Databricks Runtime 14.0+ (for `ai_parse_document` and `ai_query`)
-- Unity Catalog enabled
+Works on **any Databricks workspace** with Unity Catalog enabled. If you don't have one, sign up for [Databricks Free Edition](https://www.databricks.com/learn/free-edition) — no credit card required, single-user, serverless SQL warehouse pre-provisioned.
 
-> **Catalog name**: notebooks deploy to the workspace catalog `serverless_stable_swv01_catalog`. The `infra/*.sql` files still reference `healthcare_demo` as a logical placeholder — substitute `serverless_stable_swv01_catalog` (or your workspace catalog) when you run them. The `healthcare_demo_*` names referenced under PHI/PII Protection below are workspace IAM **group** names, not catalog names, and stay as-is.
+- A Databricks workspace (URL: `https://<your-workspace>.cloud.databricks.com`)
+- A Unity Catalog catalog you can write to (Free Edition gives you a `workspace` catalog by default)
+- Databricks Runtime 14.0+ or serverless compute (required for `ai_parse_document` and `ai_query`)
+
+> **Catalog name**: pick any catalog you have `CREATE SCHEMA` on and use it consistently. The `infra/*.sql` files reference `healthcare_demo` as a logical placeholder — substitute your catalog (e.g., `workspace` on Free Edition) when you run them. The `healthcare_demo_*` names referenced under PHI/PII Protection below are workspace IAM **group** names, not catalog names, and stay as-is.
 
 ### Step 1: Create Infrastructure
 
@@ -206,8 +208,8 @@ python data/generation/generate_pdfs.py --output data/generated_docs/ --limit 10
 # Requires Pillow (`brew install pillow` on macOS, or `pip install Pillow` in a venv).
 python data/generation/generate_docs_standalone.py --pdf 60 --tiff 10 --output data/generated_docs/
 
-# Upload CSVs to UC volume (substitute your workspace catalog if different)
-databricks fs cp data/synthetic/ /Volumes/serverless_stable_swv01_catalog/raw/raw_docs/seed_data/ --recursive
+# Upload CSVs to UC volume (replace <catalog> with your catalog, e.g. `workspace` on Free Edition)
+databricks fs cp data/synthetic/ /Volumes/<catalog>/raw/raw_docs/seed_data/ --recursive
 ```
 
 ### Step 3: Run the Pipeline
